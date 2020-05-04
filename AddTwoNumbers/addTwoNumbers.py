@@ -26,7 +26,7 @@ def addTwoNumbers(num1, num2):
     elif len1 == 1 and len1 == len2:
         total = num1[0] + num2[0]
         if total >= 10:
-            return [int(str(total)[1]), int(str(total)[0])]
+            return [int(str(total)[2]), int(str(total)[0])]
         else:
             return [total]
 

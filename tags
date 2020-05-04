@@ -7,6 +7,12 @@
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
+lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
+testAllSame	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSame(self):$/;"	m	class:testCases
+testAllSameButOne	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
+testAllUnique	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
+testCases	LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
+testEmpty	LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testOneZero	AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testSingleDigitsNoCarry	AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests

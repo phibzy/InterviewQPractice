@@ -1,0 +1,41 @@
+7 Steps for Coding Question in Interview:
+
+1 - Listen carefully to the problem, every detail in question is needed for optimal solution
+2 - Come up with a good EXAMPLE (BIG and NO SPECIAL CASES) 
+3 - State brute force algorithm, DON'T CODE IT
+4 - Optimise
+5 - Walk through your algorithm, don't code prematurely (E.g. decide data structures, variables, when they change etc.)
+6 - Code it. Write straight, use space wisely. Erase what you don't need, write in top left. Basic style matters, as long as it's consistent. Consistent descriptive variable names good
+  - Modularise code when you can
+7 - Testing. (I like my strat of think of test cases first)
+  - Analyse code, look for places most likely to have errors and triple check no errors
+  - Start with small test cases, you will probably be more thorough
+  - Then edge cases
+  - Then big cases
+  - THINK AS YOU TEST, don't be a bot. Test your CODE not your algorithm
+  - When you find bug don't panic, think before fixing
+
+3 Algorithm Strategies
+
+Bottlenecks, Unnecessary Work, Duplicated Work
+
+- Bottlenecks - In the two distinct array elements in common, brute force has O(N x M). In this case the bottleneck is M, since we have to go through at least one array
+              - Optimisation: Put all of M in hash, then algo becomes O(N + M)
+
+- 
+
+- Duplicated Work - When you notice work happening over and over again, find way to only do it once or whatever
+
+
+
+Space/Time Tradeoffs
+
+- Be willing to use more space with a data structure to optimise time
+- HASH TABLES SHOULD BE FIRST THOUGHT IN BASICALLY EVERY PROBLEM
+
+DIY
+
+- Using big example, try to do it yourself using your brain/finger.
+- You'll find that the way you naturally try to do it is or is pretty close to the solution, not to mention
+  (in my case at least) you will get frustrated with dumb work and try to skip bits you don't need
+
