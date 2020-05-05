@@ -1,0 +1,19 @@
+Constant Time - Takes the same amount of time regardless of input
+   - With respect to input (doesn't take longer if input is larger)
+
+THEREFORE: Constant time beats linear if data is sufficiently big
+
+BigO - How time scales with respect to some input variables
+   E.g. O(n^2) means that the time to run will increase with respect to N^2
+
+Four important rules of Big O:
+   - 1. Different steps get added
+      E.g. one step takes O(N) to go through array, other step takes O(1). O(N + 1) = O(N)
+
+   - 2. Drop constants E.g. O(2N) becomes O(N)
+
+   - 3. Different inputs are represented by different variable names
+
+   - 4. Drop non-dominant terms (e.g. if O(N^2 + N), obviouly the N^2 is going to heavily outweigh the N, so just drop it to O(N^2)
+
+

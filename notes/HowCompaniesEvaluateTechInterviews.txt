@@ -1,0 +1,10 @@
+Evaluating everything you do as you try to solve problem
+Don't give a shit about basic syntactical errors (e.g. using list.add instead of list.insert),
+more concerned with logic errors plus super obvious shit (e.g. getting '=' and '==' mixed up)
+
+Communicate thought process - interviewer will find this very valuable
+If you notice yourself being quiet in interview - step back and try and at least explain headline of thought process
+E.g. "Currently thinking about how to optimise this part", "I'm thinking about this part because I'm pretty sure I can do it better"
+Mumbling better than nothing - don't want interviewwer thinking you're stuck when you're not
+
+TL;DR Interviewer is trying to work out what's going on in your head

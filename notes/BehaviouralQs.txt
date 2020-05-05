@@ -1,0 +1,16 @@
+Prepare a walkthrough of your resume:
+   E.g. studied here in BSc Comp Sci then went on to do xyz
+
+   1. Quick shows of success
+
+   2. Think about what you want interviewer to ask questions about
+      - E.g. I travelled the world for a year with nothing but a carryon sized backpack
+
+   3. Hobbies - All technical stuff should be mentioned (online hackathons, online courses, projects etc.)
+      - Non-Technical: Make them relevant though (teamwork, drive to learn, willingness to take risks)
+
+   Prepare to discuss at least 2-3 projects in detail:
+      - Technical Side
+      - Non-Technical Side (team dynamic etc.)
+      - For technical project stuff, focus on your role
+      - What would you do differently? (be willing to talk about bad stuff, failures/weaknesses)
