@@ -37,21 +37,28 @@ def findMedianSortedArrays(nums1, nums2):
 
         return ((nums1[0] + nums2[0]) / 2)
 
-    elif length1 == 1 and length2 == 2:
+    # elif length1 == 1 and length2 == 2:
 
-        if nums1[0] > nums2[1]:
-            return nums2[1]
-        else:
-            return max(nums1[0], nums2[0])
+        # if nums1[0] > nums2[1]:
+            # return nums2[1]
+        # else:
+            # return max(nums1[0], nums2[0])
 
-    elif length1 == 2 and length2 == 1:
+    # elif length1 == 2 and length2 == 1:
 
-        if nums2[0] > nums1[1]:
-            return nums1[1]
-        else:
-            return max(nums1[0], nums2[0])
+        # if nums2[0] > nums1[1]:
+            # return nums1[1]
+        # else:
+            # return max(nums1[0], nums2[0])
+
+    elif 
 
     elif length1 == length2 == 2:
+        if nums1[1] < nums2[0]:
+            return findMedianSortedArrays([nums1[1]], [nums2[0]])
+
+        
+
         return ((nums2[0] + nums2[1]) / 2) + ((nums2[0] + nums2[1]) / 2)
 
     else:
