@@ -11,6 +11,7 @@ isPalindrome	LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(strin
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
 lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
+resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 testAllSame	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSame(self):$/;"	m	class:testCases
