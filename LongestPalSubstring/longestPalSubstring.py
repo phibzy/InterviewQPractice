@@ -39,7 +39,7 @@ def maxlen(l, i, j):
    maxLen = 0
 
    # if i == 119:
-   pdb.set_trace()
+   # pdb.set_trace()
 
 
    while (i >= 0 and j < length and l[i] == l[j]):
@@ -80,14 +80,13 @@ def longestPalSubstring (string):
 
         # TODO: Many issues with this, calculations for rStart/rEnd need fixing
         if newMax > longestLength:
-            rStart = startW - newMax // 2
-            if rStart < 0: rStart = 0
+            longestLength = newMax
+            if m2 > m1: newMax -= 1
+
+            rStart = startW - newMax // 2 # This line
             rEnd   = startW + newMax // 2
 
-            if m2 > m1: rEnd += 1
-
-            longestLength = rEnd - rStart + 1
-
+            if m2 > m1: rEnd   += 1
 
         startW += 1
 
@@ -126,5 +125,4 @@ def longestPalSubstring (string):
     
     # Best solution - Expand around centre, give it a crack and we'll leave it at that
 
-print(longestPalSubstring("cbbd"))
 # longestPalSubstring("iptmykvjanwiihepqhzupneckpzomgvzmyoybzfynybpfybngttozprjbupciuinpzryritfmyxyppxigitnemanreexcpwscvcwddnfjswgprabdggbgcillisyoskdodzlpbltefiz")
