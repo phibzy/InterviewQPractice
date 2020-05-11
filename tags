@@ -6,15 +6,20 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
+convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 findMedianSortedArrays	MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 isPalindrome	LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
 lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
+printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
+test1Row	ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
+test2Row	ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
+testAllInOneColumn	ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
 testAllSame	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSame(self):$/;"	m	class:testCases
 testAllSameButOne	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
 testAllUnique	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
@@ -23,9 +28,12 @@ testCases	LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unitte
 testCases	MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testEmpty	LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEvenLength2	LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
+testEvenNumberDecentSize	ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
 testEvenPalindrome	LongestPalSubstring/test.py	/^    def testEvenPalindrome(self):$/;"	m	class:testSubstring
+testJustShortofBaseRow	ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testMedianSizeOneArray	MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
+testOddNumberDecentSize	ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOneOddOneEven	MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneZero	AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testSignificantlyHigherMedian	MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
@@ -36,3 +44,4 @@ testSubstring	LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCa
 testTwoSingleElements	MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests
 testWholeStringPalindrome	LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
+testZigZag	ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
