@@ -26,11 +26,12 @@ def printZigZag(s, numRows):
 
 def convert(s, numRows):
     i = 0
-    row = 0
-    add = 1
+    # row = 0
+    # add = 1
     length = len(s)
 
     if numRows == 1: return s
+
 
     outputRows = [ '' for j in range(numRows) ]
 
@@ -44,5 +45,36 @@ def convert(s, numRows):
         i += 1
 
     result = ''.join(outputRows)
+
+
+    
+    result = ''
+    width = (numRows - 1) * 2
+    
+    wStart = 0
+    wEnd = width
+
+    while wStart < numRows:
+        i = wStart
+        j = wEnd
+
+        if i == j: j = i + width
+
+        while i < length:
+            result += s[i]
+            if j < length:
+                result += s[j]
+
+            i += width
+            j += width
+
+            if wStart == 0 or wStart == numRows - 1:
+                j += width
+                i += width
+
+        wStart += 1
+        wEnd -= 1
+        
+            
 
     return result 

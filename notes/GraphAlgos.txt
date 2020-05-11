@@ -1,0 +1,18 @@
+Graph - Collection of nodes/connections
+      - Can be directed or undirected
+      - Possibilities to consider in interview: directed/undirected, weighted/unweighted, isolated notes
+      - Questions in interview: "How big graph? etc." - Reveals whether recursive approach would be acceptable
+
+
+DFS: (Use a stack)
+   - Usually recursive
+   - Go deep into one node before asking neighbours
+   - Need to have a visited flag so you don't have infinite loop
+   - WORST CASE: First searched node has super deep path tree that never connects to destination
+   - BEST CASE:  Destination lies all the way at other end of the graph in some deep hole
+
+BFS: (Use a queue)
+   - Search all adjacent nodes, then the next level of adjacent nodes
+   - Check if neighbours are connected to destination, if they aren't put all their kids on the queue 
+
+BFS generally better

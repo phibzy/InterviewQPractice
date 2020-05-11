@@ -4,15 +4,26 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
+Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
+Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
+addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
+adjacent	notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 findMedianSortedArrays	MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+getNode	notes/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
+hasPathBFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
+hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
+hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
+id	notes/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
 isPalindrome	LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
 lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
+nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
