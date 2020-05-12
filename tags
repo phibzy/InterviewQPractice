@@ -11,6 +11,8 @@ a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+bfs	NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
+checkValid	NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 findMedianSortedArrays	MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 getNode	notes/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
@@ -24,12 +26,18 @@ lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.
 longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
+numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 test1Row	ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
+test1x1oneIsland	NumberOfIslands/test.py	/^    def test1x1oneIsland(self):$/;"	m	class:testNumIslands
+test1x1zeroIsland	NumberOfIslands/test.py	/^    def test1x1zeroIsland(self):$/;"	m	class:testNumIslands
 test2Row	ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
+test4x5oneIsland	NumberOfIslands/test.py	/^    def test4x5oneIsland(self):$/;"	m	class:testNumIslands
+test4x5zeroIsland	NumberOfIslands/test.py	/^    def test4x5zeroIsland(self):$/;"	m	class:testNumIslands
+test5x5XIsland	NumberOfIslands/test.py	/^    def test5x5XIsland(self):$/;"	m	class:testNumIslands
 testAllInOneColumn	ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
 testAllSame	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSame(self):$/;"	m	class:testCases
 testAllSameButOne	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
@@ -41,9 +49,11 @@ testEmpty	LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self
 testEvenLength2	LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenNumberDecentSize	ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
 testEvenPalindrome	LongestPalSubstring/test.py	/^    def testEvenPalindrome(self):$/;"	m	class:testSubstring
+testFail	NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class:testNumIslands
 testJustShortofBaseRow	ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testMedianSizeOneArray	MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
+testNumIslands	NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
 testOddNumberDecentSize	ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOneOddOneEven	MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneZero	AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
