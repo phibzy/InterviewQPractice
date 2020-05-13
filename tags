@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DFS	NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
 Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph

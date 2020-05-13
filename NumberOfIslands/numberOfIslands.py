@@ -72,6 +72,26 @@ def rDFS(grid, visited, x, y):
     
     return 1
 
+def DFS(grid, visited, x, y):
+    nextStack = []
+    rows = len(grid)
+    cols = len(grid[0])
+
+    # pdb.set_trace()
+    nextStack.append((x,y))
+
+    while nextStack:
+        i, j = nextStack.pop()
+        if j in visited[i] or grid[i][j] == '0': continue
+        
+        visited [i][j] = True
+        if i - 1 >= 0: nextStack.append((i-1, j))
+        if i + 1 < rows: nextStack.append((i+1, j))
+        if j - 1 >= 0: nextStack.append((i, j-1))
+        if j + 1 < cols: nextStack.append((i, j+1))
+
+    return 1
+
 # Takes in 2D list of str, returns an int
 def numIslands(grid):
     if grid == []: return 0
@@ -96,7 +116,7 @@ def numIslands(grid):
                 j += 1
                 continue
 
-            result += rDFS(grid, visited, i, j) 
+            result += DFS(grid, visited, i, j) 
             j += 1
 
 
@@ -104,4 +124,5 @@ def numIslands(grid):
             
     return result
 
+# print(numIslands([['1','1','1','1','1'],['1','1','1','1','1'],['1','1','1','1','1'],['1','1','1','1','1'],['1','1','1','1','1']]))
 # numIslands([["1","0","0","0","1"],["0","1","0","1","0"],["0","0","1","0","0"],["0","1","0","1","0"],["1","0","0","0","1"]])
