@@ -21,6 +21,7 @@ Return int with number of islands
 """
 
 #BFS - do one recursive and one iterative
+import pdb
 
 def checkValid(grid, y, x, val):
     rows = len(grid)
@@ -55,6 +56,22 @@ def bfs(grid, visited, startX, startY):
 
     return int(val)
 
+
+# Recursive DFS
+def rDFS(grid, visited, x, y):
+    # pdb.set_trace()
+    if y in visited[x] or grid[x][y] == '0': return
+
+    
+    visited[x][y] = True
+
+    if x - 1 >= 0: rDFS(grid,visited, x-1, y)
+    if x + 1 < len(grid): rDFS(grid, visited, x+1, y)
+    if y - 1 >= 0: rDFS(grid,visited, x, y-1)
+    if y + 1 < len(grid[0]): rDFS(grid, visited, x, y+1)
+    
+    return 1
+
 # Takes in 2D list of str, returns an int
 def numIslands(grid):
     if grid == []: return 0
@@ -74,15 +91,17 @@ def numIslands(grid):
         j = 0
 
         while j < cols:
-            if j in visited[i]:
+            # Important note: You don't have to search all the 0's because they will return 0 anyway lmao
+            if j in visited[i] or grid[i][j] == '0':
                 j += 1
                 continue
 
-            result += bfs(grid, visited, i, j) 
+            result += rDFS(grid, visited, i, j) 
+            j += 1
 
 
         i += 1
             
     return result
 
-
+# numIslands([["1","0","0","0","1"],["0","1","0","1","0"],["0","0","1","0","0"],["0","1","0","1","0"],["1","0","0","0","1"]])

@@ -28,6 +28,7 @@ maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
+rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
