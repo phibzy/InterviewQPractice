@@ -9,7 +9,6 @@ Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
-a	CourseSchedule/courseSchedule.py	/^a = Solution()$/;"	v
 a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph

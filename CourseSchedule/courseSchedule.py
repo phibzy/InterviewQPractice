@@ -23,6 +23,7 @@ Algo:
 """
 
 import pdb
+import copy
 
 class Solution:
 
@@ -62,14 +63,14 @@ class Solution:
         if x in doneDFS: return True
         visited[x] = True
         doneDFS[x] = True
+        # pdb.set_trace()
 
         for i in range(numCourses):
             if graph[x][i] == 1:
-                if not self.dfs(i, numCourses, graph, visited, doneDFS):
-                    # pdb.set_trace()
+                if not self.dfs(i, numCourses, graph, copy.deepcopy(visited), doneDFS):
                     return False
 
         return True
 
-a = Solution()
-print(a.canFinish(5, [[1,0],[2,1],[3,1],[4,2],[4,3]]))
+# a = Solution()
+# print(a.canFinish(5, [[1,0],[2,1],[3,1],[4,2],[4,3]]))
