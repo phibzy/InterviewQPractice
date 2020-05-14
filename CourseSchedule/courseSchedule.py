@@ -63,13 +63,7 @@ class Solution:
         visited[x] = True
         doneDFS[x] = True
 
-        q = []
-
         for i in range(numCourses):
-            q.append(i)
-
-        while q:
-            i = q.pop(0) 
             if graph[x][i] == 1:
                 if not self.dfs(i, numCourses, graph, visited, doneDFS):
                     # pdb.set_trace()
