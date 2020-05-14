@@ -8,13 +8,17 @@ DFS	NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
 Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
+Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
+a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 bfs	NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
+canFinish	CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
+dfs	CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 findMedianSortedArrays	MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 getNode	notes/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
@@ -47,23 +51,33 @@ testAllUnique	LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUni
 testBothOdd	MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
 testCases	LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCases	MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
+testCourseSchedule	CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testEmpty	LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEvenLength2	LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenNumberDecentSize	ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
 testEvenPalindrome	LongestPalSubstring/test.py	/^    def testEvenPalindrome(self):$/;"	m	class:testSubstring
 testFail	NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class:testNumIslands
+testIsolatedCourses	CourseSchedule/test.py	/^    def testIsolatedCourses(self):$/;"	m	class:testCourseSchedule
 testJustShortofBaseRow	ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testMedianSizeOneArray	MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
+testMorePrereqThanCourse	CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
+testNoPrereq	CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
+testNormalLongPrereqCourse	CourseSchedule/test.py	/^    def testNormalLongPrereqCourse(self):$/;"	m	class:testCourseSchedule
 testNumIslands	NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
 testOddNumberDecentSize	ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
+testOneCourseAtLeastOnePrereq	CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
+testOneCoursePrereqItself	CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
 testOneOddOneEven	MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneZero	AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
+testOutOfBoundsCourse	CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
+testPrereqOfItself	CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testSignificantlyHigherMedian	MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
 testSingleDigitsNoCarry	AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
 testSubstring	LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCase):$/;"	c
+testTwoPathsToOneCourse	CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests
 testWholeStringPalindrome	LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
