@@ -9,6 +9,7 @@ Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
+a	CourseSchedule/courseSchedule.py	/^a = Solution()$/;"	v
 a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
@@ -77,6 +78,7 @@ testSignificantlyHigherMedianEven	MedianOfTwoSortedArrays/test.py	/^    def test
 testSingleDigitsNoCarry	AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
 testSubstring	LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCase):$/;"	c
+testTwoPathsDifferentOrigins	CourseSchedule/test.py	/^    def testTwoPathsDifferentOrigins(self):$/;"	m	class:testCourseSchedule
 testTwoPathsToOneCourse	CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests

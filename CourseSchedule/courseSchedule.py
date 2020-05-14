@@ -22,6 +22,8 @@ Algo:
 
 """
 
+import pdb
+
 class Solution:
 
     def canFinish(self, numCourses, prerequisites):
@@ -53,6 +55,7 @@ class Solution:
         return True
 
 
+    # When working, do an iterative version too
     def dfs(self, x, numCourses, graph, visited, doneDFS):
         # Problem with algo - check if it visits origin? But that's wrong since you could get cycle elsewhere
         if x in visited: return False
@@ -63,9 +66,10 @@ class Solution:
         for i in range(numCourses):
             if graph[x][i] == 1:
                 if not self.dfs(i, numCourses, graph, visited, doneDFS):
+                    # pdb.set_trace()
                     return False
 
         return True
 
-
-
+a = Solution()
+print(a.canFinish(5, [[1,0],[2,1],[3,1],[4,2],[4,3]]))

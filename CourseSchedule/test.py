@@ -34,6 +34,9 @@ class testCourseSchedule(unittest.TestCase):
     def testTwoPathsToOneCourse(self):
         self.assertTrue(self.a.canFinish(5, [[1,0],[2,1],[3,1],[4,2], [4,3]]), "Error: Fails two path case")
 
+    def testTwoPathsDifferentOrigins(self):
+        self.assertTrue(self.a.canFinish(6, [[1,0],[2,1], [3,2],[5,4], [5,3]]), "Error: Fails two paths, different origins case")
+
     def testNormalLongPrereqCourse(self):
         self.assertTrue(self.a.canFinish(9, [[1,0],[2,1],[3,2],[4,2],[5,3],[6,3],[7,4],[8,7]]), "Error - fails long prereq course case")
 
