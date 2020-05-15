@@ -64,7 +64,8 @@ class Solution:
         # Add +1 to indegree for node with something pointing to it
         # Add to adjacency lists to represent edges (assuming directed graph)
         for x, y in prerequisites:
-            if not (0 <= x < numCourses and 0 <= y < numCourses): return False
+            if not (0 <= x < numCourses or 0 <= y < numCourses):
+                return False
             inDegrees[x] += 1
             graph[y].append(x)
 
