@@ -9,12 +9,17 @@ Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
+Solution	contests/170520/arrangeWords.py	/^class Solution:$/;"	c
+Solution	contests/170520/companySubset.py	/^class Solution:$/;"	c
+Solution	contests/170520/studentsHomework.py	/^class Solution:$/;"	c
 a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+arrangeWords	contests/170520/arrangeWords.py	/^    def arrangeWords(self, text: str) -> str:$/;"	m	class:Solution
 bfs	NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
+busyStudent	contests/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
 canFinish	CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
@@ -32,6 +37,7 @@ longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalS
 maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
+peopleIndexes	contests/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
