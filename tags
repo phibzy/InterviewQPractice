@@ -46,7 +46,7 @@ myAtoi	AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
-numSum	AToI/atoi.c	/^int numSum(char * s, int count) {$/;"	f
+numSum	AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 peopleIndexes	contests/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
