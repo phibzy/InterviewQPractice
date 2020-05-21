@@ -11,22 +11,21 @@ Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	
 Solution	AToI/atoi.py	/^class Solution:$/;"	c
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
+Solution	ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
-Solution	contests/170520/arrangeWords.py	/^class Solution:$/;"	c
-Solution	contests/170520/companySubset.py	/^class Solution:$/;"	c
-Solution	contests/170520/studentsHomework.py	/^class Solution:$/;"	c
+TreeNode	ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
+__init__	ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	btLevelOrder/btLevelOrder.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 a	AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
+a	ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 addEdge	notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
-arrangeWords	contests/170520/arrangeWords.py	/^    def arrangeWords(self, text: str) -> str:$/;"	m	class:Solution
 bfs	NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
-busyStudent	contests/170520/studentsHomework.py	/^    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:$/;"	m	class:Solution
 canFinish	CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
@@ -38,6 +37,7 @@ hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(N
 hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
 id	notes/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
 isPalindrome	LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
+isValidBST	ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
 lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 levelOrder	btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
@@ -49,9 +49,9 @@ myAtoi	AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
-peopleIndexes	contests/170520/companySubset.py	/^    def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:$/;"	m	class:Solution
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
+rValid	ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 solve	SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
@@ -85,12 +85,16 @@ testEvenPalindrome	LongestPalSubstring/test.py	/^    def testEvenPalindrome(self
 testFail	NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class:testNumIslands
 testFirstCharLetter	AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
+testInvalidLeftNotAdhering	ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
+testInvalidRightNotAdhering	ValidBST/test.py	/^    def testInvalidRightNotAdhering(self):$/;"	m	class:testValidBST
+testInvalidSimpleTree	ValidBST/test.py	/^    def testInvalidSimpleTree(self):$/;"	m	class:testValidBST
 testIsolatedCourses	CourseSchedule/test.py	/^    def testIsolatedCourses(self):$/;"	m	class:testCourseSchedule
 testJustShortofBaseRow	ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testMedianSizeOneArray	MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testNoPrereq	CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
+testNoneRoot	ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
 testNormalLongPrereqCourse	CourseSchedule/test.py	/^    def testNormalLongPrereqCourse(self):$/;"	m	class:testCourseSchedule
 testNormalNumber	AToI/test.py	/^    def testNormalNumber(self):$/;"	m	class:testATOI
 testNormalNumberWithNegativeSign	AToI/test.py	/^    def testNormalNumberWithNegativeSign(self):$/;"	m	class:testATOI
@@ -101,6 +105,7 @@ testNumIslands	NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase)
 testOddNumberDecentSize	ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOneCourseAtLeastOnePrereq	CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
+testOneNode	ValidBST/test.py	/^    def testOneNode(self):$/;"	m	class:testValidBST
 testOneOddOneEven	MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneZero	AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOutOfBoundsCourse	CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
@@ -115,5 +120,7 @@ testTwoPathsDifferentOrigins	CourseSchedule/test.py	/^    def testTwoPathsDiffer
 testTwoPathsToOneCourse	CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests
+testValidBST	ValidBST/test.py	/^class testValidBST(unittest.TestCase):$/;"	c
+testValidSimpleTree	ValidBST/test.py	/^    def testValidSimpleTree(self):$/;"	m	class:testValidBST
 testWholeStringPalindrome	LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
