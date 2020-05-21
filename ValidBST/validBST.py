@@ -17,19 +17,12 @@ class Solution:
     def rValid(self, root, minimum, maximum):
         if root is None: return True
 
-        if (root.left is None or root.left.val < root.val) and \
-                (root.right is None or root.right.val > root.val) and \
-                ((minimum is None or root.val > minimum) and (maximum is None or root.val < maximum)):
-                return ((self.rValid(root.left, minimum, root.val)) and (self.rValid(root.right, root.val, maximum)))
+        if (root.left is not None and root.left.val >= root.val): return False
+        if (root.right is not None and root.right.val <= root.val): return False
+        if (minimum is not None and root.val <= minimum): return False
+        if (maximum is not None and root.val >= maximum): return False
 
-        return False
+        return ((self.rValid(root.left, minimum, root.val)) and (self.rValid(root.right, root.val, maximum)))
 
     def isValidBST(self, root):
-        if root is None: return True
-
-        if (root.left is None or root.left.val < root.val) and \
-            (root.right is None or root.right.val > root.val):
-                return (self.rValid(root.left, None, root.val) and self.rValid(root.right, root.val, None))
-
-        return False
-
+        return self.rValid(root, None, None)
