@@ -10,6 +10,7 @@ Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	c
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	AToI/atoi.py	/^class Solution:$/;"	c
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
+Solution	InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
@@ -36,6 +37,7 @@ hasPathBFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(N
 hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
 hasPathDFS	notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
 id	notes/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
+inorderTraversal	InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
 isPalindrome	LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isValidBST	ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
 leetCodeCase	AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
