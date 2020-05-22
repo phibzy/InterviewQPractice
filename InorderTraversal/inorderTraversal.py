@@ -32,4 +32,24 @@ class Solution:
                 s.append((node.left,False))
         
         return retList
+
+     # Bit cleaner solution BUT apparently it's slower!
+     # def inorderTraversal(self, root):
+        # if root is None: return []
+        # retList = list()
+       
+        # s = list()
         
+        # #s.append((root,False))
+        # curr = root
+        # while curr or s:
+            # while curr:
+                # s.append(curr)
+                # curr = curr.left
+            
+            # node = s.pop()
+            # retList.append(node.val)
+            # curr = node.right            
+                
+                
+        # return retList       
