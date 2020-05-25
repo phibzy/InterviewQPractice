@@ -6,20 +6,24 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 DFS	NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
 Graph	notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
+ListNode	ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	AToI/atoi.py	/^class Solution:$/;"	c
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
+Solution	ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
 TreeNode	ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
+__init__	ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	btLevelOrder/btLevelOrder.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 a	AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a2NTests	AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
@@ -51,10 +55,12 @@ myAtoi	AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 nodeLookup	notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
+printList	ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rValid	ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
+reverseKGroup	ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 solve	SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
 test0Elements	LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
@@ -126,3 +132,4 @@ testValidBST	ValidBST/test.py	/^class testValidBST(unittest.TestCase):$/;"	c
 testValidSimpleTree	ValidBST/test.py	/^    def testValidSimpleTree(self):$/;"	m	class:testValidBST
 testWholeStringPalindrome	LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
+thing	ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 2)$/;"	v
