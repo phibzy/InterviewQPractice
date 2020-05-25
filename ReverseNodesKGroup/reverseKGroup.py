@@ -17,7 +17,7 @@ class Solution:
     def reverseKGroup(self, head, k):
         # pdb.set_trace()
 
-        if k == 0 or k == 1 or head is None: return head
+        if k < 2 or head is None: return head
         
         # will need to change head
         start = head
