@@ -7,6 +7,8 @@ A path is simply any path linking two nodes in the tree
 
 Path length >= 1
 
+TODO: Iterative solution
+
 """
 
 
