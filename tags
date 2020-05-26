@@ -10,14 +10,17 @@ ListNode	ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 Node	notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	AToI/atoi.py	/^class Solution:$/;"	c
+Solution	BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
+TreeNode	BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
+__init__	BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	btLevelOrder/btLevelOrder.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
@@ -49,6 +52,7 @@ lengthOfLongestSubString	LongestSubstringWithoutRepeatingChars/longestSubstring.
 levelOrder	btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
 longestPalSubstring	LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 main	AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
+maxPathSum	BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
 maxlen	LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 myAtoi	AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
@@ -58,6 +62,7 @@ numSum	AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 printList	ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printZigZag	ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
+rMaxPath	BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def rMaxPath(self, root):$/;"	m	class:Solution
 rValid	ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 resultHash	LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseKGroup	ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
