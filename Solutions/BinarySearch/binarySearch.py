@@ -26,4 +26,3 @@ def binarySearch(items, target):
 
         
     return -1 
-
