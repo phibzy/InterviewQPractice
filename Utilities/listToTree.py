@@ -28,14 +28,17 @@ def listToTree(l):
         node = s.pop(0)
         if node is None: continue
 
-        nextNode = TreeNode(l[i])
+        # BUG - making treenodes with value none
+        if l[i]: nextNode = TreeNode(l[i])
+        else: nextNode = None 
         node.left = nextNode
         s.append(nextNode)
         
         i += 1
 
         if i < len(l):
-            nextNode = TreeNode(l[i])
+            if l[i]: nextNode = TreeNode(l[i])
+            else: nextNode = None 
             node.right = nextNode 
             s.append(nextNode)
             i += 1
@@ -43,7 +46,7 @@ def listToTree(l):
     return head
 
 def printTree(root):
-    MAX_SIZE = 60
+    MAX_SIZE = 200
     if root is None: print("NULL".center(MAX_SIZE))
 
     currLevel = 1
@@ -58,15 +61,11 @@ def printTree(root):
             currLevel += 1
         
         if node is None:
-            print("NULL".center(MAX_SIZE / level), end='')
+            print("NULL".center(MAX_SIZE // level), end='')
         else:
+            if node.val is None: print("None values...")
             print(str(node.val).center(MAX_SIZE // level), end='')
-
-        s.append((root.left, level+1))
-        s.append((root.right, level+1))
-
-
-printTree(listToTree([3,1,4,None,None,2]))
-
+            s.append((node.left, level+1))
+            s.append((node.right, level+1))
 
 
