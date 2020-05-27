@@ -39,6 +39,7 @@ addEdge	Solutions/notes/dfsbfscode/implementation.java	/^   public void addEdge(
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	Solutions/notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
+binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
@@ -71,7 +72,6 @@ printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
-rMaxPath	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def rMaxPath(self, root):$/;"	m	class:Solution
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
@@ -94,6 +94,7 @@ testAllSame	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def te
 testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
 testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
+testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
 testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
@@ -101,17 +102,24 @@ testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(u
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
+testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
+testEvenLengthList	Solutions/BinarySearch/test.py	/^    def testEvenLengthList(self):$/;"	m	class:testBinarySearch
 testEvenNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
 testEvenPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testEvenPalindrome(self):$/;"	m	class:testSubstring
 testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class:testNumIslands
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
+testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
 testInvalidLeftNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidRightNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidRightNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidSimpleTree	Solutions/ValidBST/test.py	/^    def testInvalidSimpleTree(self):$/;"	m	class:testValidBST
 testIsolatedCourses	Solutions/CourseSchedule/test.py	/^    def testIsolatedCourses(self):$/;"	m	class:testCourseSchedule
+testItemNotInListLong	Solutions/BinarySearch/test.py	/^    def testItemNotInListLong(self):$/;"	m	class:testBinarySearch
 testJustShortofBaseRow	Solutions/ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
+testLastPassSuccess	Solutions/BinarySearch/test.py	/^    def testLastPassSuccess(self):$/;"	m	class:testBinarySearch
+testLength1Fail	Solutions/BinarySearch/test.py	/^    def testLength1Fail(self):$/;"	m	class:testBinarySearch
+testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$/;"	m	class:testBinarySearch
 testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
@@ -124,6 +132,7 @@ testNormalNumberWithOtherChars	Solutions/AToI/test.py	/^    def testNormalNumber
 testNormalNumberWithPositiveSign	Solutions/AToI/test.py	/^    def testNormalNumberWithPositiveSign(self):$/;"	m	class:testATOI
 testNormalNumberWithWhitespace	Solutions/AToI/test.py	/^    def testNormalNumberWithWhitespace(self):$/;"	m	class:testATOI
 testNumIslands	Solutions/NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
+testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule

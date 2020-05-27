@@ -23,41 +23,46 @@ class TreeNode:
 
 class Solution:
     def maxPathSum(self, root):
-        result = root.val
-        leftGain = rightGain = 0
-        leftSum = rightSum = float('-inf')
+        pass
+
+
+    # RECURSIVE SOLUTION
+    # def maxPathSum(self, root):
+        # result = root.val
+        # leftGain = rightGain = 0
+        # leftSum = rightSum = float('-inf')
         
-        if root.left:
-            leftSum, leftGain = self.rMaxPath(root.left)
+        # if root.left:
+            # leftSum, leftGain = self.rMaxPath(root.left)
         
-        if root.right:
-            rightSum, rightGain = self.rMaxPath(root.right)
+        # if root.right:
+            # rightSum, rightGain = self.rMaxPath(root.right)
             
-        maxGain = max(leftGain, rightGain)    
-        pyramidSum = root.val + rightGain + leftGain
+        # maxGain = max(leftGain, rightGain)    
+        # pyramidSum = root.val + rightGain + leftGain
         
-        result = max(result, pyramidSum, leftSum, rightSum,
-                     root.val + maxGain)
+        # result = max(result, pyramidSum, leftSum, rightSum,
+                     # root.val + maxGain)
         
-        return result
+        # return result
     
-    def rMaxPath(self, root):
-        result = root.val
-        maxGain = root.val
-        rightSum = leftSum = float('-inf')
-        rightGain = leftGain = 0
+    # def rMaxPath(self, root):
+        # result = root.val
+        # maxGain = root.val
+        # rightSum = leftSum = float('-inf')
+        # rightGain = leftGain = 0
         
-        if root.left:
-            leftSum, leftGain = self.rMaxPath(root.left)
+        # if root.left:
+            # leftSum, leftGain = self.rMaxPath(root.left)
         
-        if root.right:
-            rightSum, rightGain = self.rMaxPath(root.right)
+        # if root.right:
+            # rightSum, rightGain = self.rMaxPath(root.right)
             
-        maxGain = max(maxGain, root.val + leftGain, root.val + rightGain)    
-        pyramidSum = root.val + rightGain + leftGain
+        # maxGain = max(maxGain, root.val + leftGain, root.val + rightGain)    
+        # pyramidSum = root.val + rightGain + leftGain
         
-        result = max(result, pyramidSum, leftSum, rightSum,
-                     maxGain)
+        # result = max(result, pyramidSum, leftSum, rightSum,
+                     # maxGain)
         
-        return result, maxGain
+        # return result, maxGain
         
