@@ -5,10 +5,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
-Graph	Solutions/notes/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
+Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
-Node	Solutions/notes/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
-Node	Solutions/notes/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
+Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
+Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
@@ -35,9 +35,9 @@ a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
-addEdge	Solutions/notes/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
+addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
-adjacent	Solutions/notes/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
@@ -45,11 +45,11 @@ checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
-getNode	Solutions/notes/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
-hasPathBFS	Solutions/notes/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
-hasPathDFS	Solutions/notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
-hasPathDFS	Solutions/notes/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
-id	Solutions/notes/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
+getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
+hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
+hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
+hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
+id	NotesForInterview/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
 inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
@@ -65,12 +65,13 @@ maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(sel
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
-nodeLookup	Solutions/notes/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
+nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
+rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
