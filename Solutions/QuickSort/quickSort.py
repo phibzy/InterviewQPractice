@@ -8,7 +8,7 @@ Quick Sort implementation
 import pdb
 import logging
 logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
-# logging.disable(logging.DEBUG)
+logging.disable(logging.DEBUG)
 
 def quickSort(items):
     if len(items) <= 1: return items
@@ -16,7 +16,7 @@ def quickSort(items):
     l = 0
     r = len(items) - 1
 
-    pivot = items[l + (r-l) //2]
+    pivot = items[r]#items[l + (r-l) //2]
 
     rQuickSort(items, l, r, pivot)
 
@@ -50,7 +50,7 @@ def rQuickSort(items, l, r, pivot):
             r -= 1
             l += 1
 
-    rQuickSort(items, oldL, l - 1, items[oldL])
+    rQuickSort(items, oldL, r, items[r])
     rQuickSort(items, l, oldR, items[oldR])
 
-print(quickSort([5,-3,10,-200,9,12,-9]))
+print(quickSort([4,3,-9,5,3,8,5]))
