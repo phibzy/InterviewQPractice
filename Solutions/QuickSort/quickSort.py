@@ -53,4 +53,3 @@ def rQuickSort(items, l, r, pivot):
     rQuickSort(items, oldL, r, items[r])
     rQuickSort(items, l, oldR, items[oldR])
 
-print(quickSort([4,3,-9,5,3,8,5]))
