@@ -66,6 +66,7 @@ main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
+mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(items):$/;"	f
 mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:$/;"	m	class:Solution
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
@@ -98,6 +99,7 @@ test4x5zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5zeroIsland(
 test5x5XIsland	Solutions/NumberOfIslands/test.py	/^    def test5x5XIsland(self):$/;"	m	class:testNumIslands
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
 testAllInOneColumn	Solutions/ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
+testAllNeg	Solutions/MergeSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
 testAllNeg	Solutions/QuickSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
 testAllSame	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSame(self):$/;"	m	class:testCases
 testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
@@ -105,13 +107,16 @@ testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def 
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
+testCaseEvenLength	Solutions/MergeSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
 testCaseEvenLength	Solutions/QuickSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
+testCaseOddLength	Solutions/MergeSort/test.py	/^    def testCaseOddLength(self):$/;"	m	class:testSort
 testCaseOddLength	Solutions/QuickSort/test.py	/^    def testCaseOddLength(self):$/;"	m	class:testSort
 testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
+testEmpty	Solutions/MergeSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
 testEmpty	Solutions/QuickSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
 testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
@@ -130,6 +135,7 @@ testIsolatedCourses	Solutions/CourseSchedule/test.py	/^    def testIsolatedCours
 testItemNotInListLong	Solutions/BinarySearch/test.py	/^    def testItemNotInListLong(self):$/;"	m	class:testBinarySearch
 testJustShortofBaseRow	Solutions/ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testLastPassSuccess	Solutions/BinarySearch/test.py	/^    def testLastPassSuccess(self):$/;"	m	class:testBinarySearch
+testLength1	Solutions/MergeSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1	Solutions/QuickSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1Fail	Solutions/BinarySearch/test.py	/^    def testLength1Fail(self):$/;"	m	class:testBinarySearch
 testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$/;"	m	class:testBinarySearch
@@ -159,6 +165,7 @@ testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    de
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
 testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
+testSort	Solutions/MergeSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSort	Solutions/QuickSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSubstring	Solutions/LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCase):$/;"	c
 testTwoPathsDifferentOrigins	Solutions/CourseSchedule/test.py	/^    def testTwoPathsDifferentOrigins(self):$/;"	m	class:testCourseSchedule
