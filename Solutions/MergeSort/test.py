@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Basic tests for quicksort
+Basic tests for mergesort
 """
 
 import unittest
