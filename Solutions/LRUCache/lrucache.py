@@ -14,6 +14,10 @@ logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
 
 class LRUCache:
 
+
+    # Think about this more - stack is probably better?
+    # You rushed into this like a madman. Breathe, do tests first, THEN tackle problem
+
     def __init__(self, capacity: int):
         self.maxCapacity = capacity
         self.currCapacity = 0
