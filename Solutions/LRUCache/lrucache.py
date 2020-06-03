@@ -17,16 +17,18 @@ class LRUCache:
 
     # Think about this more - stack is probably better?
     # You rushed into this like a madman. Breathe, do tests first, THEN tackle problem
+    # Ordered dict is way to go - implement yourself with following:
+        # Dict with key/value pairs
+        # Dict with Key/Index pairs
+        # List of keys representing order
 
     def __init__(self, capacity: int):
         self.maxCapacity = capacity
         self.currCapacity = 0
-        self.lruQ = list()
-        self.dict = dict()        
+        self.dict = collections.OrderedDict()        
 
         logging.debug("INIT".center(30, '-'))
         logging.debug(f"maxCapacity is {self.maxCapacity}, currCapacity is {self.currCapacity}")
-        logging.debug(f"lruQ is {self.lruQ}")
         logging.debug(f"dict is {self.dict}")
         logging.debug("INIT".center(30, '-'))
         logging.debug("")
@@ -35,34 +37,33 @@ class LRUCache:
         logging.debug("GET BEFORE".center(30, '-'))
         logging.debug(f"key is {key}")
         logging.debug(f"maxCapacity is {self.maxCapacity}, currCapacity is {self.currCapacity}")
-        logging.debug(f"lruQ is {self.lruQ}")
         logging.debug(f"dict is {self.dict}")
         logging.debug("")
 
         if key in self.dict:
-            self.lruQ.append(self.lruQ.pop(self.lruQ.index(key)))
-            return self.dict[key]
+            val = self.dict[key]
+            del self.dict[key]
+            self.dict[key] = val
+
+            return val
         
         return -1
 
     def put(self, key: int, value: int) -> None:
         logging.debug("PUT BEFORE".center(30, '-'))
         logging.debug(f"maxCapacity is {self.maxCapacity}, currCapacity is {self.currCapacity}")
-        logging.debug(f"lruQ is {self.lruQ}")
         logging.debug(f"dict is {self.dict}")
         logging.debug("")
 
 
         if key in self.dict:
-            logging.debug("is in the dict")
+            del self.dict[key]
             self.dict[key] = value    
-            self.lruQ.append(self.lruQ.pop(self.lruQ.index(key)))
         
         else:
             logging.debug("not in dict")
             if self.maxCapacity == self.currCapacity:
-                oldKey = self.lruQ.pop(0)
-                del self.dict[oldKey]
+                self.dict.pop
                 self.currCapacity -= 1
             
             self.lruQ.append(key)
