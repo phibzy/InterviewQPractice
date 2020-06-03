@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
 Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
+LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
@@ -26,6 +27,7 @@ TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity: int):$/;"	m	class:LRUCache
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
@@ -42,11 +44,13 @@ addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1,
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
+cache	Solutions/LRUCache/lrucache.py	/^cache = LRUCache( 2 );$/;"	v
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+get	Solutions/LRUCache/lrucache.py	/^    def get(self, key: int) -> int:$/;"	m	class:LRUCache
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
@@ -78,6 +82,7 @@ printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
+put	Solutions/LRUCache/lrucache.py	/^    def put(self, key: int, value: int) -> None:$/;"	m	class:LRUCache
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
