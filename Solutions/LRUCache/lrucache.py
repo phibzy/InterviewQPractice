@@ -121,6 +121,7 @@ class LRUCache:
        self.order = dLinkedList()
 
        # Dict/hash for key/node pairs, allows constant access of list
+       # TODO: Note, can store key and values in nodes and thus remove need for self.values
        self.nodes = dict()
 
 
