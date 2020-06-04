@@ -12,7 +12,6 @@ import logging
 logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
 logging.disable(logging.DEBUG)
 
-
 class dllNode:
 
     def __init__(self, val = None):
