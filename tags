@@ -27,7 +27,9 @@ TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
-__init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity: int):$/;"	m	class:LRUCache
+__init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
+__init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
+__init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
@@ -42,15 +44,17 @@ a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
-cache	Solutions/LRUCache/lrucache.py	/^cache = LRUCache( 2 );$/;"	v
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
+dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
+dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
-get	Solutions/LRUCache/lrucache.py	/^    def get(self, key: int) -> int:$/;"	m	class:LRUCache
+get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
@@ -78,17 +82,21 @@ myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
+pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
+printList	Solutions/LRUCache/lrucache.py	/^    def printList(self):$/;"	m	class:dLinkedList
 printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):$/;"	m	class:Solution
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
+printListReverse	Solutions/LRUCache/lrucache.py	/^    def printListReverse(self):$/;"	m	class:dLinkedList
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
-put	Solutions/LRUCache/lrucache.py	/^    def put(self, key: int, value: int) -> None:$/;"	m	class:LRUCache
+put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
+remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
@@ -114,6 +122,9 @@ testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def 
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
+testCache	Solutions/LRUCache/test.py	/^class testCache(unittest.TestCase):$/;"	c
+testCapacity1	Solutions/LRUCache/test.py	/^    def testCapacity1(self):$/;"	m	class:testCache
+testCapacity2	Solutions/LRUCache/test.py	/^    def testCapacity2(self):$/;"	m	class:testCache
 testCaseEvenLength	Solutions/MergeSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
 testCaseEvenLength	Solutions/QuickSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
 testCaseOddLength	Solutions/MergeSort/test.py	/^    def testCaseOddLength(self):$/;"	m	class:testSort
@@ -142,6 +153,7 @@ testIsolatedCourses	Solutions/CourseSchedule/test.py	/^    def testIsolatedCours
 testItemNotInListLong	Solutions/BinarySearch/test.py	/^    def testItemNotInListLong(self):$/;"	m	class:testBinarySearch
 testJustShortofBaseRow	Solutions/ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
 testLastPassSuccess	Solutions/BinarySearch/test.py	/^    def testLastPassSuccess(self):$/;"	m	class:testBinarySearch
+testLeastRecentlyUsed	Solutions/LRUCache/test.py	/^    def testLeastRecentlyUsed(self):$/;"	m	class:testCache
 testLength1	Solutions/MergeSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1	Solutions/QuickSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1Fail	Solutions/BinarySearch/test.py	/^    def testLength1Fail(self):$/;"	m	class:testBinarySearch
@@ -167,6 +179,7 @@ testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOdd
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
+testReplaceValue	Solutions/LRUCache/test.py	/^    def testReplaceValue(self):$/;"	m	class:testCache
 testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.TestCase):$/;"	c
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
