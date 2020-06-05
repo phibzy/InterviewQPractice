@@ -102,7 +102,6 @@ class dLinkedList:
 class LRUCache:
 
 
-    # Think about this more - stack is probably better?
     # You rushed into this like a madman. Breathe, do tests first, THEN tackle problem
     # Ordered dict is way to go - implement yourself with following:
         # Dict with key/value pairs
