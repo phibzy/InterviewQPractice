@@ -20,6 +20,7 @@ Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
 Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
+Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
@@ -197,3 +198,4 @@ testValidSimpleTree	Solutions/ValidBST/test.py	/^    def testValidSimpleTree(sel
 testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
+zigzagLevelOrder	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:$/;"	m	class:Solution
