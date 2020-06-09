@@ -12,6 +12,9 @@ Prints zig zag level order traversal of nodes in Btree
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+
+# Maybe use two separate data structures, then one one's empty you know it's a new row or whatever
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         # use a queue/stack hybrid
