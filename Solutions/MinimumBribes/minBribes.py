@@ -16,6 +16,8 @@ Minimum size of input? - E.g. will empty list be an option
 
 """
 
+
+# Time Complexity: O (N)
 def minimumBribes(q):
     q = [ i-1 for i in q]
     count = 0
@@ -25,7 +27,9 @@ def minimumBribes(q):
         if (val - i) > 2:
             print("Too chaotic")
             return
-
+       
+        # If a value bribes past an index, it can at most only get to newIndex -1
+        # Since it bribes to get their index, then can only do one more bribe after
         for j in range(max(0, val-1), i):
             if q[j] > val: count += 1
 
@@ -33,4 +37,9 @@ def minimumBribes(q):
     print(count)
 
 # Which numbers are missing from in front of a given index?
+# 1 2 5 3 7 8 6 4
+
+
+# 0 1 4 2 6 7 5 3
+
 
