@@ -4,6 +4,18 @@
 
 // Will implement with chaining
 
+/*
+ * For probing version:
+ *
+ * Use nodes but don't need next field.
+ * If intended cell is full, check cell + 1 % 20.
+ * For gets check key field first, as with chaining implementation.
+ * On puts check if length == capacity, if it does return -1
+ *
+*/
+
+
+
 typedef struct _node * Node;
 static int hashFunc(char * key);
 static void printHash(Hash h);
@@ -53,6 +65,7 @@ int put(char* key, int value, Hash h) {
       curr->next = n;
    }
 
+   h->length++;
    printHash(h);
    return 0;
 }
