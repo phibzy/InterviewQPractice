@@ -4,12 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Solutions/HashTableImplementation/makefile	/^CC = clang$/;"	m
+CFLAGS	Solutions/HashTableImplementation/makefile	/^CFLAGS = -Wall -Werror -Wextra -O$/;"	m
 DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
 Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
+Hash	Solutions/HashTableImplementation/hash.h	/^typedef struct _hash * Hash;$/;"	t	typeref:struct:_hash
 LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
+Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"	t	typeref:struct:_node	file:
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
@@ -38,6 +42,8 @@ __init__	Solutions/ValidBST/validBST.py	/^    def __init__(self, val=0, left=Non
 __init__	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/btLevelOrder/btLevelOrder.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Utilities/listToTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+_hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
+_node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
@@ -58,23 +64,29 @@ dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
+hashFunc	Solutions/HashTableImplementation/hash.c	/^static int hashFunc(char*key) {$/;"	f	file:
 id	NotesForInterview/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
+initialiseHash	Solutions/HashTableImplementation/hash.c	/^Hash initialiseHash(void) {$/;"	f
 inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
 isSameTreeR	Solutions/SameTree/sameTree.py	/^    def isSameTreeR(self, p, q):$/;"	m	class:Solution
 isValidBST	Solutions/ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
+key	Solutions/HashTableImplementation/hash.c	/^   char * key;$/;"	m	struct:_node	file:
 leetCodeCase	Solutions/AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
+length	Solutions/HashTableImplementation/hash.c	/^   int length;$/;"	m	struct:_hash	file:
 lengthOfLongestSubString	Solutions/LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestPalSubstring	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
+main	Solutions/HashTableImplementation/test.c	/^int main(void) {$/;"	f
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
@@ -84,16 +96,19 @@ mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(s
 minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
+next	Solutions/HashTableImplementation/hash.c	/^   Node next;$/;"	m	struct:_node	file:
 nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
+printHash	Solutions/HashTableImplementation/hash.c	/^static void printHash(Hash h) {$/;"	f	file:
 printList	Solutions/LRUCache/lrucache.py	/^    def printList(self):$/;"	m	class:dLinkedList
 printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):$/;"	m	class:Solution
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printListReverse	Solutions/LRUCache/lrucache.py	/^    def printListReverse(self):$/;"	m	class:dLinkedList
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
+put	Solutions/HashTableImplementation/hash.c	/^int put(char* key, int value, Hash h) {$/;"	f
 put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
@@ -106,6 +121,7 @@ resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = d
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
+table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 test1Row	Solutions/ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
@@ -203,4 +219,5 @@ testValidSimpleTree	Solutions/ValidBST/test.py	/^    def testValidSimpleTree(sel
 testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
+value	Solutions/HashTableImplementation/hash.c	/^   int value;$/;"	m	struct:_node	file:
 zigzagLevelOrder	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def zigzagLevelOrder(self, root):$/;"	m	class:Solution
