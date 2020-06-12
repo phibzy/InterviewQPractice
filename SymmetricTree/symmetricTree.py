@@ -1,5 +1,29 @@
 #!/usr/bin/python3
 
+"""
+Given a BTree, check that it's right side mirrors its left
+
+My Solution: Use two Qs, use level order traversal
+             For one side check left branch first, the other right branch first
+
+Time Complexity: O(N) - we visit every node exactly once
+
+Space Complexity: O(W) - Where W is max width of tree
+                       - Worst case perfectly balanced, bottom level has roughly N/2 nodes
+                  Therefore O(N) Worst case
+
+
+Other Solution: Use similar approach but with DFS
+                Time Complexity: O(N)
+                Space Complexity: Average case: O(logN)
+                                  Worst case: O(N) (hollow tree)
+
+"""
+
+
+
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
