@@ -94,6 +94,7 @@ mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
 mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:$/;"	m	class:Solution
 minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
+minimumSwaps	MinimumSwaps/minSwaps.py	/^def minimumSwaps(arr):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 next	Solutions/HashTableImplementation/hash.c	/^   Node next;$/;"	m	struct:_node	file:
