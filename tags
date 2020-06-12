@@ -26,6 +26,7 @@ Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
+Solution	SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
@@ -77,6 +78,7 @@ inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorde
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
 isSameTreeR	Solutions/SameTree/sameTree.py	/^    def isSameTreeR(self, p, q):$/;"	m	class:Solution
+isSymmetric	SymmetricTree/symmetricTree.py	/^    def isSymmetric(self, root):$/;"	m	class:Solution
 isValidBST	Solutions/ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
 key	Solutions/HashTableImplementation/hash.c	/^   char * key;$/;"	m	struct:_node	file:
 leetCodeCase	Solutions/AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
