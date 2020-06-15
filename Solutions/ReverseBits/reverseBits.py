@@ -21,12 +21,15 @@ class Solution:
         # return int(''.join(a), 2)
         logging.debug(f"bin n is {bin(n)}")
 
-        for _ in range(8):
-            n = ((n << 1) & 8589934591) | (n >> 31)
+        for i in range(32):
+            n = (((n << 1) & ((2 ** 32) - 1)) | (n >> 31))
+            logging.debug(f"n is {n}")
+            logging.debug(f"i is {i}")
             logging.debug(f"bin n is {bin(n)}")
+            logging.debug(f"Real length is {len(bin(n)) - 2}")
+            logging.debug("".center(25, '-'))
         
         return n
-
 
 
 a = Solution()

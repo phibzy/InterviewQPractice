@@ -24,6 +24,7 @@ Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
 Solution	Solutions/SingleNumber/singleNumber.py	/^class Solution:$/;"	c
+Solution	Solutions/SortedArrayToBST/arrayToBST.py	/^class Solution:$/;"	c
 Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
@@ -117,6 +118,7 @@ printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$
 put	Solutions/HashTableImplementation/hash.c	/^int put(char* key, int value, Hash h) {$/;"	f
 put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
+rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
@@ -129,6 +131,7 @@ reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGr
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
+sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayToBST(self, nums):$/;"	m	class:Solution
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
