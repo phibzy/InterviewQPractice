@@ -32,6 +32,8 @@ def intToBinary(i):
     # Find highest power of two
     # Then subtract. If power of 2 goes into number then append '1'
     # If power of 2 greater than number at any iteration, append '0' instead
+
+    # Time Complexity: O(D) - where D is the number of binary digits a number has
     j = i
     power = -1
 
