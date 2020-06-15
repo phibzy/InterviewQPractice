@@ -20,6 +20,7 @@ Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
+Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
 Solution	Solutions/SingleNumber/singleNumber.py	/^class Solution:$/;"	c
@@ -48,6 +49,7 @@ _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
@@ -122,6 +124,7 @@ rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot)
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
+reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
