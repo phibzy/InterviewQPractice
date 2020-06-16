@@ -27,51 +27,72 @@ def arrayManipulation(n, queries):
     for a,b,k in queries:
         if k == 0: continue # don't need to bother doing anything
 
+
+
+
         # First find lowest applicable range
         # Want ranges to have unique boundaries - i.e. no range shares any elements
         i = 0
-        start = None
-        end = None
         # Can optimise with binary search
         # Do 2 separate ones for start and end
-        while(True):
-            # printRanges(ranges)
-
-            if (not start) and ranges[i].r[0] <= a <= ranges[i].r[1]:
-                print(f"a is {a}, ranges[i].r[0] is {ranges[i].r[0]}")
-
-                if a != ranges[i].r[0]:
-                   # Check if equal to range end, if so make new range of single number
-                    if a == ranges[i].r[1]:
-                        ranges.insert(i+1, Node([a, a], ranges[i].val))
-
-                    else:
-                        ranges.insert(i+1, Node([a, ranges[i].r[1]], ranges[i].val))
-                        ranges[i].r[1] = a - 1
-
-                    i += 1 
-                
-                start = i   
-
-            if ranges[i].r[1] >= b:
-                # Edit this too
-                if b != ranges[i].r[1]:
-                    ranges.insert(i+1, Node([b+1, ranges[i].r[1]], ranges[i].val))
-                    ranges[i].r[1] = b
-
-                end = i     
+        l = 0
+        r = len(ranges) - 1
+        while (r >= l):
+            middle = l + (r-l) // 2
+            if ranges[middle].r[0] <= a <= ranges[middle].r[1]:
+                i = middle
                 break
 
-            i += 1
-        printRanges(ranges)
+            if a > ranges[middle].r[1]:
+                l = middle + 1
+            
+            else:
+                ranges.insert(i+1, Node([a, ranges[i].r[1]], ranges[i].val))
+                ranges[i].r[1] = a - 1
+        
+        if a != ranges[i].r[0]:
+        # Check if equal to range end, if so make new range of single number
+            if a == ranges[i].r[1]:
+                ranges.insert(i+1, Node([a, a], ranges[i].val))
+            
+            else:
+                ranges.insert(i+1, Node([a, ranges[i].r[1]], ranges[i].val))
+                ranges[i].r[1] = a - 1
+            
+            i += 1 
 
+
+        start = i  
+
+        l = start
+        r = len(ranges) - 1
+
+        while (r >= l):
+            middle = l + (r - l) // 2
+
+            if ranges[middle].r[0] <= b <= ranges[middle].r[1]:
+                i = middle
+                break
+
+            if ranges[middle].r[1] < b:
+                l = middle + 1
+
+            else:
+                r = middle - 1
+
+        if b != ranges[i].r[1]:
+            ranges.insert(i+1, Node([b+1, ranges[i].r[1]], ranges[i].val))
+            ranges[i].r[1] = b
+
+        end = i 
+    
         for i in range(start, end+1):
             # printRanges(ranges)
             ranges[i].val += k
             if ranges[i].val > highest:
                 highest = ranges[i].val         
 
-        printRanges(ranges)
+        # printRanges(ranges)
 
     return highest
 
