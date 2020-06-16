@@ -13,6 +13,7 @@ LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
+Node	Solutions/ArrayManipulation/arrayManip.py	/^class Node:$/;"	c
 Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"	t	typeref:struct:_node	file:
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
@@ -36,6 +37,7 @@ TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
+__init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
@@ -60,6 +62,7 @@ addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdg
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
+arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulation(n, queries):   $/;"	f
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
@@ -68,6 +71,7 @@ convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
+f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
@@ -90,6 +94,7 @@ leetCodeCase	Solutions/AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m
 length	Solutions/HashTableImplementation/hash.c	/^   int length;$/;"	m	struct:_hash	file:
 lengthOfLongestSubString	Solutions/LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
+line	Solutions/ArrayManipulation/arrayManip.py	/^line = f.readline().strip()$/;"	v
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestPalSubstring	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
@@ -114,10 +119,12 @@ printList	Solutions/LRUCache/lrucache.py	/^    def printList(self):$/;"	m	class:
 printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):$/;"	m	class:Solution
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
 printListReverse	Solutions/LRUCache/lrucache.py	/^    def printListReverse(self):$/;"	m	class:dLinkedList
+printRanges	Solutions/ArrayManipulation/arrayManip.py	/^def printRanges(ranges):$/;"	f
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 put	Solutions/HashTableImplementation/hash.c	/^int put(char* key, int value, Hash h) {$/;"	f
 put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
+queries	Solutions/ArrayManipulation/arrayManip.py	/^queries = list()$/;"	v
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
