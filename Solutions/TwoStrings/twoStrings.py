@@ -34,3 +34,5 @@ def twoStrings(s1, s2):
 # Still O(N + M) but way cooler and depending on language super efficient operations
 # Downside: It will always be O(N + M), my solution is only O(N+M) in worst case, it terminates
 # when common letter is found
+
+# Another alternative is sets, which is probably best solution in Python
