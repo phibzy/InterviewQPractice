@@ -27,3 +27,10 @@ def twoStrings(s1, s2):
             return "YES"
 
     return "NO"
+
+# Cool solution I saw on hackerRank - Use bits of int (Assuming 32-bit int) to indicate if letter in array
+# Have some var = 0, then var |= 1 << char - 'a'. I.e. Sets bit according to number letter of alphabet
+# Do twice for each string, then AND the two ints. If they share any letter result will be > 0
+# Still O(N + M) but way cooler and depending on language super efficient operations
+# Downside: It will always be O(N + M), my solution is only O(N+M) in worst case, it terminates
+# when common letter is found
