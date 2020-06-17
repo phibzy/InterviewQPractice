@@ -12,88 +12,37 @@ class Node:
         self.val = val
 
 
+# Time Complexity: O(k + n) - We have to go through all queries, modifications are constant, then we iterate through
+#                             n+1 sized list at the end
+# Space Complexity: O(n) - We store an n-sized list
+
 def arrayManipulation(n, queries):   
-    ranges = [Node([1,n], 0)] # We only care about which ranges are affected 
-    #results = [ 0 for _ in range(n+1)]
-    highest = 0 # k Will never be negative
+    # New approach: Increment start index by k, decrement b+1 by k
+    # Only want to keep track of how levels change relative to each other
+    # Think of it like a column graph or the height of beanstalks, or like staircase
 
+    # First: make array of zeros
+    # One extra spot at start but means easy indexing
+    results = [ 0 for _ in range(n+1)]
 
-# Be careful of 1-indexed array for this approach
-    # Simple/obvious approach: Add to each element a-b inclusive k
-    # Check highest value after each operation
-    
-    # Old version Time Complexity: O (m * n) - worst case the range of each query will be every element
-    # This solution doesn't pass the time test
-    for a,b,k in queries:
-        if k == 0: continue # don't need to bother doing anything
+    # For every k, increment a by k and decrement b+1 by k
+    # Make sure b+1 isn't over the range though
+    for a, b, k in queries:
 
+        results[a] += k
 
-
-
-        # First find lowest applicable range
-        # Want ranges to have unique boundaries - i.e. no range shares any elements
-        i = 0
-        # Can optimise with binary search
-        # Do 2 separate ones for start and end
-        l = 0
-        r = len(ranges) - 1
-        while (r >= l):
-            middle = l + (r-l) // 2
-            if ranges[middle].r[0] <= a <= ranges[middle].r[1]:
-                i = middle
-                break
-
-            if a > ranges[middle].r[1]:
-                l = middle + 1
-            
-            else:
-                ranges.insert(i+1, Node([a, ranges[i].r[1]], ranges[i].val))
-                ranges[i].r[1] = a - 1
+        if b != n:
+            results[b+1] -= k
         
-        if a != ranges[i].r[0]:
-        # Check if equal to range end, if so make new range of single number
-            if a == ranges[i].r[1]:
-                ranges.insert(i+1, Node([a, a], ranges[i].val))
-            
-            else:
-                ranges.insert(i+1, Node([a, ranges[i].r[1]], ranges[i].val))
-                ranges[i].r[1] = a - 1
-            
-            i += 1 
-
-
-        start = i  
-
-        l = start
-        r = len(ranges) - 1
-
-        while (r >= l):
-            middle = l + (r - l) // 2
-
-            if ranges[middle].r[0] <= b <= ranges[middle].r[1]:
-                i = middle
-                break
-
-            if ranges[middle].r[1] < b:
-                l = middle + 1
-
-            else:
-                r = middle - 1
-
-        if b != ranges[i].r[1]:
-            ranges.insert(i+1, Node([b+1, ranges[i].r[1]], ranges[i].val))
-            ranges[i].r[1] = b
-
-        end = i 
     
-        for i in range(start, end+1):
-            # printRanges(ranges)
-            ranges[i].val += k
-            if ranges[i].val > highest:
-                highest = ranges[i].val         
-
-        # printRanges(ranges)
-
+    # At the end go through iteratively, max cumulative sum at any point is
+    # What we return
+    val = 0
+    highest = 0
+    for i in results:
+        val += i
+        if val > highest: highest = val
+    
     return highest
 
 
