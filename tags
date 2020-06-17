@@ -66,6 +66,7 @@ arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulat
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
+checkMagazine	Solutions/CheckMagazine/checkMagazine.py	/^def checkMagazine(magazine, note):$/;"	f
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
