@@ -31,6 +31,7 @@ Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
+TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
@@ -39,6 +40,7 @@ TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
@@ -75,6 +77,8 @@ dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
+freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
@@ -85,8 +89,10 @@ hashFunc	Solutions/HashTableImplementation/hash.c	/^static int hashFunc(char*key
 id	NotesForInterview/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
 initialiseHash	Solutions/HashTableImplementation/hash.c	/^Hash initialiseHash(void) {$/;"	f
 inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
+insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
+isPresent	Solutions/FrequencyQueries/freqQueries.py	/^    def isPresent(self, z):$/;"	m	class:freq
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
 isSameTreeR	Solutions/SameTree/sameTree.py	/^    def isSameTreeR(self, p, q):$/;"	m	class:Solution
 isSymmetric	Solutions/SymmetricTree/symmetricTree.py	/^    def isSymmetric(self, root):$/;"	m	class:Solution
@@ -134,6 +140,7 @@ rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
+remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
@@ -192,6 +199,8 @@ testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
+testInsert1Val	Solutions/FrequencyQueries/test.py	/^    def testInsert1Val(self):$/;"	m	class:TestFreq
+testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertManyOfSame(self):$/;"	m	class:TestFreq
 testInvalidLeftNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidRightNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidRightNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidSimpleTree	Solutions/ValidBST/test.py	/^    def testInvalidSimpleTree(self):$/;"	m	class:testValidBST
@@ -229,6 +238,8 @@ testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	c
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
+testRemoveBasic	Solutions/FrequencyQueries/test.py	/^    def testRemoveBasic(self):$/;"	m	class:TestFreq
+testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqualFreq(self):$/;"	m	class:TestFreq
 testReplaceValue	Solutions/LRUCache/test.py	/^    def testReplaceValue(self):$/;"	m	class:testCache
 testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.TestCase):$/;"	c
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
