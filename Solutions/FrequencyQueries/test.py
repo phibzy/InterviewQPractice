@@ -92,10 +92,19 @@ class TestFreq(unittest.TestCase):
 
         a.remove(1)  
         self.assertEqual(a.isPresent(1), 0)
+        self.assertEqual(a.isPresent(2), 1)
+        self.assertEqual(a.isPresent(3), 1)
+        self.assertEqual((1 in a.valHash), True)
+
+        a.remove(1)  
+        self.assertEqual(a.isPresent(1), 1)
+        self.assertEqual(a.isPresent(2), 0)
+        self.assertEqual(a.isPresent(3), 1)
+        self.assertEqual((1 in a.valHash), True)
+
+        a.remove(1)  
+        self.assertEqual(a.isPresent(1), 0)
         self.assertEqual(a.isPresent(2), 0)
         self.assertEqual(a.isPresent(3), 1)
         self.assertEqual((1 in a.valHash), False)
-
-
-
 

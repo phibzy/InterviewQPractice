@@ -63,6 +63,7 @@ a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"	v
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
 arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulation(n, queries):   $/;"	f
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
@@ -77,6 +78,7 @@ dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
 freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
 freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
@@ -132,7 +134,9 @@ printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
 put	Solutions/HashTableImplementation/hash.c	/^int put(char* key, int value, Hash h) {$/;"	f
 put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
+q	Solutions/FrequencyQueries/freqQueries.py	/^    q = int(input().strip())$/;"	v
 queries	Solutions/ArrayManipulation/arrayManip.py	/^queries = list()$/;"	v
+queries	Solutions/FrequencyQueries/freqQueries.py	/^    queries = []$/;"	v
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
