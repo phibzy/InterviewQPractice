@@ -32,6 +32,7 @@ Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
 TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
+TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
@@ -41,6 +42,7 @@ TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
+__init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n):$/;"	m	class:TreeAncestor
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
@@ -83,6 +85,7 @@ freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
 freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
+getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
