@@ -19,9 +19,40 @@ The k-th ancestor of a tree node is the k-th node in the path from that node to 
 
 class TreeAncestor:
 
-    def __init__(self, n):
-        pass
-
-    def getKthAncestor(self, node, k):
-        pass
-
+    def __init__(self, n, parent):
+        self.known  = dict()
+        self.parent = parent
+        self.size = n
+        
+        i = self.size - 1
+        
+        while i > 0:
+            children = list()
+            if i not in self.known:
+                self.known[i] = list()
+                self.populate(i, 0, children)
+                
+            i -= 1
+              
+    def populate(self, node, level, children):
+        nextNode = self.parent[node]
+        children.append(node)
+        
+        for child in children:
+            self.known[child].append(nextNode)
+            if nextNode in self.known:
+                self.known[child] += self.known[nextNode]    
+        
+        if (nextNode not in self.known) and nextNode != 0:
+            self.known[nextNode] = list()
+            self.populate(nextNode, level + 1, children)
+            
+            
+        
+    def getKthAncestor(self, node: int, k: int) -> int:
+        if node == 0: return -1
+        if k > len(self.known[node]): return -1
+        k = k-1
+        
+        # Use array, so change this to k-1 once it's going dawg
+        return self.known[node][k]
