@@ -15,6 +15,7 @@ Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int i
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Node	Solutions/ArrayManipulation/arrayManip.py	/^class Node:$/;"	c
 Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"	t	typeref:struct:_node	file:
+Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
@@ -48,10 +49,12 @@ __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/SortingComparator/sortingComparator.py	/^    def __init__(self, name, score):$/;"	m	class:Player
 __init__	Solutions/ValidBST/validBST.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/btLevelOrder/btLevelOrder.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Utilities/listToTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__repr__	Solutions/SortingComparator/sortingComparator.py	/^    def __repr__(self):$/;"	m	class:Player	file:
 _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
@@ -73,6 +76,7 @@ binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, ta
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkMagazine	Solutions/CheckMagazine/checkMagazine.py	/^def checkMagazine(magazine, note):$/;"	f
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
+comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, r):$/;"	f
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
