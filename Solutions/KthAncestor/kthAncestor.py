@@ -17,6 +17,10 @@ The k-th ancestor of a tree node is the k-th node in the path from that node to 
 
 """
 
+
+# Time Complexity: O(N^2)?
+# Space Complexity: O(NlogN) - N nodes in hash, with at most logN elements in their list
+#                            - You will have at most the height of the tree in each list
 class TreeAncestor:
 
     def __init__(self, n, parent):
@@ -49,7 +53,7 @@ class TreeAncestor:
             
             
         
-    def getKthAncestor(self, node: int, k: int) -> int:
+    def getKthAncestor(self, node, k):
         if node == 0: return -1
         if k > len(self.known[node]): return -1
         k = k-1

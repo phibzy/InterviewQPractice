@@ -85,7 +85,7 @@ freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
 freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
-getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node: int, k: int) -> int:$/;"	m	class:TreeAncestor
+getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
@@ -95,6 +95,7 @@ id	NotesForInterview/dfsbfscode/implementation.java	/^      private int id;$/;"	
 initialiseHash	Solutions/HashTableImplementation/hash.c	/^Hash initialiseHash(void) {$/;"	f
 inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
 insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
+insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isPresent	Solutions/FrequencyQueries/freqQueries.py	/^    def isPresent(self, z):$/;"	m	class:freq
@@ -114,6 +115,7 @@ main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
 main	Solutions/HashTableImplementation/test.c	/^int main(void) {$/;"	f
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
+maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	f
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
