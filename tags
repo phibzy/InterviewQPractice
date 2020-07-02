@@ -22,6 +22,7 @@ Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
+Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
@@ -59,12 +60,14 @@ _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a	Solutions/ZigZagOrderTraversal/zigzag.py	/^a = Solution()$/;"	v
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
+activityNotifications	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def activityNotifications(expenditure, d):$/;"	f
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
@@ -79,11 +82,14 @@ checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y
 comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, r):$/;"	f
+d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
+expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    expenditure = list(map(int, input().rstrip().split()))$/;"	v
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
 fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
 freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
 freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
@@ -91,6 +97,7 @@ get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
 getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
+hammingWeight	Solutions/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n):$/;"	m	class:Solution
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
@@ -98,6 +105,7 @@ hashFunc	Solutions/HashTableImplementation/hash.c	/^static int hashFunc(char*key
 id	NotesForInterview/dfsbfscode/implementation.java	/^      private int id;$/;"	f	class:Graph.Node	file:
 initialiseHash	Solutions/HashTableImplementation/hash.c	/^Hash initialiseHash(void) {$/;"	f
 inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorderTraversal(self, root):$/;"	m	class:Solution
+insert	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def insert(v, li, length):$/;"	f
 insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
 insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
@@ -121,6 +129,7 @@ maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
 maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	f
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
+median	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def median(li, odd, middle):$/;"	f
 mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
 mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:$/;"	m	class:Solution
@@ -128,6 +137,8 @@ minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
 minimumSwaps	Solutions/MinimumSwaps/minSwaps.py	/^def minimumSwaps(arr):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
+n	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    n = int(nd[0])$/;"	v
+nd	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    nd = input().split()$/;"	v
 next	Solutions/HashTableImplementation/hash.c	/^   Node next;$/;"	m	struct:_node	file:
 nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
@@ -154,8 +165,10 @@ rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
+remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(li, order, length):$/;"	f
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
+result	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    result = activityNotifications(expenditure, d)$/;"	v
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
@@ -166,8 +179,11 @@ solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, boa
 sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayToBST(self, nums):$/;"	m	class:Solution
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
+test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bits
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
+test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
+test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 test1Row	Solutions/ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
 test1x1Board	Solutions/SurroundedRegions/test.py	/^    def test1x1Board(self):$/;"	m	class:testSRegions
@@ -176,9 +192,14 @@ test1x1zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1zeroIsland(
 test2Row	Solutions/ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
 test2x2Board	Solutions/SurroundedRegions/test.py	/^    def test2x2Board(self):$/;"	m	class:testSRegions
 test3x3Board	Solutions/SurroundedRegions/test.py	/^    def test3x3Board(self):$/;"	m	class:testSRegions
+test432	Solutions/NumberOf1Bits/test.py	/^    def test432(self):$/;"	m	class:test1Bits
 test4x5oneIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5oneIsland(self):$/;"	m	class:testNumIslands
 test4x5zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5zeroIsland(self):$/;"	m	class:testNumIslands
+test58	Solutions/NumberOf1Bits/test.py	/^    def test58(self):$/;"	m	class:test1Bits
 test5x5XIsland	Solutions/NumberOfIslands/test.py	/^    def test5x5XIsland(self):$/;"	m	class:testNumIslands
+test65893	Solutions/NumberOf1Bits/test.py	/^    def test65893(self):$/;"	m	class:test1Bits
+test6589343	Solutions/NumberOf1Bits/test.py	/^    def test6589343(self):$/;"	m	class:test1Bits
+test8	Solutions/NumberOf1Bits/test.py	/^    def test8(self):$/;"	m	class:test1Bits
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
 testAllInOneColumn	Solutions/ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
 testAllNeg	Solutions/MergeSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
