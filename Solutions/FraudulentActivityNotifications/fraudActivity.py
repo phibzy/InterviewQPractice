@@ -15,7 +15,23 @@ import sys
 import pdb
 
 
-# Complete the activityNotifications function below.
+"""
+Algo:
+    Have a list keeping track of order of days, new values appended onto end to maintain day order`
+    Have another list that maintains sorted order of list, new values inserted with binary search
+
+    Once required length of previous days reached, do fraudActivity formula on median of sorted list
+    Count + 1 if >= formula
+    Remove first element in dayOrder list, then remove value from sorted list using same binary search method as before
+
+    Insert new days value into both lists, then repeat
+
+    Time Complexity: O(NlogN) - Have to visit all values in expenditure then 2*logN operations for insert/deletion
+    Space Complexity: O(d) - Two lists of size d are used
+
+"""
+
+
 def activityNotifications(expenditure, d):
     length = len(expenditure)
     if d == expenditure: return 0
@@ -72,7 +88,7 @@ def median(li, odd, middle):
     if odd:
         return li[middle]
     
-    return (li[middle] + li[middle + 1]) / 2 
+    return (li[middle] + li[middle - 1]) / 2 
 
 
 # Insert into list sorted, using binary search
