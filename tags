@@ -144,7 +144,6 @@ nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
-populate	Solutions/KthAncestor/kthAncestor.py	/^    def populate(self, node, level, children):$/;"	m	class:TreeAncestor
 printHash	Solutions/HashTableImplementation/hash.c	/^static void printHash(Hash h) {$/;"	f	file:
 printList	Solutions/LRUCache/lrucache.py	/^    def printList(self):$/;"	m	class:dLinkedList
 printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):$/;"	m	class:Solution
