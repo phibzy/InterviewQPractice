@@ -96,11 +96,20 @@ class TreeAncestor:
         
         """
         Every node has logN entries in known matrix
-        
+
+        k <= n, which means that each given k will have at most log(n) bits in its binary representation
+        This works since each number can be expressed as 2^k in binary, where n = 2^k is the highest value
+        Solving for k we get k = log2(n)
+
+
+        When jumping in the table, reading from left to right, we want to jump by the most significant 1 digit's power repeatedly
+        We get most sig digit with log(k)
+
+        On each iteration we subtract k << i (where i is log(k)), so the new k basically gets rid of all zeroes (if any) between 1 digits
+        We have the condition k > 0 because minimum jump is 1. If node becomes -1 then ancestor doesn't exist.
+        Won't have out of bounds issues since we pre-computed up to logN ancestors for each node        
         
         """
-        
-        #### NEED TO GO OVER THIS PART, EVERYTHING ELSE MAKES SENSE ####
         
         while k > 0 and node != -1: 
             i = int(math.log2(k))
