@@ -73,6 +73,7 @@ addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1,
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"	v
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
+arr	Solutions/MergeSortCountInversions/countInversions.py	/^        arr = list(map(int, input().rstrip().split()))$/;"	v
 arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulation(n, queries):   $/;"	f
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
@@ -81,6 +82,7 @@ checkMagazine	Solutions/CheckMagazine/checkMagazine.py	/^def checkMagazine(magaz
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
+countInversions	Solutions/MergeSortCountInversions/countInversions.py	/^def countInversions(arr):$/;"	f
 countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, r):$/;"	f
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
@@ -131,6 +133,7 @@ maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 median	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def median(li, odd, middle):$/;"	f
 mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
+mergeSort	Solutions/MergeSortCountInversions/countInversions.py	/^def mergeSort(arr, l, r):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
 mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:$/;"	m	class:Solution
 minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
@@ -138,6 +141,7 @@ minimumSwaps	Solutions/MinimumSwaps/minSwaps.py	/^def minimumSwaps(arr):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 n	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    n = int(nd[0])$/;"	v
+n	Solutions/MergeSortCountInversions/countInversions.py	/^        n = int(input())$/;"	v
 nd	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    nd = input().split()$/;"	v
 next	Solutions/HashTableImplementation/hash.c	/^   Node next;$/;"	m	struct:_node	file:
 nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
@@ -168,6 +172,7 @@ remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(l
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
 result	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    result = activityNotifications(expenditure, d)$/;"	v
+result	Solutions/MergeSortCountInversions/countInversions.py	/^        result = countInversions(arr)$/;"	v
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
@@ -176,6 +181,7 @@ sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagr
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
 sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayToBST(self, nums):$/;"	m	class:Solution
+t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
 test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bits
