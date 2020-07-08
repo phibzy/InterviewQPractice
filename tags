@@ -20,6 +20,7 @@ Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
+Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
@@ -125,6 +126,7 @@ levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, roo
 line	Solutions/ArrayManipulation/arrayManip.py	/^line = f.readline().strip()$/;"	v
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestPalSubstring	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
+lowestCommonAncestor	Solutions/LCAOfBST/LCA.py	/^    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':$/;"	m	class:Solution
 main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
 main	Solutions/HashTableImplementation/test.c	/^int main(void) {$/;"	f
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
