@@ -11,6 +11,23 @@ import logging
 logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
 logging.disable(logging.DEBUG)
 
+
+
+"""
+
+Space Complexity: O(N) - where N is number of requests
+Time Complexity of operations above each function definition
+
+Faster Back/Foward Operation Solution: Dynamic array, set to max possible size
+    Use pointer indexes for how far forward/back you can go, instead of constantly manipulating list
+    On each visit simply make the current/next element (depending on implementation) the next page
+    Reset forward pointer on each visit
+
+    One disadvantage to this method is if number of page visits is huge, but worst case it will
+    still have the same worst case space complexity as my solution. 
+
+"""
+
 class BrowserHistory:
 
     def __init__(self, homepage):
@@ -29,7 +46,8 @@ class BrowserHistory:
 
         self.printInfo()
 
-        
+       
+    # O(1) - We always add a page to the backHistory and clear the forwardHistory
     def visit(self, url):
 
         logging.debug(f"VISIT: {url}".center(30, '-'))
@@ -46,6 +64,7 @@ class BrowserHistory:
 
         self.printInfo()
 
+    # O(K) - Where K is size of backHistory 
     def back(self, steps):
         logging.debug(f"BACK {steps} steps, with numBack {self.numBack}".center(30, '-'))
 
@@ -75,7 +94,7 @@ class BrowserHistory:
         
         return self.currentPage
         
-
+    # O(K) - Where K is size of forwardHistory
     def forward(self, steps):
         logging.debug(f"FORWARD {steps} steps, with numForward {self.numForward}".center(30, '-'))
         if self.numForward == 0: return self.currentPage
