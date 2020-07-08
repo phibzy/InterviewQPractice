@@ -18,6 +18,9 @@ logging.disable(logging.DEBUG)
 Space Complexity: O(N) - where N is number of requests
 Time Complexity of operations above each function definition
 
+Alternative form of my solution is using a doubly linked list, where I just
+cut the next off the current node whenever a new page is visited
+
 Faster Back/Foward Operation Solution: Dynamic array, set to max possible size
     Use pointer indexes for how far forward/back you can go, instead of constantly manipulating list
     On each visit simply make the current/next element (depending on implementation) the next page
