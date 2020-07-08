@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BrowserHistory	Solutions/DesignBrowserHistory/browserHistory.py	/^class BrowserHistory:$/;"	c
 CC	Solutions/HashTableImplementation/makefile	/^CC = clang$/;"	m
 CFLAGS	Solutions/HashTableImplementation/makefile	/^CFLAGS = -Wall -Werror -Wextra -O$/;"	m
 DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):$/;"	f
@@ -44,6 +45,7 @@ TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
 __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent):$/;"	m	class:TreeAncestor
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
@@ -76,6 +78,7 @@ ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
 arr	Solutions/MergeSortCountInversions/countInversions.py	/^        arr = list(map(int, input().rstrip().split()))$/;"	v
 arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulation(n, queries):   $/;"	f
+back	Solutions/DesignBrowserHistory/browserHistory.py	/^    def back(self, steps):$/;"	m	class:BrowserHistory
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
@@ -92,6 +95,7 @@ dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    expenditure = list(map(int, input().rstrip().split()))$/;"	v
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+forward	Solutions/DesignBrowserHistory/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
 fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
 freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
@@ -151,6 +155,7 @@ numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
 printHash	Solutions/HashTableImplementation/hash.c	/^static void printHash(Hash h) {$/;"	f	file:
+printInfo	Solutions/DesignBrowserHistory/browserHistory.py	/^    def printInfo(self):$/;"	m	class:BrowserHistory
 printList	Solutions/LRUCache/lrucache.py	/^    def printList(self):$/;"	m	class:dLinkedList
 printList	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def printList(self, l):$/;"	m	class:Solution
 printList	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^def printList(head):$/;"	f
@@ -215,6 +220,7 @@ testAllSame	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def te
 testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllSameButOne(self):$/;"	m	class:testCases
 testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
+testBHistory	Solutions/DesignBrowserHistory/test.py	/^class testBHistory(unittest.TestCase):$/;"	c
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
 testCache	Solutions/LRUCache/test.py	/^class testCache(unittest.TestCase):$/;"	c
@@ -227,6 +233,7 @@ testCaseOddLength	Solutions/QuickSort/test.py	/^    def testCaseOddLength(self):
 testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
+testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEmpty	Solutions/MergeSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
@@ -302,4 +309,5 @@ testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCa
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
 twoStrings	Solutions/TwoStrings/twoStrings.py	/^def twoStrings(s1, s2):$/;"	f
 value	Solutions/HashTableImplementation/hash.c	/^   int value;$/;"	m	struct:_node	file:
+visit	Solutions/DesignBrowserHistory/browserHistory.py	/^    def visit(self, url):$/;"	m	class:BrowserHistory
 zigzagLevelOrder	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def zigzagLevelOrder(self, root):$/;"	m	class:Solution
