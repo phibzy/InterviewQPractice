@@ -25,6 +25,7 @@ Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
+Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
@@ -117,6 +118,7 @@ insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	
 insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
+isPalindrome	Solutions/PalindromeNumber/palNumber.py	/^    def isPalindrome(self, x: int) -> bool:$/;"	m	class:Solution
 isPresent	Solutions/FrequencyQueries/freqQueries.py	/^    def isPresent(self, z):$/;"	m	class:freq
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
 isSameTreeR	Solutions/SameTree/sameTree.py	/^    def isSameTreeR(self, p, q):$/;"	m	class:Solution
