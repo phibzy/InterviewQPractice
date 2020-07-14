@@ -34,6 +34,7 @@ Solution	Solutions/SortedArrayToBST/arrayToBST.py	/^class Solution:$/;"	c
 Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
+Solution	Solutions/ValidParentheses/validParentheses.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
 TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
@@ -69,6 +70,7 @@ a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
+a	Solutions/ValidParentheses/test.py	/^    a = Solution()$/;"	v	class:testIsValid
 a	Solutions/ZigZagOrderTraversal/zigzag.py	/^a = Solution()$/;"	v
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 activityNotifications	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def activityNotifications(expenditure, d):$/;"	f
@@ -123,6 +125,7 @@ isPresent	Solutions/FrequencyQueries/freqQueries.py	/^    def isPresent(self, z)
 isSameTree	Solutions/SameTree/sameTree.py	/^    def isSameTree(self, p, q):$/;"	m	class:Solution
 isSameTreeR	Solutions/SameTree/sameTree.py	/^    def isSameTreeR(self, p, q):$/;"	m	class:Solution
 isSymmetric	Solutions/SymmetricTree/symmetricTree.py	/^    def isSymmetric(self, root):$/;"	m	class:Solution
+isValid	Solutions/ValidParentheses/validParentheses.py	/^    def isValid(self, s):$/;"	m	class:Solution
 isValidBST	Solutions/ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
 key	Solutions/HashTableImplementation/hash.c	/^   char * key;$/;"	m	struct:_node	file:
 leetCodeCase	Solutions/AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
@@ -223,6 +226,7 @@ testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    
 testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
 testBHistory	Solutions/DesignBrowserHistory/test.py	/^class testBHistory(unittest.TestCase):$/;"	c
+testBalancedButWrongBrackets	Solutions/ValidParentheses/test.py	/^    def testBalancedButWrongBrackets(self):$/;"	m	class:testIsValid
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
 testCache	Solutions/LRUCache/test.py	/^class testCache(unittest.TestCase):$/;"	c
@@ -240,6 +244,7 @@ testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEmpty	Solutions/MergeSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
 testEmpty	Solutions/QuickSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
+testEmpty	Solutions/ValidParentheses/test.py	/^    def testEmpty(self):$/;"	m	class:testIsValid
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
 testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
@@ -255,6 +260,7 @@ testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertMany
 testInvalidLeftNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidRightNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidRightNotAdhering(self):$/;"	m	class:testValidBST
 testInvalidSimpleTree	Solutions/ValidBST/test.py	/^    def testInvalidSimpleTree(self):$/;"	m	class:testValidBST
+testIsValid	Solutions/ValidParentheses/test.py	/^class testIsValid(unittest.TestCase):$/;"	c
 testIsolatedCourses	Solutions/CourseSchedule/test.py	/^    def testIsolatedCourses(self):$/;"	m	class:testCourseSchedule
 testItemNotInListLong	Solutions/BinarySearch/test.py	/^    def testItemNotInListLong(self):$/;"	m	class:testBinarySearch
 testItoB	Solutions/IntToBinary/test.py	/^class testItoB(unittest.TestCase):$/;"	c
@@ -271,6 +277,7 @@ testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigi
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
 testNoneRoot	Solutions/ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
+testNormalCase	Solutions/ValidParentheses/test.py	/^    def testNormalCase(self):$/;"	m	class:testIsValid
 testNormalLongPrereqCourse	Solutions/CourseSchedule/test.py	/^    def testNormalLongPrereqCourse(self):$/;"	m	class:testCourseSchedule
 testNormalNumber	Solutions/AToI/test.py	/^    def testNormalNumber(self):$/;"	m	class:testATOI
 testNormalNumberWithNegativeSign	Solutions/AToI/test.py	/^    def testNormalNumberWithNegativeSign(self):$/;"	m	class:testATOI
@@ -281,10 +288,13 @@ testNumIslands	Solutions/NumberOfIslands/test.py	/^class testNumIslands(unittest
 testOdd	Solutions/IntToBinary/test.py	/^    def testOdd(self):$/;"	m	class:testItoB
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
+testOne	Solutions/ValidParentheses/test.py	/^    def testOne(self):$/;"	m	class:testIsValid
 testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
 testOneNode	Solutions/ValidBST/test.py	/^    def testOneNode(self):$/;"	m	class:testValidBST
 testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
+testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
+testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
