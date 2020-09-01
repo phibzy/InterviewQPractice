@@ -26,6 +26,7 @@ Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
+Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
@@ -66,6 +67,7 @@ _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
+a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
@@ -183,6 +185,7 @@ rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maxi
 remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(li, order, length):$/;"	f
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
+removeDuplicates	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^    def removeDuplicates(self, nums):$/;"	m	class:Solution
 result	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    result = activityNotifications(expenditure, d)$/;"	v
 result	Solutions/MergeSortCountInversions/countInversions.py	/^        result = countInversions(arr)$/;"	v
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
@@ -239,7 +242,10 @@ testCaseOddLength	Solutions/QuickSort/test.py	/^    def testCaseOddLength(self):
 testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
+testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(self):$/;"	m	class:testRemoveDuplicates
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
+testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
+testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEmpty	Solutions/MergeSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
@@ -276,6 +282,7 @@ testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testM
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
+testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoneRoot	Solutions/ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
 testNormalCase	Solutions/ValidParentheses/test.py	/^    def testNormalCase(self):$/;"	m	class:testIsValid
 testNormalLongPrereqCourse	Solutions/CourseSchedule/test.py	/^    def testNormalLongPrereqCourse(self):$/;"	m	class:testCourseSchedule
@@ -300,6 +307,7 @@ testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBounds
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
 testRemoveBasic	Solutions/FrequencyQueries/test.py	/^    def testRemoveBasic(self):$/;"	m	class:TestFreq
+testRemoveDuplicates	Solutions/RemoveDuplicatesSortedArray/test.py	/^class testRemoveDuplicates(unittest.TestCase):$/;"	c
 testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqualFreq(self):$/;"	m	class:TestFreq
 testReplaceValue	Solutions/LRUCache/test.py	/^    def testReplaceValue(self):$/;"	m	class:testCache
 testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.TestCase):$/;"	c
