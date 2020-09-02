@@ -27,6 +27,7 @@ Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
+Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
@@ -186,6 +187,7 @@ remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(l
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
 removeDuplicates	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^    def removeDuplicates(self, nums):$/;"	m	class:Solution
+removeElement	Solutions/RemoveElement/removeElement.py	/^    def removeElement(self, nums, val):$/;"	m	class:Solution
 result	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    result = activityNotifications(expenditure, d)$/;"	v
 result	Solutions/MergeSortCountInversions/countInversions.py	/^        result = countInversions(arr)$/;"	v
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
