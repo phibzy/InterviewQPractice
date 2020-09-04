@@ -39,6 +39,7 @@ Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidParentheses/validParentheses.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
+Solution	Solutions/strStr/strStr.py	/^class Solution:$/;"	c
 TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
 TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
@@ -198,6 +199,7 @@ sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagr
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
 sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayToBST(self, nums):$/;"	m	class:Solution
+strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	m	class:Solution
 t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
