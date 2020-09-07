@@ -16,6 +16,7 @@ Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int i
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Node	Solutions/ArrayManipulation/arrayManip.py	/^class Node:$/;"	c
 Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"	t	typeref:struct:_node	file:
+Node	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Node:$/;"	c
 Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
@@ -24,6 +25,7 @@ Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
+Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
@@ -56,6 +58,7 @@ __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
+__init__	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def __init__(self, label):$/;"	m	class:Node
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/SortingComparator/sortingComparator.py	/^    def __init__(self, name, score):$/;"	m	class:Player
@@ -68,6 +71,7 @@ _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
@@ -79,6 +83,7 @@ a	Solutions/ZigZagOrderTraversal/zigzag.py	/^a = Solution()$/;"	v
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 activityNotifications	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def activityNotifications(expenditure, d):$/;"	f
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
+addSubNode	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def addSubNode(self, n):$/;"	m	class:Node
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"	v
@@ -94,10 +99,12 @@ checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y
 comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 countInversions	Solutions/MergeSortCountInversions/countInversions.py	/^def countInversions(arr):$/;"	f
+countSubTrees	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def countSubTrees(self, n, edges, labels):$/;"	m	class:Solution
 countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, r):$/;"	f
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
+dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    expenditure = list(map(int, input().rstrip().split()))$/;"	v
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
@@ -223,6 +230,7 @@ test58	Solutions/NumberOf1Bits/test.py	/^    def test58(self):$/;"	m	class:test1
 test5x5XIsland	Solutions/NumberOfIslands/test.py	/^    def test5x5XIsland(self):$/;"	m	class:testNumIslands
 test65893	Solutions/NumberOf1Bits/test.py	/^    def test65893(self):$/;"	m	class:test1Bits
 test6589343	Solutions/NumberOf1Bits/test.py	/^    def test6589343(self):$/;"	m	class:test1Bits
+test7	Solutions/NumNodesInSubtree/test.py	/^   def test7(self):$/;"	m	class:testNumNodes
 test8	Solutions/NumberOf1Bits/test.py	/^    def test8(self):$/;"	m	class:test1Bits
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
 testAllInOneColumn	Solutions/ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
@@ -296,6 +304,7 @@ testNormalNumberWithOtherChars	Solutions/AToI/test.py	/^    def testNormalNumber
 testNormalNumberWithPositiveSign	Solutions/AToI/test.py	/^    def testNormalNumberWithPositiveSign(self):$/;"	m	class:testATOI
 testNormalNumberWithWhitespace	Solutions/AToI/test.py	/^    def testNormalNumberWithWhitespace(self):$/;"	m	class:testATOI
 testNumIslands	Solutions/NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
+testNumNodes	Solutions/NumNodesInSubtree/test.py	/^class testNumNodes(unittest.TestCase):$/;"	c
 testOdd	Solutions/IntToBinary/test.py	/^    def testOdd(self):$/;"	m	class:testItoB
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
