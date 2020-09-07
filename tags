@@ -71,6 +71,7 @@ _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
@@ -104,7 +105,7 @@ countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, 
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
-dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n):$/;"	m	class:Solution
+dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n, visited):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    expenditure = list(map(int, input().rstrip().split()))$/;"	v
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
@@ -223,6 +224,7 @@ test1x1zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1zeroIsland(
 test2Row	Solutions/ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
 test2x2Board	Solutions/SurroundedRegions/test.py	/^    def test2x2Board(self):$/;"	m	class:testSRegions
 test3x3Board	Solutions/SurroundedRegions/test.py	/^    def test3x3Board(self):$/;"	m	class:testSRegions
+test4	Solutions/NumNodesInSubtree/test.py	/^   def test4(self):$/;"	m	class:testNumNodes
 test432	Solutions/NumberOf1Bits/test.py	/^    def test432(self):$/;"	m	class:test1Bits
 test4x5oneIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5oneIsland(self):$/;"	m	class:testNumIslands
 test4x5zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5zeroIsland(self):$/;"	m	class:testNumIslands
