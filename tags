@@ -21,6 +21,7 @@ Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	MockInterview/LC1/longestPalindrome/longestPal.py	/^class Solution:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
+Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
@@ -47,6 +48,7 @@ Solution	Solutions/strStr/strStr.py	/^class Solution:$/;"	c
 TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
 TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
+TreeNode	Solutions/BTreeTilt/BTreeTilt.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
@@ -54,6 +56,7 @@ TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
 __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent):$/;"	m	class:TreeAncestor
@@ -73,6 +76,7 @@ _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	MockInterview/LC1/longestPalindrome/test.py	/^   a = Solution()$/;"	v	class:testLongestPal
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
+a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
@@ -117,6 +121,7 @@ f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findEnd	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findEnd(self, nums, output, start, end, target):$/;"	m	class:Solution
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 findStart	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findStart(self, nums, output, start, end, target):$/;"	m	class:Solution
+findTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def findTilt(self, root):$/;"	m	class:Solution
 forward	Solutions/DesignBrowserHistory/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
 fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
@@ -200,6 +205,7 @@ rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, 
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
+rTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(li, order, length):$/;"	f
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
@@ -269,6 +275,7 @@ testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCa
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(self):$/;"	m	class:testRemoveDuplicates
+testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
 testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
@@ -283,6 +290,7 @@ testEmpty	Solutions/QuickSort/test.py	/^    def testEmpty(self):$/;"	m	class:tes
 testEmpty	Solutions/ValidParentheses/test.py	/^    def testEmpty(self):$/;"	m	class:testIsValid
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
 testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
+testEmptyTree	Solutions/BTreeTilt/test.py	/^   def testEmptyTree(self):$/;"	m	class:testTilt
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenLengthList	Solutions/BinarySearch/test.py	/^    def testEvenLengthList(self):$/;"	m	class:testBinarySearch
 testEvenNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
@@ -335,6 +343,7 @@ testOne	Solutions/ValidParentheses/test.py	/^    def testOne(self):$/;"	m	class:
 testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
 testOneNode	Solutions/ValidBST/test.py	/^    def testOneNode(self):$/;"	m	class:testValidBST
+testOneNodeTree	Solutions/BTreeTilt/test.py	/^   def testOneNodeTree(self):$/;"	m	class:testTilt
 testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
@@ -359,6 +368,7 @@ testTargetAtEnd	Solutions/FirstLastPositionOfElement/test.py	/^    def testTarge
 testTargetAtEndMulti	Solutions/FirstLastPositionOfElement/test.py	/^    def testTargetAtEndMulti(self):$/;"	m	class:testFLElement
 testTargetAtStart	Solutions/FirstLastPositionOfElement/test.py	/^    def testTargetAtStart(self):$/;"	m	class:testFLElement
 testTargetAtStartMulti	Solutions/FirstLastPositionOfElement/test.py	/^    def testTargetAtStartMulti(self):$/;"	m	class:testFLElement
+testTilt	Solutions/BTreeTilt/test.py	/^class testTilt(unittest.TestCase):$/;"	c
 testTwoPathsDifferentOrigins	Solutions/CourseSchedule/test.py	/^    def testTwoPathsDifferentOrigins(self):$/;"	m	class:testCourseSchedule
 testTwoPathsToOneCourse	Solutions/CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
