@@ -12,6 +12,9 @@ Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;
 Hash	Solutions/HashTableImplementation/hash.h	/^typedef struct _hash * Hash;$/;"	t	typeref:struct:_hash
 LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
+MyQueue	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueue:$/;"	c
+MyQueueAmortized	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueueAmortized:$/;"	c
+Node	MockInterview/LC2/FIFO/FIFO.py	/^class Node:$/;"	c
 Node	NotesForInterview/dfsbfscode/implementation.java	/^      private Node(int id) {$/;"	m	class:Graph.Node	file:
 Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class Node {$/;"	c	class:Graph
 Node	Solutions/ArrayManipulation/arrayManip.py	/^class Node:$/;"	c
@@ -19,6 +22,7 @@ Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"
 Node	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Node:$/;"	c
 Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	MockInterview/LC1/longestPalindrome/longestPal.py	/^class Solution:$/;"	c
+Solution	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^class Solution:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
@@ -54,6 +58,9 @@ TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
+__init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueue
+__init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueueAmortized
+__init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self, val):$/;"	m	class:Node
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
@@ -75,6 +82,7 @@ __repr__	Solutions/SortingComparator/sortingComparator.py	/^    def __repr__(sel
 _hash	Solutions/HashTableImplementation/hash.c	/^struct _hash {$/;"	s	file:
 _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	MockInterview/LC1/longestPalindrome/test.py	/^   a = Solution()$/;"	v	class:testLongestPal
+a	MockInterview/LC2/DayOfWeek/test.py	/^   a = Solution()$/;"	v	class:testDOW
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
@@ -113,9 +121,12 @@ countSubTrees	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def countSu
 countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, r):$/;"	f
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
+dayOfTheWeek	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:$/;"	m	class:Solution
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n, visited):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
+empty	MockInterview/LC2/FIFO/FIFO.py	/^    def empty(self) -> bool:$/;"	m	class:MyQueueAmortized
+empty	MockInterview/LC2/FIFO/FIFO.py	/^    def empty(self):$/;"	m	class:MyQueue
 expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    expenditure = list(map(int, input().rstrip().split()))$/;"	v
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findEnd	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findEnd(self, nums, output, start, end, target):$/;"	m	class:Solution
@@ -143,6 +154,7 @@ insert	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def insert(v
 insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
 insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
+isLeapYear	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def isLeapYear(self, year):$/;"	m	class:Solution
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isPalindrome	Solutions/PalindromeNumber/palNumber.py	/^    def isPalindrome(self, x: int) -> bool:$/;"	m	class:Solution
 isPresent	Solutions/FrequencyQueries/freqQueries.py	/^    def isPresent(self, z):$/;"	m	class:freq
@@ -184,6 +196,10 @@ next	Solutions/HashTableImplementation/hash.c	/^   Node next;$/;"	m	struct:_node
 nodeLookup	NotesForInterview/dfsbfscode/implementation.java	/^   private HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();$/;"	f	class:Graph	file:
 numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$/;"	f
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
+peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self) -> int:$/;"	m	class:MyQueueAmortized
+peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self):$/;"	m	class:MyQueue
+pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self) -> int:$/;"	m	class:MyQueueAmortized
+pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self):$/;"	m	class:MyQueue
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
 printHash	Solutions/HashTableImplementation/hash.c	/^static void printHash(Hash h) {$/;"	f	file:
 printInfo	Solutions/DesignBrowserHistory/browserHistory.py	/^    def printInfo(self):$/;"	m	class:BrowserHistory
@@ -194,6 +210,8 @@ printListReverse	Solutions/LRUCache/lrucache.py	/^    def printListReverse(self)
 printRanges	Solutions/ArrayManipulation/arrayManip.py	/^def printRanges(ranges):$/;"	f
 printTree	Utilities/listToTree.py	/^def printTree(root):$/;"	f
 printZigZag	Solutions/ZigZagConversion/zigzag.py	/^def printZigZag(s, numRows):$/;"	f
+push	MockInterview/LC2/FIFO/FIFO.py	/^    def push(self, x):$/;"	m	class:MyQueue
+push	MockInterview/LC2/FIFO/FIFO.py	/^    def push(self, x: int) -> None:$/;"	m	class:MyQueueAmortized
 put	Solutions/HashTableImplementation/hash.c	/^int put(char* key, int value, Hash h) {$/;"	f
 put	Solutions/LRUCache/lrucache.py	/^    def put(self, key, value):$/;"	m	class:LRUCache
 q	Solutions/FrequencyQueries/freqQueries.py	/^    q = int(input().strip())$/;"	v
@@ -275,6 +293,7 @@ testCases	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^class testCa
 testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.TestCase):$/;"	c
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(self):$/;"	m	class:testRemoveDuplicates
+testDOW	MockInterview/LC2/DayOfWeek/test.py	/^class testDOW(unittest.TestCase):$/;"	c
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
@@ -321,6 +340,8 @@ testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$
 testLongestPal	MockInterview/LC1/longestPalindrome/test.py	/^class testLongestPal(unittest.TestCase):$/;"	c
 testMax32	Solutions/IntToBinary/test.py	/^    def testMax32(self):$/;"	m	class:testItoB
 testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
+testMonthAhead	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthAhead(self):$/;"	m	class:testDOW
+testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(self):$/;"	m	class:testDOW
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
@@ -369,12 +390,16 @@ testTargetAtEndMulti	Solutions/FirstLastPositionOfElement/test.py	/^    def test
 testTargetAtStart	Solutions/FirstLastPositionOfElement/test.py	/^    def testTargetAtStart(self):$/;"	m	class:testFLElement
 testTargetAtStartMulti	Solutions/FirstLastPositionOfElement/test.py	/^    def testTargetAtStartMulti(self):$/;"	m	class:testFLElement
 testTilt	Solutions/BTreeTilt/test.py	/^class testTilt(unittest.TestCase):$/;"	c
+testToday	MockInterview/LC2/DayOfWeek/test.py	/^   def testToday(self):$/;"	m	class:testDOW
+testTomorrow	MockInterview/LC2/DayOfWeek/test.py	/^   def testTomorrow(self):$/;"	m	class:testDOW
 testTwoPathsDifferentOrigins	Solutions/CourseSchedule/test.py	/^    def testTwoPathsDifferentOrigins(self):$/;"	m	class:testCourseSchedule
 testTwoPathsToOneCourse	Solutions/CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	Solutions/AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests
 testValidBST	Solutions/ValidBST/test.py	/^class testValidBST(unittest.TestCase):$/;"	c
 testValidSimpleTree	Solutions/ValidBST/test.py	/^    def testValidSimpleTree(self):$/;"	m	class:testValidBST
+testWeek	MockInterview/LC2/DayOfWeek/test.py	/^   def testWeek(self):$/;"	m	class:testDOW
+testWeekMinusOne	MockInterview/LC2/DayOfWeek/test.py	/^   def testWeekMinusOne(self):$/;"	m	class:testDOW
 testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
