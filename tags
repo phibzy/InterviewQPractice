@@ -23,6 +23,8 @@ Node	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Node:$/;"	c
 Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	MockInterview/LC1/longestPalindrome/longestPal.py	/^class Solution:$/;"	c
 Solution	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^class Solution:$/;"	c
+Solution	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^class Solution:$/;"	c
+Solution	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
@@ -122,6 +124,7 @@ countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, 
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dayOfTheWeek	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:$/;"	m	class:Solution
+deleteNode	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^    def deleteNode(self, node):$/;"	m	class:Solution
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n, visited):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
@@ -142,6 +145,7 @@ get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
 getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
+hammingWeight	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n: int) -> int:$/;"	m	class:Solution
 hammingWeight	Solutions/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n):$/;"	m	class:Solution
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
