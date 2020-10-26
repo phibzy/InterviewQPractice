@@ -50,6 +50,7 @@ Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidParentheses/validParentheses.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
+Solution	Solutions/searchInsert/searchInsert.py	/^class Solution:$/;"	c
 Solution	Solutions/strStr/strStr.py	/^class Solution:$/;"	c
 TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):$/;"	c
 TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
@@ -240,6 +241,7 @@ resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = d
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
+searchInsert	Solutions/searchInsert/searchInsert.py	/^    def searchInsert(self, nums, target):$/;"	m	class:Solution
 searchRange	Solutions/FirstLastPositionOfElement/flElement.py	/^    def searchRange(self, nums, target):$/;"	m	class:Solution
 sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagrams(s):$/;"	f
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
