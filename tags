@@ -37,6 +37,7 @@ Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
+Solution	Solutions/PlusOne/plusOne.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
@@ -203,6 +204,7 @@ numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self) -> int:$/;"	m	class:MyQueueAmortized
 peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self):$/;"	m	class:MyQueue
+plusOne	Solutions/PlusOne/plusOne.py	/^    def plusOne(self, digits: List[int]) -> List[int]:$/;"	m	class:Solution
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self) -> int:$/;"	m	class:MyQueueAmortized
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self):$/;"	m	class:MyQueue
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
