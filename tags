@@ -26,6 +26,7 @@ Solution	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^class Solution:$/;"	c
 Solution	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^class Solution:$/;"	c
 Solution	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
+Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
@@ -88,6 +89,7 @@ _node	Solutions/HashTableImplementation/hash.c	/^struct _node {$/;"	s	file:
 a	MockInterview/LC1/longestPalindrome/test.py	/^   a = Solution()$/;"	v	class:testLongestPal
 a	MockInterview/LC2/DayOfWeek/test.py	/^   a = Solution()$/;"	v	class:testDOW
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
+a	Solutions/AddBinary/addBinary.py	/^a = Solution()$/;"	v
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
@@ -103,6 +105,7 @@ a	Solutions/ValidParentheses/test.py	/^    a = Solution()$/;"	v	class:testIsVali
 a	Solutions/ZigZagOrderTraversal/zigzag.py	/^a = Solution()$/;"	v
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 activityNotifications	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def activityNotifications(expenditure, d):$/;"	f
+addBinary	Solutions/AddBinary/addBinary.py	/^    def addBinary(self, a, b):$/;"	m	class:Solution
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addSubNode	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def addSubNode(self, n):$/;"	m	class:Node
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
