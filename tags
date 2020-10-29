@@ -31,6 +31,7 @@ Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
+Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
@@ -141,6 +142,7 @@ findEnd	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findEnd(self
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
 findStart	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findStart(self, nums, output, start, end, target):$/;"	m	class:Solution
 findTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def findTilt(self, root):$/;"	m	class:Solution
+firstUniqChar	Solutions/FirstUniqueChar/firstUniqueChar.py	/^    def firstUniqChar(self, s):$/;"	m	class:Solution
 forward	Solutions/DesignBrowserHistory/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
 fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
