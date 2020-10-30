@@ -30,6 +30,7 @@ Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
+Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
@@ -154,6 +155,7 @@ getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(sel
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hammingWeight	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n: int) -> int:$/;"	m	class:Solution
 hammingWeight	Solutions/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n):$/;"	m	class:Solution
+hasCycle	Solutions/CycleInLlist/listCycle.py	/^    def hasCycle(self, head):$/;"	m	class:Solution
 hasPathBFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathBFS(Node source, Node destination) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(Node source, Node destination, HashSet<Integer> visited) {$/;"	m	class:Graph
 hasPathDFS	NotesForInterview/dfsbfscode/implementation.java	/^   public boolean hasPathDFS(int source, int destination) {$/;"	m	class:Graph
