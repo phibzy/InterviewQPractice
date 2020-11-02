@@ -11,6 +11,7 @@ DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):
 Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Hash	Solutions/HashTableImplementation/hash.h	/^typedef struct _hash * Hash;$/;"	t	typeref:struct:_hash
 LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
+ListNode	Solutions/BinaryLListToInt/binToInt.py	/^class ListNode:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 MyQueue	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueue:$/;"	c
 MyQueueAmortized	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueueAmortized:$/;"	c
@@ -29,6 +30,7 @@ Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
+Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
@@ -71,6 +73,7 @@ __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self, val):$/;"	m	cla
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/BinaryLListToInt/binToInt.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
 __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent):$/;"	m	class:TreeAncestor
@@ -93,6 +96,7 @@ a	MockInterview/LC2/DayOfWeek/test.py	/^   a = Solution()$/;"	v	class:testDOW
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/AddBinary/addBinary.py	/^a = Solution()$/;"	v
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
+a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
@@ -151,6 +155,7 @@ freq	Solutions/FrequencyQueries/freqQueries.py	/^class freq:$/;"	c
 freqQuery	Solutions/FrequencyQueries/freqQueries.py	/^def freqQuery(queries):$/;"	f
 get	Solutions/HashTableImplementation/hash.c	/^int get(char*key, Hash h) {$/;"	f
 get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCache
+getDecimalValue	Solutions/BinaryLListToInt/binToInt.py	/^    def getDecimalValue(self, head):$/;"	m	class:Solution
 getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
 hammingWeight	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n: int) -> int:$/;"	m	class:Solution
@@ -259,19 +264,25 @@ sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayT
 strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	m	class:Solution
 t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
+test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
+test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
 test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bits
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
+test1	Solutions/BinaryLListToInt/test.py	/^   def test1(self):$/;"	m	class:test
 test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
 test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
+test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:test
 test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 test1Row	Solutions/ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
 test1x1Board	Solutions/SurroundedRegions/test.py	/^    def test1x1Board(self):$/;"	m	class:testSRegions
 test1x1oneIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1oneIsland(self):$/;"	m	class:testNumIslands
 test1x1zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1zeroIsland(self):$/;"	m	class:testNumIslands
+test23	Solutions/BinaryLListToInt/test.py	/^   def test23(self):$/;"	m	class:test
 test2Row	Solutions/ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
 test2x2Board	Solutions/SurroundedRegions/test.py	/^    def test2x2Board(self):$/;"	m	class:testSRegions
+test30Nodes	Solutions/BinaryLListToInt/test.py	/^   def test30Nodes(self):$/;"	m	class:test
 test3x3Board	Solutions/SurroundedRegions/test.py	/^    def test3x3Board(self):$/;"	m	class:testSRegions
 test4	Solutions/NumNodesInSubtree/test.py	/^   def test4(self):$/;"	m	class:testNumNodes
 test432	Solutions/NumberOf1Bits/test.py	/^    def test432(self):$/;"	m	class:test1Bits
