@@ -30,6 +30,7 @@ Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
+Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
 Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
@@ -172,6 +173,7 @@ insert	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def insert(v
 insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
 insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
+isBalanced	Solutions/BalancedBTree/balancedBTree.py	/^    def isBalanced(self, root):$/;"	m	class:Solution
 isLeapYear	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def isLeapYear(self, year):$/;"	m	class:Solution
 isPalindrome	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def isPalindrome(string):$/;"	f
 isPalindrome	Solutions/PalindromeNumber/palNumber.py	/^    def isPalindrome(self, x: int) -> bool:$/;"	m	class:Solution
@@ -238,6 +240,7 @@ queries	Solutions/ArrayManipulation/arrayManip.py	/^queries = list()$/;"	v
 queries	Solutions/FrequencyQueries/freqQueries.py	/^    queries = []$/;"	v
 quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
+rBal	Solutions/BalancedBTree/balancedBTree.py	/^    def rBal(self, root):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
