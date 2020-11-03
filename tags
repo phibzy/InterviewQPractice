@@ -12,6 +12,7 @@ Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;
 Hash	Solutions/HashTableImplementation/hash.h	/^typedef struct _hash * Hash;$/;"	t	typeref:struct:_hash
 LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
 ListNode	Solutions/BinaryLListToInt/binToInt.py	/^class ListNode:$/;"	c
+ListNode	Solutions/InsertionSortList/insertionSort.py	/^class ListNode:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
 MyQueue	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueue:$/;"	c
 MyQueueAmortized	MockInterview/LC2/FIFO/FIFO.py	/^class MyQueueAmortized:$/;"	c
@@ -37,6 +38,7 @@ Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
+Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
@@ -68,6 +70,7 @@ TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/btLevelOrder/btLevelOrder.py	/^class TreeNode:$/;"	c
 TreeNode	Utilities/listToTree.py	/^class TreeNode:$/;"	c
+__eq__	Solutions/InsertionSortList/insertionSort.py	/^    def __eq__(self, n):$/;"	m	class:ListNode	file:
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueue
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueueAmortized
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self, val):$/;"	m	class:Node
@@ -77,6 +80,7 @@ __init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=N
 __init__	Solutions/BinaryLListToInt/binToInt.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
+__init__	Solutions/InsertionSortList/insertionSort.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent):$/;"	m	class:TreeAncestor
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	m	class:LRUCache
@@ -100,6 +104,7 @@ a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
+a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
@@ -172,6 +177,7 @@ inorderTraversal	Solutions/InorderTraversal/inorderTraversal.py	/^    def inorde
 insert	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def insert(v, li, length):$/;"	f
 insert	Solutions/FrequencyQueries/freqQueries.py	/^    def insert(self, x):$/;"	m	class:freq
 insert	Solutions/MarkAndToys/markToys.py	/^def insert(v, li):$/;"	f
+insertionSortList	Solutions/InsertionSortList/insertionSort.py	/^    def insertionSortList(self, head):$/;"	m	class:Solution
 intToBinary	Solutions/IntToBinary/intToBinary.py	/^def intToBinary(i):$/;"	f
 isBalanced	Solutions/BalancedBTree/balancedBTree.py	/^    def isBalanced(self, root):$/;"	m	class:Solution
 isLeapYear	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def isLeapYear(self, year):$/;"	m	class:Solution
@@ -307,6 +313,7 @@ testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    
 testAllTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testAllTarget(self):$/;"	m	class:testFLElement
 testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
+testAscending	Solutions/InsertionSortList/test.py	/^   def testAscending(self):$/;"	m	class:testISort
 testBHistory	Solutions/DesignBrowserHistory/test.py	/^class testBHistory(unittest.TestCase):$/;"	c
 testBalancedButWrongBrackets	Solutions/ValidParentheses/test.py	/^    def testBalancedButWrongBrackets(self):$/;"	m	class:testIsValid
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
@@ -330,8 +337,10 @@ testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault
 testDefault2	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault2(self):$/;"	m	class:testLongestPal
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
+testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
+testEmpty	Solutions/InsertionSortList/test.py	/^   def testEmpty(self):$/;"	m	class:testISort
 testEmpty	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testEmpty(self):$/;"	m	class:testCases
 testEmpty	Solutions/MergeSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
 testEmpty	Solutions/QuickSort/test.py	/^    def testEmpty(self):$/;"	m	class:testSort
@@ -348,6 +357,7 @@ testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
+testISort	Solutions/InsertionSortList/test.py	/^class testISort(unittest.TestCase):$/;"	c
 testInsert1Val	Solutions/FrequencyQueries/test.py	/^    def testInsert1Val(self):$/;"	m	class:TestFreq
 testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertManyOfSame(self):$/;"	m	class:TestFreq
 testInvalidLeftNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
@@ -389,6 +399,7 @@ testNumNodes	Solutions/NumNodesInSubtree/test.py	/^class testNumNodes(unittest.T
 testOdd	Solutions/IntToBinary/test.py	/^    def testOdd(self):$/;"	m	class:testItoB
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
+testOne	Solutions/InsertionSortList/test.py	/^   def testOne(self):$/;"	m	class:testISort
 testOne	Solutions/ValidParentheses/test.py	/^    def testOne(self):$/;"	m	class:testIsValid
 testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
@@ -421,6 +432,7 @@ testTargetAtStartMulti	Solutions/FirstLastPositionOfElement/test.py	/^    def te
 testTilt	Solutions/BTreeTilt/test.py	/^class testTilt(unittest.TestCase):$/;"	c
 testToday	MockInterview/LC2/DayOfWeek/test.py	/^   def testToday(self):$/;"	m	class:testDOW
 testTomorrow	MockInterview/LC2/DayOfWeek/test.py	/^   def testTomorrow(self):$/;"	m	class:testDOW
+testTwo	Solutions/InsertionSortList/test.py	/^   def testTwo(self):$/;"	m	class:testISort
 testTwoPathsDifferentOrigins	Solutions/CourseSchedule/test.py	/^    def testTwoPathsDifferentOrigins(self):$/;"	m	class:testCourseSchedule
 testTwoPathsToOneCourse	Solutions/CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
