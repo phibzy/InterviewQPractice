@@ -33,6 +33,7 @@ Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
 Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
+Solution	Solutions/ConsecutiveCharacters/conChar.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
@@ -102,6 +103,7 @@ a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/AddBinary/addBinary.py	/^a = Solution()$/;"	v
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
+a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
@@ -204,6 +206,7 @@ main	Solutions/AToI/atoi.c	/^int main(int argc, char*argv[]) {$/;"	f
 main	Solutions/HashTableImplementation/test.c	/^int main(void) {$/;"	f
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
+maxPower	Solutions/ConsecutiveCharacters/conChar.py	/^    def maxPower(self, s):$/;"	m	class:Solution
 maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	f
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 median	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def median(li, odd, middle):$/;"	f
@@ -274,11 +277,13 @@ strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	
 t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
 test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
 test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bits
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1	Solutions/BinaryLListToInt/test.py	/^   def test1(self):$/;"	m	class:test
+test1	Solutions/ConsecutiveCharacters/test.py	/^   def test1(self):$/;"	m	class:test
 test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
 test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
 test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:test
@@ -290,6 +295,7 @@ test1x1oneIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1oneIsland(se
 test1x1zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1zeroIsland(self):$/;"	m	class:testNumIslands
 test23	Solutions/BinaryLListToInt/test.py	/^   def test23(self):$/;"	m	class:test
 test2Row	Solutions/ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
+test2Same	Solutions/ConsecutiveCharacters/test.py	/^   def test2Same(self):$/;"	m	class:test
 test2x2Board	Solutions/SurroundedRegions/test.py	/^    def test2x2Board(self):$/;"	m	class:testSRegions
 test30Nodes	Solutions/BinaryLListToInt/test.py	/^   def test30Nodes(self):$/;"	m	class:test
 test3x3Board	Solutions/SurroundedRegions/test.py	/^    def test3x3Board(self):$/;"	m	class:testSRegions
@@ -348,6 +354,7 @@ testEmpty	Solutions/ValidParentheses/test.py	/^    def testEmpty(self):$/;"	m	cl
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
 testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
 testEmptyTree	Solutions/BTreeTilt/test.py	/^   def testEmptyTree(self):$/;"	m	class:testTilt
+testEqualSubstrings	Solutions/ConsecutiveCharacters/test.py	/^   def testEqualSubstrings(self):$/;"	m	class:test
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenLengthList	Solutions/BinarySearch/test.py	/^    def testEvenLengthList(self):$/;"	m	class:testBinarySearch
 testEvenNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
@@ -417,6 +424,7 @@ testRemoveDuplicates	Solutions/RemoveDuplicatesSortedArray/test.py	/^class testR
 testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqualFreq(self):$/;"	m	class:TestFreq
 testReplaceValue	Solutions/LRUCache/test.py	/^    def testReplaceValue(self):$/;"	m	class:testCache
 testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.TestCase):$/;"	c
+testSameChar	Solutions/ConsecutiveCharacters/test.py	/^   def testSameChar(self):$/;"	m	class:test
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
 testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
@@ -437,6 +445,7 @@ testTwoPathsDifferentOrigins	Solutions/CourseSchedule/test.py	/^    def testTwoP
 testTwoPathsToOneCourse	Solutions/CourseSchedule/test.py	/^    def testTwoPathsToOneCourse(self):$/;"	m	class:testCourseSchedule
 testTwoSingleElements	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testTwoSingleElements(self):$/;"	m	class:testCases
 testTwoZeroes	Solutions/AddTwoNumbers/test.py	/^    def testTwoZeroes(self):$/;"	m	class:a2NTests
+testUnique	Solutions/ConsecutiveCharacters/test.py	/^   def testUnique(self):$/;"	m	class:test
 testValidBST	Solutions/ValidBST/test.py	/^class testValidBST(unittest.TestCase):$/;"	c
 testValidSimpleTree	Solutions/ValidBST/test.py	/^    def testValidSimpleTree(self):$/;"	m	class:testValidBST
 testWeek	MockInterview/LC2/DayOfWeek/test.py	/^   def testWeek(self):$/;"	m	class:testDOW
