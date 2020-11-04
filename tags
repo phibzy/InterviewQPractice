@@ -134,6 +134,7 @@ binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, ta
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkMagazine	Solutions/CheckMagazine/checkMagazine.py	/^def checkMagazine(magazine, note):$/;"	f
 checkPal	MockInterview/LC1/longestPalindrome/longestPal.py	/^    def checkPal(self, s):$/;"	m	class:Solution
+checkSubStr	Solutions/ConsecutiveCharacters/conChar.py	/^    def checkSubStr(self, s, start, end):$/;"	m	class:Solution
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
