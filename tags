@@ -43,6 +43,7 @@ Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
+Solution	Solutions/MinHeightTrees/minHeight.py	/^class Solution:$/;"	c
 Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
@@ -107,6 +108,7 @@ a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
+a	Solutions/MinHeightTrees/minHeight.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
@@ -154,6 +156,7 @@ expenditure	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    exp
 f	Solutions/ArrayManipulation/arrayManip.py	/^f = open("test")$/;"	v
 findEnd	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findEnd(self, nums, output, start, end, target):$/;"	m	class:Solution
 findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.py	/^def findMedianSortedArrays(nums1, nums2):$/;"	f
+findMinHeightTrees	Solutions/MinHeightTrees/minHeight.py	/^    def findMinHeightTrees(self, n, edges):$/;"	m	class:Solution
 findStart	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findStart(self, nums, output, start, end, target):$/;"	m	class:Solution
 findTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def findTilt(self, root):$/;"	m	class:Solution
 firstUniqChar	Solutions/FirstUniqueChar/firstUniqueChar.py	/^    def firstUniqChar(self, s):$/;"	m	class:Solution
