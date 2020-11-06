@@ -21,75 +21,49 @@ class Solution:
         # If only one edge, then minimum trees are both indices in that edge
         if len(edges) == 1: return edges[0]
         
-        # O(N^3) solution
-        # Check every possible root, DFS/BFS based on height
+        # Pruning leaves solution
+        # We only care about those nodes of highest degree
+        # There will always be at most two root nodes that produce the minHeight tree
+        # We simply prune away leaves (i.e. nodes of degree 1) until we have <= 2 nodes left
         
-        minRoots = list()
-        minHeight = n
+        # Step 1 - get degrees of each node
+        degrees = [ [i, 0] for i in range(n)]
         
-        for root in range(n):
+        for i, j in edges:
+            degrees[i][1] += 1
+            degrees[j][1] += 1
+        
+        # Prune until <= 2 nodes
+        # THINK RECURSION - THINK ABOUT CASE N = 1 and N = 2 and tackle tomorrow :)
 
-            logging.debug(f"Root is {root}")
-            # Make copy of edges for search
-            searchList = edges[:]
-            nextMinHeight = 0
-            
-            # Keep track of height
-            nextNode = [(root,0)]
-            heightExceed = False
-            nextHeight = 0
-            
-            # early exit if height exceeds minHeight
-            while searchList and heightExceed == False:
-                i = 0
-                logging.debug(f"searchList is {searchList}")
-
-                while i < len(searchList):
-                    logging.debug(f"i is {i}")
-                    logging.debug(f"Nextnode[0] is {nextNode[0]}")
-                    logging.debug(f"searchList[{i}] is {searchList[i]}")
-
-                    if searchList[i][0] == nextNode[0][0]:
-                        logging.debug("First if")
-                        nextHeight = nextNode[0][1] + 1
-                        nextNode.append((searchList[i][1], nextHeight))
-                        del searchList[i]
-                                        
-                    elif searchList[i][1] == nextNode[0][0]:
-                        logging.debug("Second if")
-                        nextHeight = nextNode[0][1] + 1
-                        nextNode.append((searchList[i][0], nextHeight))
-                        del searchList[i]
-
-                    else:
-                        i += 1
-
-                    nextMinHeight = max(nextMinHeight, nextHeight)
-
-                    logging.debug(f"nextHeight is {nextHeight}")
-                    logging.debug(f"nextMinHeight is {nextMinHeight}")
-                    logging.debug(f"minHeight is {minHeight}")
+        # Need to check edges instead...
+        while len(degrees) > 2:
+            # Use list of what to update because we only want
+            # to prune leafs for each pass. If we update during pass
+            # we will prune waaaaay too many nodes
+            updateDegrees = list()
+           
+            i = 0
+            while i < len(degrees):
+                # Will always be a leaf node in our tree since no cycles
+                if degrees[i][1] == 1:
+                    while j < len(edges):
+                        if edges[j][0] == i:
+                            updateDegrees.append(edges[j][1])
+                            del edges[j]
+                            
+                        elif edges[j][1] == i:
+                            updateDegrees.append(edges[j][0])
+                            del edges[j]
+                            
+                        else:
+                            j += 1
                     
-                    # Don't bother continuing if already exceeded a previous minHeight tree
-                    if nextHeight > minHeight:
-                        logging.debug("And I'm about to break!")
-                        heightExceed = True
-                        break
+                    del degrees[i]
 
-                del nextNode[0]
-
-            logging.debug(f"minRoots is {minRoots}")
-                           
-            if nextMinHeight < minHeight:
-                minHeight = nextMinHeight
-                minRoots = [root]
+                i += 1
             
-            elif nextMinHeight == minHeight:
-                minRoots.append(root)
-            
-                    
-        return minRoots
-
-a = Solution()
-
-print(a.findMinHeightTrees(5, [[0,1],[0,2],[0,3],[3,4]]))
+            for n in updateDegrees:
+                degrees[n][1] -= 1
+                
+        return [ i for i, _ in degrees ] 

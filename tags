@@ -43,6 +43,7 @@ Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
+Solution	Solutions/MinCostToMoveChips/minCost.py	/^class Solution:$/;"	c
 Solution	Solutions/MinHeightTrees/minHeight.py	/^class Solution:$/;"	c
 Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
@@ -108,7 +109,6 @@ a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
-a	Solutions/MinHeightTrees/minHeight.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
@@ -218,6 +218,7 @@ mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
 mergeSort	Solutions/MergeSortCountInversions/countInversions.py	/^def mergeSort(arr, l, r):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
 mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:$/;"	m	class:Solution
+minCostToMoveChips	Solutions/MinCostToMoveChips/minCost.py	/^    def minCostToMoveChips(self, position):$/;"	m	class:Solution
 minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
 minimumSwaps	Solutions/MinimumSwaps/minSwaps.py	/^def minimumSwaps(arr):$/;"	f
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
