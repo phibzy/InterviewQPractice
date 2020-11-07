@@ -11,7 +11,8 @@ import math
 
 class Solution:
     
-    # Time Complexity: O(NlogN) - Go through list of N items logN times (aka N binary searches)
+    # Time Complexity: O(NlogM) - Go through list of N items logM times (aka N binary searches)
+    #                           - where M is the max value in list
     
     def smallestDivisor(self, nums, threshold):
         largest = 0
