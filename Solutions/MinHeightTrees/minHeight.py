@@ -28,42 +28,49 @@ class Solution:
         
         # Step 1 - get degrees of each node
         degrees = [ [i, 0] for i in range(n)]
+        maxDegreeNode = 0
+        maxDegree = 0
         
         for i, j in edges:
             degrees[i][1] += 1
             degrees[j][1] += 1
+
+            if degrees[i][1] > maxDegree:
+                maxDegree = degrees[i][1]
+                maxDegreeNode = i
+
+            if degrees[j][1] > maxDegree:
+                maxDegree = degrees[j][1]
+                maxDegreeNode = j
         
         # Prune until <= 2 nodes
-        # THINK RECURSION - THINK ABOUT CASE N = 1 and N = 2 and tackle tomorrow :)
+        # THINK INDUCTION - THINK ABOUT CASE N = 1 and N = 2 and tackle tomorrow :)
+        while len(edges) > 1:
+            toPrune = dict()
+            for i, d in degrees:
+                if d == 1: toPrune[1] = True
 
-        # Need to check edges instead...
-        while len(degrees) > 2:
-            # Use list of what to update because we only want
-            # to prune leafs for each pass. If we update during pass
-            # we will prune waaaaay too many nodes
-            updateDegrees = list()
-           
-            i = 0
-            while i < len(degrees):
-                # Will always be a leaf node in our tree since no cycles
-                if degrees[i][1] == 1:
-                    while j < len(edges):
-                        if edges[j][0] == i:
-                            updateDegrees.append(edges[j][1])
-                            del edges[j]
-                            
-                        elif edges[j][1] == i:
-                            updateDegrees.append(edges[j][0])
-                            del edges[j]
-                            
-                        else:
-                            j += 1
-                    
-                    del degrees[i]
+            j = 0
+            while j < len(edges):
+                logging.debug(f"edges is {edges}")
+                logging.debug(f"degrees is {degrees}")
+                logging.debug(f"j is {j}")
+                logging.debug(f"edges[j][0] is {edges[j][0]}")
+                logging.debug(f"edges[j][1] is {edges[j][1]}")
 
-                i += 1
-            
-            for n in updateDegrees:
-                degrees[n][1] -= 1
-                
-        return [ i for i, _ in degrees ] 
+                if (edges[j][0] in toPrune) or (edges[j][1] in toPrune):
+                    degrees[edges[j][0]][1] -= 1
+                    degrees[edges[j][1]][1] -= 1
+
+                    del edges[j]
+
+                else:
+                    j += 1
+
+        if not edges:
+            return [maxDegreeNode]
+
+        return edges[0]
+
+a = Solution()
+print(a.findMinHeightTrees(4, [[1,0],[1,2],[1,3]]))

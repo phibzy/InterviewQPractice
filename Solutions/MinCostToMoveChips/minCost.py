@@ -32,7 +32,4 @@ class Solution:
         
         # if all positions are either even or odd, total cost will always be 0
         # since they can make leaps in multiples of 2
-        if oddCount == 0 or evenCount == 0:
-            return 0
-        
         return min(oddCount, evenCount)
