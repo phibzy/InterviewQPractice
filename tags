@@ -11,6 +11,7 @@ DFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def DFS(grid, visited, x, y):
 Graph	NotesForInterview/dfsbfscode/implementation.java	/^public class Graph {$/;"	c
 Hash	Solutions/HashTableImplementation/hash.h	/^typedef struct _hash * Hash;$/;"	t	typeref:struct:_hash
 LRUCache	Solutions/LRUCache/lrucache.py	/^class LRUCache:$/;"	c
+ListNode	Solutions/AddTwoNumbersAlt/addTwo.py	/^class ListNode:$/;"	c
 ListNode	Solutions/BinaryLListToInt/binToInt.py	/^class ListNode:$/;"	c
 ListNode	Solutions/InsertionSortList/insertionSort.py	/^class ListNode:$/;"	c
 ListNode	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class ListNode:$/;"	c
@@ -29,6 +30,7 @@ Solution	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^class Solution:$/;"	
 Solution	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/AToI/atoi.py	/^class Solution:$/;"	c
 Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
+Solution	Solutions/AddTwoNumbersAlt/addTwo.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
@@ -78,6 +80,7 @@ __eq__	Solutions/InsertionSortList/insertionSort.py	/^    def __eq__(self, n):$/
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueue
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self):$/;"	m	class:MyQueueAmortized
 __init__	MockInterview/LC2/FIFO/FIFO.py	/^    def __init__(self, val):$/;"	m	class:Node
+__init__	Solutions/AddTwoNumbersAlt/addTwo.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
@@ -128,6 +131,7 @@ addBinary	Solutions/AddBinary/addBinary.py	/^    def addBinary(self, a, b):$/;"	
 addEdge	NotesForInterview/dfsbfscode/implementation.java	/^   public void addEdge(int source, int destination) {$/;"	m	class:Graph
 addSubNode	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def addSubNode(self, n):$/;"	m	class:Node
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
+addTwoNumbers	Solutions/AddTwoNumbersAlt/addTwo.py	/^    def addTwoNumbers(self, l1, l2):$/;"	m	class:Solution
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
 ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"	v
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
@@ -200,6 +204,7 @@ isValid	Solutions/ValidParentheses/validParentheses.py	/^    def isValid(self, s
 isValidBST	Solutions/ValidBST/validBST.py	/^    def isValidBST(self, root):$/;"	m	class:Solution
 key	Solutions/HashTableImplementation/hash.c	/^   char * key;$/;"	m	struct:_node	file:
 leetCodeCase	Solutions/AddTwoNumbers/test.py	/^    def leetCodeCase(self):$/;"	m	class:a2NTests
+lenList	Solutions/AddTwoNumbersAlt/addTwo.py	/^    def lenList(self, l):$/;"	m	class:Solution
 length	Solutions/HashTableImplementation/hash.c	/^   int length;$/;"	m	struct:_hash	file:
 lengthOfLongestSubString	Solutions/LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
