@@ -33,6 +33,7 @@ Solution	Solutions/AddBinary/addBinary.py	/^class Solution:$/;"	c
 Solution	Solutions/AddTwoNumbersAlt/addTwo.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
+Solution	Solutions/BTreeTilt/BTreeTilt2.py	/^class Solution:$/;"	c
 Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
 Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
 Solution	Solutions/ConsecutiveCharacters/conChar.py	/^class Solution:$/;"	c
@@ -71,6 +72,7 @@ TestFreq	Solutions/FrequencyQueries/test.py	/^class TestFreq(unittest.TestCase):
 TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/BTreeTilt/BTreeTilt.py	/^class TreeNode:$/;"	c
+TreeNode	Solutions/BTreeTilt/BTreeTilt2.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
@@ -84,6 +86,7 @@ __init__	Solutions/AddTwoNumbersAlt/addTwo.py	/^    def __init__(self, val=0, ne
 __init__	Solutions/ArrayManipulation/arrayManip.py	/^    def __init__(self, r, val):$/;"	m	class:Node
 __init__	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/BTreeTilt/BTreeTilt.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
+__init__	Solutions/BTreeTilt/BTreeTilt2.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/BinaryLListToInt/binToInt.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
@@ -166,6 +169,7 @@ findMedianSortedArrays	Solutions/MedianOfTwoSortedArrays/medianTwoSortedArrays.p
 findMinHeightTrees	Solutions/MinHeightTrees/minHeight.py	/^    def findMinHeightTrees(self, n, edges):$/;"	m	class:Solution
 findStart	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findStart(self, nums, output, start, end, target):$/;"	m	class:Solution
 findTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def findTilt(self, root):$/;"	m	class:Solution
+findTilt	Solutions/BTreeTilt/BTreeTilt2.py	/^    def findTilt(self, root):$/;"	m	class:Solution
 firstUniqChar	Solutions/FirstUniqueChar/firstUniqueChar.py	/^    def firstUniqChar(self, s):$/;"	m	class:Solution
 forward	Solutions/DesignBrowserHistory/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
@@ -268,6 +272,7 @@ rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
 rTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def rTilt(self, root):$/;"	m	class:Solution
+rTilt	Solutions/BTreeTilt/BTreeTilt2.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
 remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(li, order, length):$/;"	f
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq

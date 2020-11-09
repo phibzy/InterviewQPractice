@@ -10,7 +10,7 @@
 """
 
 import unittest
-from BTreeTilt import Solution, TreeNode
+from BTreeTilt2 import Solution, TreeNode
 
 class testTilt(unittest.TestCase):
 
@@ -23,4 +23,4 @@ class testTilt(unittest.TestCase):
        self.assertEqual(self.a.findTilt(None), 0, "Fails empty tree case") 
        
    def testOneNodeTree(self):
-       self.assertEqual(self.a.findTilt(1), 0, "Fails one node tree case") 
+       self.assertEqual(self.a.findTilt(TreeNode(1)), 0, "Fails one node tree case") 
