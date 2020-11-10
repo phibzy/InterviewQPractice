@@ -20,6 +20,7 @@ Time Complexity: O(N) - we visit every node once
 Space Complexity: O(N) - Worst case we have a completely skewed tree,
                          ending up with N stack frames on stack
 
+Challenge: How would you do it iteratively?
 
 """
 
