@@ -41,6 +41,7 @@ Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
+Solution	Solutions/FlippingImage/flipImage.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
@@ -118,6 +119,7 @@ a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
+a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
 a	Solutions/MinHeightTrees/minHeight.py	/^a = Solution()$/;"	v
@@ -175,6 +177,7 @@ findStart	Solutions/FirstLastPositionOfElement/flElement.py	/^    def findStart(
 findTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def findTilt(self, root):$/;"	m	class:Solution
 findTilt	Solutions/BTreeTilt/BTreeTilt2.py	/^    def findTilt(self, root):$/;"	m	class:Solution
 firstUniqChar	Solutions/FirstUniqueChar/firstUniqueChar.py	/^    def firstUniqChar(self, s):$/;"	m	class:Solution
+flipAndInvertImage	Solutions/FlippingImage/flipImage.py	/^    def flipAndInvertImage(self, A):$/;"	m	class:Solution
 forward	Solutions/DesignBrowserHistory/browserHistory.py	/^    def forward(self, steps):$/;"	m	class:BrowserHistory
 fptr	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    fptr = open("test_out.txt", 'w')$/;"	v
 fptr	Solutions/FrequencyQueries/freqQueries.py	/^    fptr = open(os.environ['OUTPUT_PATH'], 'w')$/;"	v
@@ -317,6 +320,7 @@ test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:tes
 test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
 test1Row	Solutions/ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
+test1x1	Solutions/FlippingImage/test.py	/^   def test1x1(self):$/;"	m	class:testFlipImage
 test1x1Board	Solutions/SurroundedRegions/test.py	/^    def test1x1Board(self):$/;"	m	class:testSRegions
 test1x1oneIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1oneIsland(self):$/;"	m	class:testNumIslands
 test1x1zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test1x1zeroIsland(self):$/;"	m	class:testNumIslands
@@ -324,6 +328,7 @@ test2	Solutions/MinHeightTrees/test.py	/^   def test2(self):$/;"	m	class:testMin
 test23	Solutions/BinaryLListToInt/test.py	/^   def test23(self):$/;"	m	class:test
 test2Row	Solutions/ZigZagConversion/test.py	/^    def test2Row(self):$/;"	m	class:testZigZag
 test2Same	Solutions/ConsecutiveCharacters/test.py	/^   def test2Same(self):$/;"	m	class:test
+test2x2	Solutions/FlippingImage/test.py	/^   def test2x2(self):$/;"	m	class:testFlipImage
 test2x2Board	Solutions/SurroundedRegions/test.py	/^    def test2x2Board(self):$/;"	m	class:testSRegions
 test3	Solutions/MinHeightTrees/test.py	/^   def test3(self):$/;"	m	class:testMinHeightT
 test30Nodes	Solutions/BinaryLListToInt/test.py	/^   def test30Nodes(self):$/;"	m	class:test
@@ -367,12 +372,14 @@ testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.T
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(self):$/;"	m	class:testRemoveDuplicates
 testDOW	MockInterview/LC2/DayOfWeek/test.py	/^class testDOW(unittest.TestCase):$/;"	c
+testDefaul1	Solutions/FlippingImage/test.py	/^   def testDefaul1(self):$/;"	m	class:testFlipImage
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
 testDefault1	Solutions/MaxDiffAncestor/test.py	/^   def testDefault1(self):$/;"	m	class:testMaxDiff
 testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
 testDefault2	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault2(self):$/;"	m	class:testLongestPal
+testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	class:testFlipImage
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
@@ -396,6 +403,7 @@ testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
+testFlipImage	Solutions/FlippingImage/test.py	/^class testFlipImage(unittest.TestCase):$/;"	c
 testISort	Solutions/InsertionSortList/test.py	/^class testISort(unittest.TestCase):$/;"	c
 testInsert1Val	Solutions/FrequencyQueries/test.py	/^    def testInsert1Val(self):$/;"	m	class:TestFreq
 testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertManyOfSame(self):$/;"	m	class:TestFreq
