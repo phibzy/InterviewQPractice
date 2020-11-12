@@ -6,14 +6,12 @@
 
 
 """
-
 import unittest
 from minHeight import Solution
 
 class testMinHeightT(unittest.TestCase):
 
    a = Solution()
-
    def test1(self):
        self.assertEqual(self.a.findMinHeightTrees(4,[[1,0],[1,2],[1,3]]), [1], "Fails default case 1")
 
@@ -24,4 +22,5 @@ class testMinHeightT(unittest.TestCase):
        self.assertEqual(self.a.findMinHeightTrees(1,[]), [0], "Fails default case 3")
 
    def test4(self):
-       self.assertEqual(self.a.findMinHeightTrees(2,[[0,1]]), [0], "Fails default case 3")
+       self.assertEqual(self.a.findMinHeightTrees(2,[[0,1]]), [0,1], "Fails default case 4")
+

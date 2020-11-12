@@ -8,6 +8,7 @@
 """
 
 import logging, sys
+from collections import deque
 
 logging.basicConfig(level=logging.DEBUG, format="%(levelname)s - %(msg)s")
 # logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
@@ -26,51 +27,39 @@ class Solution:
         # There will always be at most two root nodes that produce the minHeight tree
         # We simply prune away leaves (i.e. nodes of degree 1) until we have <= 2 nodes left
         
-        # Step 1 - get degrees of each node
-        degrees = [ [i, 0] for i in range(n)]
-        maxDegreeNode = 0
-        maxDegree = 0
-        
+        # Step 1 - create adj list for graph        
+        graph = [dict() for _ in range(n)]
+
         for i, j in edges:
-            degrees[i][1] += 1
-            degrees[j][1] += 1
+            graph[i][j] = 1
+            graph[j][i] = 1
 
-            if degrees[i][1] > maxDegree:
-                maxDegree = degrees[i][1]
-                maxDegreeNode = i
 
-            if degrees[j][1] > maxDegree:
-                maxDegree = degrees[j][1]
-                maxDegreeNode = j
+        # Create queue and add the first batch of leaves
+        newQ = deque()
+        for i in range(len(graph)):
+            # Leaves are nodes connected to only one other node
+            # I.e. of degree 1
+            if len(graph[i]) == 1:
+                newQ.append(i)
+
+        # While number of nodes left is greater than 2
+        # Prune leaves
+        while n > 2: 
+            q = newQ
+            newQ = deque()
+            while q:
+                nextNode = q.popleft()
+
+                # Delete edge connected to leaf node
+                for edge in graph[nextNode]:
+                    del graph[edge][nextNode]
+
+                    # Check if newly pruned edge neighbour is now a leaf
+                    # Add to next batch of leaves if it is
+                    if len(graph[edge]) == 1:
+                        newQ.append(edge)
+            
+                n -= 1
         
-        # Prune until <= 2 nodes
-        # THINK INDUCTION - THINK ABOUT CASE N = 1 and N = 2 and tackle tomorrow :)
-        while len(edges) > 1:
-            toPrune = dict()
-            for i, d in degrees:
-                if d == 1: toPrune[1] = True
-
-            j = 0
-            while j < len(edges):
-                logging.debug(f"edges is {edges}")
-                logging.debug(f"degrees is {degrees}")
-                logging.debug(f"j is {j}")
-                logging.debug(f"edges[j][0] is {edges[j][0]}")
-                logging.debug(f"edges[j][1] is {edges[j][1]}")
-
-                if (edges[j][0] in toPrune) or (edges[j][1] in toPrune):
-                    degrees[edges[j][0]][1] -= 1
-                    degrees[edges[j][1]][1] -= 1
-
-                    del edges[j]
-
-                else:
-                    j += 1
-
-        if not edges:
-            return [maxDegreeNode]
-
-        return edges[0]
-
-a = Solution()
-print(a.findMinHeightTrees(4, [[1,0],[1,2],[1,3]]))
+        return list(q)

@@ -66,6 +66,7 @@ Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	
 Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidParentheses/validParentheses.py	/^class Solution:$/;"	c
+Solution	Solutions/ValidSquare/validSquare.py	/^class Solution:$/;"	c
 Solution	Solutions/ZigZagOrderTraversal/zigzag.py	/^class Solution:$/;"	c
 Solution	Solutions/btLevelOrder/btLevelOrder.py	/^class Solution:$/;"	c
 Solution	Solutions/searchInsert/searchInsert.py	/^class Solution:$/;"	c
@@ -122,7 +123,6 @@ a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:
 a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
-a	Solutions/MinHeightTrees/minHeight.py	/^a = Solution()$/;"	v
 a	Solutions/MinHeightTrees/test.py	/^   a = Solution()$/;"	v	class:testMinHeightT
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
@@ -133,6 +133,7 @@ a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a	Solutions/ValidParentheses/test.py	/^    a = Solution()$/;"	v	class:testIsValid
+a	Solutions/ValidSquare/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/ZigZagOrderTraversal/zigzag.py	/^a = Solution()$/;"	v
 a2NTests	Solutions/AddTwoNumbers/test.py	/^class a2NTests(unittest.TestCase):$/;"	c
 activityNotifications	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def activityNotifications(expenditure, d):$/;"	f
@@ -165,6 +166,7 @@ dayOfTheWeek	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def dayOfTheWeek(sel
 deleteNode	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^    def deleteNode(self, node):$/;"	m	class:Solution
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n, visited):$/;"	m	class:Solution
+dist	Solutions/ValidSquare/validSquare.py	/^    def dist(self, x, y):$/;"	m	class:Solution
 dllNode	Solutions/LRUCache/lrucache.py	/^class dllNode:$/;"	c
 empty	MockInterview/LC2/FIFO/FIFO.py	/^    def empty(self) -> bool:$/;"	m	class:MyQueueAmortized
 empty	MockInterview/LC2/FIFO/FIFO.py	/^    def empty(self):$/;"	m	class:MyQueue
@@ -307,6 +309,7 @@ t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
 test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
 test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bits
@@ -336,6 +339,7 @@ test3x3Board	Solutions/SurroundedRegions/test.py	/^    def test3x3Board(self):$/
 test4	Solutions/MinHeightTrees/test.py	/^   def test4(self):$/;"	m	class:testMinHeightT
 test4	Solutions/NumNodesInSubtree/test.py	/^   def test4(self):$/;"	m	class:testNumNodes
 test432	Solutions/NumberOf1Bits/test.py	/^    def test432(self):$/;"	m	class:test1Bits
+test4QuarterSquare	Solutions/ValidSquare/test.py	/^    def test4QuarterSquare(self):$/;"	m	class:test
 test4x5oneIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5oneIsland(self):$/;"	m	class:testNumIslands
 test4x5zeroIsland	Solutions/NumberOfIslands/test.py	/^    def test4x5zeroIsland(self):$/;"	m	class:testNumIslands
 test58	Solutions/NumberOf1Bits/test.py	/^    def test58(self):$/;"	m	class:test1Bits
@@ -375,6 +379,7 @@ testDOW	MockInterview/LC2/DayOfWeek/test.py	/^class testDOW(unittest.TestCase):$
 testDefaul1	Solutions/FlippingImage/test.py	/^   def testDefaul1(self):$/;"	m	class:testFlipImage
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
+testDefault	Solutions/ValidSquare/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
 testDefault1	Solutions/MaxDiffAncestor/test.py	/^   def testDefault1(self):$/;"	m	class:testMaxDiff
 testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
@@ -382,7 +387,9 @@ testDefault2	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault2(s
 testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	class:testFlipImage
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
+testDefaultDiffOrder	Solutions/ValidSquare/test.py	/^    def testDefaultDiffOrder(self):$/;"	m	class:test
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
+testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
 testEmpty	Solutions/InsertionSortList/test.py	/^   def testEmpty(self):$/;"	m	class:testISort
@@ -393,6 +400,7 @@ testEmpty	Solutions/ValidParentheses/test.py	/^    def testEmpty(self):$/;"	m	cl
 testEmptyBoard	Solutions/SurroundedRegions/test.py	/^    def testEmptyBoard(self):$/;"	m	class:testSRegions
 testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	m	class:testBinarySearch
 testEmptyTree	Solutions/BTreeTilt/test.py	/^   def testEmptyTree(self):$/;"	m	class:testTilt
+testEqualPoints	Solutions/ValidSquare/test.py	/^    def testEqualPoints(self):$/;"	m	class:test
 testEqualSubstrings	Solutions/ConsecutiveCharacters/test.py	/^   def testEqualSubstrings(self):$/;"	m	class:test
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenLengthList	Solutions/BinarySearch/test.py	/^    def testEvenLengthList(self):$/;"	m	class:testBinarySearch
@@ -404,7 +412,9 @@ testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
 testFlipImage	Solutions/FlippingImage/test.py	/^class testFlipImage(unittest.TestCase):$/;"	c
+testHalfNeg	Solutions/ValidSquare/test.py	/^    def testHalfNeg(self):$/;"	m	class:test
 testISort	Solutions/InsertionSortList/test.py	/^class testISort(unittest.TestCase):$/;"	c
+testIncorrectHalfNeg	Solutions/ValidSquare/test.py	/^    def testIncorrectHalfNeg(self):$/;"	m	class:test
 testInsert1Val	Solutions/FrequencyQueries/test.py	/^    def testInsert1Val(self):$/;"	m	class:TestFreq
 testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertManyOfSame(self):$/;"	m	class:TestFreq
 testInvalidLeftNotAdhering	Solutions/ValidBST/test.py	/^    def testInvalidLeftNotAdhering(self):$/;"	m	class:testValidBST
@@ -470,6 +480,8 @@ testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.T
 testSameChar	Solutions/ConsecutiveCharacters/test.py	/^   def testSameChar(self):$/;"	m	class:test
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
+testSimpleIncorrect	Solutions/ValidSquare/test.py	/^    def testSimpleIncorrect(self):$/;"	m	class:test
+testSimpleNeg	Solutions/ValidSquare/test.py	/^    def testSimpleNeg(self):$/;"	m	class:test
 testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
 testSingleTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testSingleTarget(self):$/;"	m	class:testFLElement
@@ -497,6 +509,7 @@ testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWh
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
 twoStrings	Solutions/TwoStrings/twoStrings.py	/^def twoStrings(s1, s2):$/;"	f
+validSquare	Solutions/ValidSquare/validSquare.py	/^    def validSquare(self, p1, p2, p3, p4):$/;"	m	class:Solution
 value	Solutions/HashTableImplementation/hash.c	/^   int value;$/;"	m	struct:_node	file:
 visit	Solutions/DesignBrowserHistory/browserHistory.py	/^    def visit(self, url):$/;"	m	class:BrowserHistory
 zigzagLevelOrder	Solutions/ZigZagOrderTraversal/zigzag.py	/^    def zigzagLevelOrder(self, root):$/;"	m	class:Solution
