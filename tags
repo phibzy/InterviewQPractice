@@ -53,6 +53,7 @@ Solution	Solutions/MinHeightTrees/minHeight.py	/^class Solution:$/;"	c
 Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
+Solution	Solutions/PermutationsII/permutationsII.py	/^class Solution:$/;"	c
 Solution	Solutions/PlusOne/plusOne.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
@@ -127,6 +128,7 @@ a	Solutions/MinHeightTrees/test.py	/^   a = Solution()$/;"	v	class:testMinHeight
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
+a	Solutions/PermutationsII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
@@ -255,6 +257,7 @@ numIslands	Solutions/NumberOfIslands/numberOfIslands.py	/^def numIslands(grid):$
 numSum	Solutions/AToI/atoi.c	/^int numSum(char * s, int count, int negSign) {$/;"	f
 peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self) -> int:$/;"	m	class:MyQueueAmortized
 peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self):$/;"	m	class:MyQueue
+permuteUnique	Solutions/PermutationsII/permutationsII.py	/^    def permuteUnique(self, nums):$/;"	m	class:Solution
 plusOne	Solutions/PlusOne/plusOne.py	/^    def plusOne(self, digits: List[int]) -> List[int]:$/;"	m	class:Solution
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self) -> int:$/;"	m	class:MyQueueAmortized
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self):$/;"	m	class:MyQueue
@@ -297,6 +300,7 @@ resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = d
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
+rpermuteUnique	Solutions/PermutationsII/permutationsII.py	/^    def rpermuteUnique(self, nums):$/;"	m	class:Solution
 searchInsert	Solutions/searchInsert/searchInsert.py	/^    def searchInsert(self, nums, target):$/;"	m	class:Solution
 searchRange	Solutions/FirstLastPositionOfElement/flElement.py	/^    def searchRange(self, nums, target):$/;"	m	class:Solution
 sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagrams(s):$/;"	f
@@ -309,6 +313,7 @@ t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
 test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
@@ -319,6 +324,7 @@ test1	Solutions/ConsecutiveCharacters/test.py	/^   def test1(self):$/;"	m	class:
 test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
 test1	Solutions/MinHeightTrees/test.py	/^   def test1(self):$/;"	m	class:testMinHeightT
 test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
+test1	Solutions/PermutationsII/test.py	/^    def test1(self):$/;"	m	class:test
 test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:test
 test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
@@ -349,7 +355,9 @@ test6589343	Solutions/NumberOf1Bits/test.py	/^    def test6589343(self):$/;"	m	c
 test7	Solutions/NumNodesInSubtree/test.py	/^   def test7(self):$/;"	m	class:testNumNodes
 test8	Solutions/NumberOf1Bits/test.py	/^    def test8(self):$/;"	m	class:test1Bits
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
+testAllDifferent	Solutions/PermutationsII/test.py	/^    def testAllDifferent(self):$/;"	m	class:test
 testAllEqual	Solutions/MaxDiffAncestor/test.py	/^   def testAllEqual(self):$/;"	m	class:testMaxDiff
+testAllEqual	Solutions/PermutationsII/test.py	/^    def testAllEqual(self):$/;"	m	class:test
 testAllInOneColumn	Solutions/ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
 testAllNeg	Solutions/FirstLastPositionOfElement/test.py	/^    def testAllNeg(self):$/;"	m	class:testFLElement
 testAllNeg	Solutions/MergeSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
@@ -439,6 +447,7 @@ testMaxDiff	Solutions/MaxDiffAncestor/test.py	/^class testMaxDiff(unittest.TestC
 testMaxVOnLastCall	Solutions/MaxDiffAncestor/test.py	/^   def testMaxVOnLastCall(self):$/;"	m	class:testMaxDiff
 testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMinHeightT	Solutions/MinHeightTrees/test.py	/^class testMinHeightT(unittest.TestCase):$/;"	c
+testMix	Solutions/PermutationsII/test.py	/^    def testMix(self):$/;"	m	class:test
 testMonthAhead	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthAhead(self):$/;"	m	class:testDOW
 testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(self):$/;"	m	class:testDOW
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
