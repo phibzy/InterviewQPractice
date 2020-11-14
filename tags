@@ -23,6 +23,7 @@ Node	NotesForInterview/dfsbfscode/implementation.java	/^   public static class N
 Node	Solutions/ArrayManipulation/arrayManip.py	/^class Node:$/;"	c
 Node	Solutions/HashTableImplementation/hash.c	/^typedef struct _node * Node;$/;"	t	typeref:struct:_node	file:
 Node	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Node:$/;"	c
+Node	Solutions/PopulateNextRightPointer/popRight.py	/^class Node:$/;"	c
 Player	Solutions/SortingComparator/sortingComparator.py	/^class Player:$/;"	c
 Solution	MockInterview/LC1/longestPalindrome/longestPal.py	/^class Solution:$/;"	c
 Solution	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^class Solution:$/;"	c
@@ -55,6 +56,7 @@ Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/PermutationsII/permutationsII.py	/^class Solution:$/;"	c
 Solution	Solutions/PlusOne/plusOne.py	/^class Solution:$/;"	c
+Solution	Solutions/PopulateNextRightPointer/popRight.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
@@ -102,6 +104,7 @@ __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, capacity):$/;"	
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;"	m	class:dllNode
 __init__	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def __init__(self, label):$/;"	m	class:Node
+__init__	Solutions/PopulateNextRightPointer/popRight.py	/^    def __init__(self, val=0, left = None, right = None, next = None):$/;"	m	class:Node
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/SortingComparator/sortingComparator.py	/^    def __init__(self, name, score):$/;"	m	class:Player
@@ -129,6 +132,7 @@ a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/PermutationsII/test.py	/^    a = Solution()$/;"	v	class:test
+a	Solutions/PopulateNextRightPointer/test.py	/^    a = Solution()$/;"	v	class:testPopRight
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
@@ -158,6 +162,7 @@ checkPal	MockInterview/LC1/longestPalindrome/longestPal.py	/^    def checkPal(se
 checkSubStr	Solutions/ConsecutiveCharacters/conChar.py	/^    def checkSubStr(self, s, start, end):$/;"	m	class:Solution
 checkValid	Solutions/NumberOfIslands/numberOfIslands.py	/^def checkValid(grid, y, x, val):$/;"	f
 comparator	Solutions/SortingComparator/sortingComparator.py	/^    def comparator(a, b):$/;"	m	class:Player
+connect	Solutions/PopulateNextRightPointer/popRight.py	/^    def connect(self, root):$/;"	m	class:Solution
 convert	Solutions/ZigZagConversion/zigzag.py	/^def convert(s, numRows):$/;"	f
 countInversions	Solutions/MergeSortCountInversions/countInversions.py	/^def countInversions(arr):$/;"	f
 countSubTrees	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def countSubTrees(self, n, edges, labels):$/;"	m	class:Solution
@@ -314,6 +319,7 @@ table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/PopulateNextRightPointer/test.py	/^    def test(self):$/;"	m	class:testPopRight
 test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
 test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
@@ -479,6 +485,7 @@ testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
+testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
 testRemoveBasic	Solutions/FrequencyQueries/test.py	/^    def testRemoveBasic(self):$/;"	m	class:TestFreq
