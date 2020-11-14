@@ -149,6 +149,7 @@ addSubNode	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def addSubNode
 addTwoNumbers	Solutions/AddTwoNumbers/addTwoNumbers.py	/^def addTwoNumbers(num1, num2):$/;"	f
 addTwoNumbers	Solutions/AddTwoNumbersAlt/addTwo.py	/^    def addTwoNumbers(self, l1, l2):$/;"	m	class:Solution
 adjacent	NotesForInterview/dfsbfscode/implementation.java	/^      LinkedList<Node> adjacent = new LinkedList<Node>();$/;"	f	class:Graph.Node
+altConnect	Solutions/PopulateNextRightPointer/popRight.py	/^    def altConnect(self, root):$/;"	m	class:Solution
 ans	Solutions/FrequencyQueries/freqQueries.py	/^    ans = freqQuery(queries)$/;"	v
 append	Solutions/LRUCache/lrucache.py	/^    def append(self, node):$/;"	m	class:dLinkedList
 arr	Solutions/MergeSortCountInversions/countInversions.py	/^        arr = list(map(int, input().rstrip().split()))$/;"	v
@@ -287,6 +288,7 @@ quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
 rBal	Solutions/BalancedBTree/balancedBTree.py	/^    def rBal(self, root):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
+rConnect	Solutions/PopulateNextRightPointer/popRight.py	/^    def rConnect(self, root):$/;"	m	class:Solution
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rMaxDiff	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def rMaxDiff(self, root, maxVal, minVal):$/;"	m	class:Solution
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f

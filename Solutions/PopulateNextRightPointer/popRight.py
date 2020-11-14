@@ -58,3 +58,37 @@ class Solution:
             q = newQ
         
         return root
+
+    # Constant SC solution
+
+    def altConnect(self, root):
+        # Now for recursive solution
+        self.rConnect(root)
+        return root
+    
+    # Use the next pointers to your advantage
+    
+    # We first bridge the connections between direct children
+    # Then we check if there's a next pointer for our current node
+    # If there is, we connect our rightmost child to the leftmost 
+    # child of next pointer node
+
+    # This ensures that there is a bridge over every branch!
+    def rConnect(self, root):
+        if not root: return
+        
+        # Only need to check one side since
+        # guaranteed to either be 2 kids or none
+        if not root.left: return
+       
+        # Join up our immediate children
+        root.left.next = root.right
+       
+        # If we have a next pointer, bridge the branches
+        if root.next:
+            root.right.next = root.next.left
+       
+        # Then let recursion do its magic
+        self.rConnect(root.left)
+        self.rConnect(root.right)
+
