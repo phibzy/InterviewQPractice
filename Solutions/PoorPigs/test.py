@@ -21,18 +21,21 @@ class testPigs(unittest.TestCase):
 
     a = Solution()
 
+    # TL;DR MOST OF THESE TEST CASES ARE WRONG
+    # I COMPLETELY MISUNDERSTOOD THE PROBLEM AND WILL RE-ATTEMPT LATER
+
     def test1Bucket(self):
-        self.assertEqual(a.poorPigs(1,1,1), 1, "Fails 1 bucket case")
+        self.assertEqual(self.a.poorPigs(1,1,1), 1, "Fails 1 bucket case")
 
     def test1PigNeeded(self):
-        self.assertEqual(a.poorPigs(4,15,60), 1, "Fails 1 pig needed case")
+        self.assertEqual(self.a.poorPigs(4,15,60), 1, "Fails 1 pig needed case")
 
     def testMaxPigs(self):
-        self.assertEqual(a.poorPigs(1000,37,37), 1000, "Fails max pigs case")
+        self.assertEqual(self.a.poorPigs(1000,37,37), 1000, "Fails max pigs case")
 
     def testOddBucketOutCase(self):
-        self.assertEqual(a.poorPigs(11,5,50), 1, "Fails odd bucket out case")
+        self.assertEqual(self.a.poorPigs(11,5,50), 1, "Fails odd bucket out case")
 
     def test8Case(self):
-        self.assertEqual(a.poorPigs(8,5,15), 3, "Fails odd bucket out case")
+        self.assertEqual(self.a.poorPigs(8,5,15), 3, "Fails 8 case")
 
