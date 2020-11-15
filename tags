@@ -56,6 +56,7 @@ Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/PermutationsII/permutationsII.py	/^class Solution:$/;"	c
 Solution	Solutions/PlusOne/plusOne.py	/^class Solution:$/;"	c
+Solution	Solutions/PoorPigs/poorPigs.py	/^class Solution:$/;"	c
 Solution	Solutions/PopulateNextRightPointer/popRight.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
@@ -132,6 +133,7 @@ a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/PermutationsII/test.py	/^    a = Solution()$/;"	v	class:test
+a	Solutions/PoorPigs/test.py	/^    a = Solution()$/;"	v	class:testPigs
 a	Solutions/PopulateNextRightPointer/test.py	/^    a = Solution()$/;"	v	class:testPopRight
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
@@ -265,6 +267,7 @@ peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self) -> int:$/;"	m	class:MyQ
 peek	MockInterview/LC2/FIFO/FIFO.py	/^    def peek(self):$/;"	m	class:MyQueue
 permuteUnique	Solutions/PermutationsII/permutationsII.py	/^    def permuteUnique(self, nums):$/;"	m	class:Solution
 plusOne	Solutions/PlusOne/plusOne.py	/^    def plusOne(self, digits: List[int]) -> List[int]:$/;"	m	class:Solution
+poorPigs	Solutions/PoorPigs/poorPigs.py	/^    def poorPigs(self, buckets, minutesToDie, minutesToTest):$/;"	m	class:Solution
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self) -> int:$/;"	m	class:MyQueueAmortized
 pop	MockInterview/LC2/FIFO/FIFO.py	/^    def pop(self):$/;"	m	class:MyQueue
 pop	Solutions/LRUCache/lrucache.py	/^    def pop(self):$/;"	m	class:dLinkedList
@@ -335,7 +338,9 @@ test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bi
 test1	Solutions/PermutationsII/test.py	/^    def test1(self):$/;"	m	class:test
 test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:test
 test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
+test1Bucket	Solutions/PoorPigs/test.py	/^    def test1Bucket(self):$/;"	m	class:testPigs
 test1Element	Solutions/LongestPalSubstring/test.py	/^    def test1Element(self):$/;"	m	class:testSubstring
+test1PigNeeded	Solutions/PoorPigs/test.py	/^    def test1PigNeeded(self):$/;"	m	class:testPigs
 test1Row	Solutions/ZigZagConversion/test.py	/^    def test1Row(self):$/;"	m	class:testZigZag
 test1x1	Solutions/FlippingImage/test.py	/^   def test1x1(self):$/;"	m	class:testFlipImage
 test1x1Board	Solutions/SurroundedRegions/test.py	/^    def test1x1Board(self):$/;"	m	class:testSRegions
@@ -362,6 +367,7 @@ test65893	Solutions/NumberOf1Bits/test.py	/^    def test65893(self):$/;"	m	class
 test6589343	Solutions/NumberOf1Bits/test.py	/^    def test6589343(self):$/;"	m	class:test1Bits
 test7	Solutions/NumNodesInSubtree/test.py	/^   def test7(self):$/;"	m	class:testNumNodes
 test8	Solutions/NumberOf1Bits/test.py	/^    def test8(self):$/;"	m	class:test1Bits
+test8Case	Solutions/PoorPigs/test.py	/^    def test8Case(self):$/;"	m	class:testPigs
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
 testAllDifferent	Solutions/PermutationsII/test.py	/^    def testAllDifferent(self):$/;"	m	class:test
 testAllEqual	Solutions/MaxDiffAncestor/test.py	/^   def testAllEqual(self):$/;"	m	class:testMaxDiff
@@ -452,6 +458,7 @@ testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$
 testLongestPal	MockInterview/LC1/longestPalindrome/test.py	/^class testLongestPal(unittest.TestCase):$/;"	c
 testMax32	Solutions/IntToBinary/test.py	/^    def testMax32(self):$/;"	m	class:testItoB
 testMaxDiff	Solutions/MaxDiffAncestor/test.py	/^class testMaxDiff(unittest.TestCase):$/;"	c
+testMaxPigs	Solutions/PoorPigs/test.py	/^    def testMaxPigs(self):$/;"	m	class:testPigs
 testMaxVOnLastCall	Solutions/MaxDiffAncestor/test.py	/^   def testMaxVOnLastCall(self):$/;"	m	class:testMaxDiff
 testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMinHeightT	Solutions/MinHeightTrees/test.py	/^class testMinHeightT(unittest.TestCase):$/;"	c
@@ -474,6 +481,7 @@ testNormalNumberWithWhitespace	Solutions/AToI/test.py	/^    def testNormalNumber
 testNumIslands	Solutions/NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
 testNumNodes	Solutions/NumNodesInSubtree/test.py	/^class testNumNodes(unittest.TestCase):$/;"	c
 testOdd	Solutions/IntToBinary/test.py	/^    def testOdd(self):$/;"	m	class:testItoB
+testOddBucketOutCase	Solutions/PoorPigs/test.py	/^    def testOddBucketOutCase(self):$/;"	m	class:testPigs
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOne	Solutions/InsertionSortList/test.py	/^   def testOne(self):$/;"	m	class:testISort
@@ -487,6 +495,7 @@ testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
+testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
