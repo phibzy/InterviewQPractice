@@ -58,6 +58,7 @@ Solution	Solutions/PermutationsII/permutationsII.py	/^class Solution:$/;"	c
 Solution	Solutions/PlusOne/plusOne.py	/^class Solution:$/;"	c
 Solution	Solutions/PoorPigs/poorPigs.py	/^class Solution:$/;"	c
 Solution	Solutions/PopulateNextRightPointer/popRight.py	/^class Solution:$/;"	c
+Solution	Solutions/RangeSumBST/rangeSum.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveDuplicatesSortedArray/removeDuplicates.py	/^class Solution:$/;"	c
 Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
@@ -81,6 +82,7 @@ TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/BTreeTilt/BTreeTilt.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/BTreeTilt/BTreeTilt2.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^class TreeNode:$/;"	c
+TreeNode	Solutions/RangeSumBST/rangeSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ValidBST/validBST.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/ZigZagOrderTraversal/zigzag.py	/^class TreeNode:$/;"	c
@@ -106,6 +108,7 @@ __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self, val = None):$/;
 __init__	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def __init__(self, label):$/;"	m	class:Node
 __init__	Solutions/PopulateNextRightPointer/popRight.py	/^    def __init__(self, val=0, left = None, right = None, next = None):$/;"	m	class:Node
+__init__	Solutions/RangeSumBST/rangeSum.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/SameTree/sameTree.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/SortingComparator/sortingComparator.py	/^    def __init__(self, name, score):$/;"	m	class:Player
@@ -135,6 +138,7 @@ a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
 a	Solutions/PermutationsII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/PoorPigs/test.py	/^    a = Solution()$/;"	v	class:testPigs
 a	Solutions/PopulateNextRightPointer/test.py	/^    a = Solution()$/;"	v	class:testPopRight
+a	Solutions/RangeSumBST/test.py	/^    a = Solution()$/;"	v	class:testRangeSum
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
@@ -232,6 +236,7 @@ length	Solutions/HashTableImplementation/hash.c	/^   int length;$/;"	m	struct:_h
 lengthOfLongestSubString	Solutions/LongestSubstringWithoutRepeatingChars/longestSubstring.py	/^def lengthOfLongestSubString(s: str) -> int:$/;"	f
 levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
 line	Solutions/ArrayManipulation/arrayManip.py	/^line = f.readline().strip()$/;"	v
+list2Node	Solutions/RangeSumBST/test.py	/^def list2Node(l):$/;"	f
 listToTree	Solutions/MaxDiffAncestor/test.py	/^def listToTree(l):$/;"	f
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestCommonPrefix	Solutions/LongestCommonPrefix/solution.py	/^def longestCommonPrefix(self, strs):$/;"	f
@@ -299,6 +304,7 @@ rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot)
 rTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rTilt	Solutions/BTreeTilt/BTreeTilt2.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
+rangeSumBST	Solutions/RangeSumBST/rangeSum.py	/^    def rangeSumBST(self, root, low, high):$/;"	m	class:Solution
 remove	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def remove(li, order, length):$/;"	f
 remove	Solutions/FrequencyQueries/freqQueries.py	/^    def remove(self, y):$/;"	m	class:freq
 remove	Solutions/LRUCache/lrucache.py	/^    def remove(self, node):$/;"	m	class:dLinkedList
@@ -373,6 +379,7 @@ testAllDifferent	Solutions/PermutationsII/test.py	/^    def testAllDifferent(sel
 testAllEqual	Solutions/MaxDiffAncestor/test.py	/^   def testAllEqual(self):$/;"	m	class:testMaxDiff
 testAllEqual	Solutions/PermutationsII/test.py	/^    def testAllEqual(self):$/;"	m	class:test
 testAllInOneColumn	Solutions/ZigZagConversion/test.py	/^    def testAllInOneColumn(self):$/;"	m	class:testZigZag
+testAllInRange	Solutions/RangeSumBST/test.py	/^    def testAllInRange(self):$/;"	m	class:testRangeSum
 testAllNeg	Solutions/FirstLastPositionOfElement/test.py	/^    def testAllNeg(self):$/;"	m	class:testFLElement
 testAllNeg	Solutions/MergeSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
 testAllNeg	Solutions/QuickSort/test.py	/^    def testAllNeg(self): $/;"	m	class:testSort
@@ -412,6 +419,7 @@ testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(s
 testDefaultDiffOrder	Solutions/ValidSquare/test.py	/^    def testDefaultDiffOrder(self):$/;"	m	class:test
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
 testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
+testEdgeKids	Solutions/RangeSumBST/test.py	/^    def testEdgeKids(self):$/;"	m	class:testRangeSum
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
 testEmpty	Solutions/InsertionSortList/test.py	/^   def testEmpty(self):$/;"	m	class:testISort
@@ -467,6 +475,7 @@ testMonthAhead	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthAhead(self)
 testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(self):$/;"	m	class:testDOW
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
+testNoMatching	Solutions/RangeSumBST/test.py	/^    def testNoMatching(self):$/;"	m	class:testRangeSum
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testNoTarget(self):$/;"	m	class:testFLElement
@@ -490,6 +499,7 @@ testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOne
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
 testOneNode	Solutions/ValidBST/test.py	/^    def testOneNode(self):$/;"	m	class:testValidBST
 testOneNodeTree	Solutions/BTreeTilt/test.py	/^   def testOneNodeTree(self):$/;"	m	class:testTilt
+testOneNumInRange	Solutions/RangeSumBST/test.py	/^    def testOneNumInRange(self):$/;"	m	class:testRangeSum
 testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
@@ -499,6 +509,7 @@ testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
+testRangeSum	Solutions/RangeSumBST/test.py	/^class testRangeSum(unittest.TestCase):$/;"	c
 testRemoveBasic	Solutions/FrequencyQueries/test.py	/^    def testRemoveBasic(self):$/;"	m	class:TestFreq
 testRemoveDuplicates	Solutions/RemoveDuplicatesSortedArray/test.py	/^class testRemoveDuplicates(unittest.TestCase):$/;"	c
 testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqualFreq(self):$/;"	m	class:TestFreq
