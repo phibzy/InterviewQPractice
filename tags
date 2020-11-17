@@ -46,6 +46,7 @@ Solution	Solutions/FlippingImage/flipImage.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
+Solution	Solutions/LongestMountainInArray/longestMountain.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
@@ -130,6 +131,7 @@ a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSc
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
+a	Solutions/LongestMountainInArray/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
 a	Solutions/MinHeightTrees/test.py	/^   a = Solution()$/;"	v	class:testMinHeightT
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
@@ -240,6 +242,7 @@ list2Node	Solutions/RangeSumBST/test.py	/^def list2Node(l):$/;"	f
 listToTree	Solutions/MaxDiffAncestor/test.py	/^def listToTree(l):$/;"	f
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestCommonPrefix	Solutions/LongestCommonPrefix/solution.py	/^def longestCommonPrefix(self, strs):$/;"	f
+longestMountain	Solutions/LongestMountainInArray/longestMountain.py	/^    def longestMountain(self, A):$/;"	m	class:Solution
 longestPalSubstring	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def longestPalSubstring (string):$/;"	f
 longestPalindrome	MockInterview/LC1/longestPalindrome/longestPal.py	/^    def longestPalindrome(self, s):$/;"	m	class:Solution
 lowestCommonAncestor	Solutions/LCAOfBST/LCA.py	/^    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':$/;"	m	class:Solution
@@ -329,6 +332,7 @@ t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/LongestMountainInArray/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PopulateNextRightPointer/test.py	/^    def test(self):$/;"	m	class:testPopRight
 test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
@@ -388,6 +392,7 @@ testAllSameButOne	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    
 testAllTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testAllTarget(self):$/;"	m	class:testFLElement
 testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def testAllUnique(self):$/;"	m	class:testCases
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
+testAlmostFlatEarthCase	Solutions/LongestMountainInArray/test.py	/^    def testAlmostFlatEarthCase(self):$/;"	m	class:test
 testAscending	Solutions/InsertionSortList/test.py	/^   def testAscending(self):$/;"	m	class:testISort
 testBHistory	Solutions/DesignBrowserHistory/test.py	/^class testBHistory(unittest.TestCase):$/;"	c
 testBalancedButWrongBrackets	Solutions/ValidParentheses/test.py	/^    def testBalancedButWrongBrackets(self):$/;"	m	class:testIsValid
@@ -396,6 +401,7 @@ testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self
 testCache	Solutions/LRUCache/test.py	/^class testCache(unittest.TestCase):$/;"	c
 testCapacity1	Solutions/LRUCache/test.py	/^    def testCapacity1(self):$/;"	m	class:testCache
 testCapacity2	Solutions/LRUCache/test.py	/^    def testCapacity2(self):$/;"	m	class:testCache
+testCascadeMountains	Solutions/LongestMountainInArray/test.py	/^    def testCascadeMountains(self):$/;"	m	class:test
 testCaseEvenLength	Solutions/MergeSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
 testCaseEvenLength	Solutions/QuickSort/test.py	/^    def testCaseEvenLength(self):$/;"	m	class:testSort
 testCaseOddLength	Solutions/MergeSort/test.py	/^    def testCaseOddLength(self):$/;"	m	class:testSort
@@ -417,8 +423,10 @@ testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
 testDefaultDiffOrder	Solutions/ValidSquare/test.py	/^    def testDefaultDiffOrder(self):$/;"	m	class:test
+testDescendUntilMountainEnd	Solutions/LongestMountainInArray/test.py	/^    def testDescendUntilMountainEnd(self):$/;"	m	class:test
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
 testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
+testDifferentSlopeLengths	Solutions/LongestMountainInArray/test.py	/^    def testDifferentSlopeLengths(self):$/;"	m	class:test
 testEdgeKids	Solutions/RangeSumBST/test.py	/^    def testEdgeKids(self):$/;"	m	class:testRangeSum
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
@@ -441,9 +449,13 @@ testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
+testFlatEarthCase	Solutions/LongestMountainInArray/test.py	/^    def testFlatEarthCase(self):$/;"	m	class:test
 testFlipImage	Solutions/FlippingImage/test.py	/^class testFlipImage(unittest.TestCase):$/;"	c
+testFluctuattionsButNoMountain	Solutions/LongestMountainInArray/test.py	/^    def testFluctuattionsButNoMountain(self):$/;"	m	class:test
+testHUGE	Solutions/LongestMountainInArray/test.py	/^    def testHUGE(self):$/;"	m	class:test
 testHalfNeg	Solutions/ValidSquare/test.py	/^    def testHalfNeg(self):$/;"	m	class:test
 testISort	Solutions/InsertionSortList/test.py	/^class testISort(unittest.TestCase):$/;"	c
+testImpossible	Solutions/LongestMountainInArray/test.py	/^    def testImpossible(self):$/;"	m	class:test
 testIncorrectHalfNeg	Solutions/ValidSquare/test.py	/^    def testIncorrectHalfNeg(self):$/;"	m	class:test
 testInsert1Val	Solutions/FrequencyQueries/test.py	/^    def testInsert1Val(self):$/;"	m	class:TestFreq
 testInsertManyOfSame	Solutions/FrequencyQueries/test.py	/^    def testInsertManyOfSame(self):$/;"	m	class:TestFreq
@@ -475,6 +487,7 @@ testMonthAhead	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthAhead(self)
 testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(self):$/;"	m	class:testDOW
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
+testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
 testNoMatching	Solutions/RangeSumBST/test.py	/^    def testNoMatching(self):$/;"	m	class:testRangeSum
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
@@ -504,6 +517,8 @@ testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOdd
 testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
+testOnlyAscend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyAscend(self):$/;"	m	class:test
+testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDescend(self):$/;"	m	class:test
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
@@ -543,6 +558,7 @@ testValidBST	Solutions/ValidBST/test.py	/^class testValidBST(unittest.TestCase):
 testValidSimpleTree	Solutions/ValidBST/test.py	/^    def testValidSimpleTree(self):$/;"	m	class:testValidBST
 testWeek	MockInterview/LC2/DayOfWeek/test.py	/^   def testWeek(self):$/;"	m	class:testDOW
 testWeekMinusOne	MockInterview/LC2/DayOfWeek/test.py	/^   def testWeekMinusOne(self):$/;"	m	class:testDOW
+testWholeArrayMountain	Solutions/LongestMountainInArray/test.py	/^    def testWholeArrayMountain(self):$/;"	m	class:test
 testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWholeStringPalindrome(self):$/;"	m	class:testSubstring
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
