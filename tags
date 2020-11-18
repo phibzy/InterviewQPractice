@@ -37,6 +37,7 @@ Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt2.py	/^class Solution:$/;"	c
 Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
 Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
+Solution	Solutions/BuySellStockI/buySell.py	/^class Solution:$/;"	c
 Solution	Solutions/ConsecutiveCharacters/conChar.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
@@ -52,6 +53,7 @@ Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/MinCostToMoveChips/minCost.py	/^class Solution:$/;"	c
 Solution	Solutions/MinHeightTrees/minHeight.py	/^class Solution:$/;"	c
+Solution	Solutions/MirrorReflection/mReflection.py	/^class Solution:$/;"	c
 Solution	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^class Solution:$/;"	c
 Solution	Solutions/NumberOf1Bits/numberOf1Bits.py	/^class Solution:$/;"	c
 Solution	Solutions/PalindromeNumber/palNumber.py	/^class Solution:$/;"	c
@@ -126,6 +128,7 @@ a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/AddBinary/addBinary.py	/^a = Solution()$/;"	v
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
 a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
+a	Solutions/BuySellStockI/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
@@ -134,6 +137,7 @@ a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/LongestMountainInArray/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
 a	Solutions/MinHeightTrees/test.py	/^   a = Solution()$/;"	v	class:testMinHeightT
+a	Solutions/MirrorReflection/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
 a	Solutions/NumNodesInSubtree/test.py	/^   a = Solution()$/;"	v	class:testNumNodes
 a	Solutions/NumberOf1Bits/test.py	/^    a = Solution()$/;"	v	class:test1Bits
@@ -252,6 +256,7 @@ maxAncestorDiff	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def maxAncest
 maxDepth	Solutions/MaxTreeDepth/maxTreeDepth.py	/^    def maxDepth(self, root):$/;"	m	class:Solution
 maxPathSum	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^    def maxPathSum(self, root):$/;"	m	class:Solution
 maxPower	Solutions/ConsecutiveCharacters/conChar.py	/^    def maxPower(self, s):$/;"	m	class:Solution
+maxProfit	Solutions/BuySellStockI/buySell.py	/^    def maxProfit(self, prices):$/;"	m	class:Solution
 maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	f
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 median	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def median(li, odd, middle):$/;"	f
@@ -262,6 +267,7 @@ mergeTwoLists	Solutions/MergeTwoLists/mergeTwoLists.py	/^    def mergeTwoLists(s
 minCostToMoveChips	Solutions/MinCostToMoveChips/minCost.py	/^    def minCostToMoveChips(self, position):$/;"	m	class:Solution
 minimumBribes	Solutions/MinimumBribes/minBribes.py	/^def minimumBribes(q):$/;"	f
 minimumSwaps	Solutions/MinimumSwaps/minSwaps.py	/^def minimumSwaps(arr):$/;"	f
+mirrorReflection	Solutions/MirrorReflection/mReflection.py	/^    def mirrorReflection(self, p, q):$/;"	m	class:Solution
 myAtoi	Solutions/AToI/atoi.c	/^int myAtoi(char * s) {$/;"	f
 myAtoi	Solutions/AToI/atoi.py	/^    def myAtoi(self, s):$/;"	m	class:Solution
 n	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    n = int(nd[0])$/;"	v
@@ -331,8 +337,10 @@ strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	
 t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/BuySellStockI/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/LongestMountainInArray/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/MirrorReflection/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PopulateNextRightPointer/test.py	/^    def test(self):$/;"	m	class:testPopRight
 test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
@@ -413,6 +421,7 @@ testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(se
 testDOW	MockInterview/LC2/DayOfWeek/test.py	/^class testDOW(unittest.TestCase):$/;"	c
 testDefaul1	Solutions/FlippingImage/test.py	/^   def testDefaul1(self):$/;"	m	class:testFlipImage
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
+testDefault	Solutions/BuySellStockI/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
 testDefault	Solutions/ValidSquare/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
@@ -423,10 +432,12 @@ testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
 testDefaultDiffOrder	Solutions/ValidSquare/test.py	/^    def testDefaultDiffOrder(self):$/;"	m	class:test
+testDescOnly	Solutions/BuySellStockI/test.py	/^    def testDescOnly(self):$/;"	m	class:test
 testDescendUntilMountainEnd	Solutions/LongestMountainInArray/test.py	/^    def testDescendUntilMountainEnd(self):$/;"	m	class:test
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
 testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
 testDifferentSlopeLengths	Solutions/LongestMountainInArray/test.py	/^    def testDifferentSlopeLengths(self):$/;"	m	class:test
+testDodgyMin	Solutions/BuySellStockI/test.py	/^    def testDodgyMin(self):$/;"	m	class:test
 testEdgeKids	Solutions/RangeSumBST/test.py	/^    def testEdgeKids(self):$/;"	m	class:testRangeSum
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
@@ -449,6 +460,7 @@ testFail	Solutions/NumberOfIslands/test.py	/^    def testFail(self):$/;"	m	class
 testFirstCharLetter	Solutions/AToI/test.py	/^    def testFirstCharLetter(self):$/;"	m	class:testATOI
 testFirstCharLetterWithSign	Solutions/AToI/test.py	/^    def testFirstCharLetterWithSign(self):$/;"	m	class:testATOI
 testFirstPassSuccess	Solutions/BinarySearch/test.py	/^    def testFirstPassSuccess(self):$/;"	m	class:testBinarySearch
+testFlatEarnings	Solutions/BuySellStockI/test.py	/^    def testFlatEarnings(self):$/;"	m	class:test
 testFlatEarthCase	Solutions/LongestMountainInArray/test.py	/^    def testFlatEarthCase(self):$/;"	m	class:test
 testFlipImage	Solutions/FlippingImage/test.py	/^class testFlipImage(unittest.TestCase):$/;"	c
 testFluctuattionsButNoMountain	Solutions/LongestMountainInArray/test.py	/^    def testFluctuattionsButNoMountain(self):$/;"	m	class:test
@@ -467,6 +479,7 @@ testIsolatedCourses	Solutions/CourseSchedule/test.py	/^    def testIsolatedCours
 testItemNotInListLong	Solutions/BinarySearch/test.py	/^    def testItemNotInListLong(self):$/;"	m	class:testBinarySearch
 testItoB	Solutions/IntToBinary/test.py	/^class testItoB(unittest.TestCase):$/;"	c
 testJustShortofBaseRow	Solutions/ZigZagConversion/test.py	/^    def testJustShortofBaseRow(self):$/;"	m	class:testZigZag
+testLCDefault	Solutions/MirrorReflection/test.py	/^    def testLCDefault(self):$/;"	m	class:test
 testLastPassSuccess	Solutions/BinarySearch/test.py	/^    def testLastPassSuccess(self):$/;"	m	class:testBinarySearch
 testLeastRecentlyUsed	Solutions/LRUCache/test.py	/^    def testLeastRecentlyUsed(self):$/;"	m	class:testCache
 testLen1NoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testLen1NoTarget(self):$/;"	m	class:testFLElement
@@ -520,11 +533,14 @@ testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	c
 testOnlyAscend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyAscend(self):$/;"	m	class:test
 testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDescend(self):$/;"	m	class:test
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
+testP1Case	Solutions/MirrorReflection/test.py	/^    def testP1Case(self):$/;"	m	class:test
 testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
 testRangeSum	Solutions/RangeSumBST/test.py	/^class testRangeSum(unittest.TestCase):$/;"	c
+testReceptor0Hit	Solutions/MirrorReflection/test.py	/^    def testReceptor0Hit(self):$/;"	m	class:test
+testReceptor1Hit	Solutions/MirrorReflection/test.py	/^    def testReceptor1Hit(self):$/;"	m	class:test
 testRemoveBasic	Solutions/FrequencyQueries/test.py	/^    def testRemoveBasic(self):$/;"	m	class:TestFreq
 testRemoveDuplicates	Solutions/RemoveDuplicatesSortedArray/test.py	/^class testRemoveDuplicates(unittest.TestCase):$/;"	c
 testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqualFreq(self):$/;"	m	class:TestFreq
