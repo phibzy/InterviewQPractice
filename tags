@@ -50,6 +50,7 @@ Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
 Solution	Solutions/LongestMountainInArray/longestMountain.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^class Solution:$/;"	c
 Solution	Solutions/MaxTreeDepth/maxTreeDepth.py	/^class Solution:$/;"	c
+Solution	Solutions/MergeIntervals/mergeIntervals.py	/^class Solution:$/;"	c
 Solution	Solutions/MergeTwoLists/mergeTwoLists.py	/^class Solution:$/;"	c
 Solution	Solutions/MinCostToMoveChips/minCost.py	/^class Solution:$/;"	c
 Solution	Solutions/MinHeightTrees/minHeight.py	/^class Solution:$/;"	c
@@ -136,6 +137,7 @@ a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/LongestMountainInArray/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
+a	Solutions/MergeIntervals/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/MinHeightTrees/test.py	/^   a = Solution()$/;"	v	class:testMinHeightT
 a	Solutions/MirrorReflection/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^a = Solution()$/;"	v
@@ -260,6 +262,7 @@ maxProfit	Solutions/BuySellStockI/buySell.py	/^    def maxProfit(self, prices):$
 maximumToys	Solutions/MarkAndToys/markToys.py	/^def maximumToys(prices, k):$/;"	f
 maxlen	Solutions/LongestPalSubstring/longestPalSubstring.py	/^def maxlen(l, i, j):$/;"	f
 median	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^def median(li, odd, middle):$/;"	f
+merge	Solutions/MergeIntervals/mergeIntervals.py	/^    def merge(self, intervals):$/;"	m	class:Solution
 mergeSort	Solutions/MergeSort/mergesort.py	/^def mergeSort(array):$/;"	f
 mergeSort	Solutions/MergeSortCountInversions/countInversions.py	/^def mergeSort(arr, l, r):$/;"	f
 mergeSort1	Solutions/MergeSort/mergesort.py	/^def mergeSort1(items):$/;"	f
@@ -340,6 +343,7 @@ test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/BuySellStockI/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/LongestMountainInArray/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/MergeIntervals/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/MirrorReflection/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PopulateNextRightPointer/test.py	/^    def test(self):$/;"	m	class:testPopRight
@@ -484,11 +488,13 @@ testLastPassSuccess	Solutions/BinarySearch/test.py	/^    def testLastPassSuccess
 testLeastRecentlyUsed	Solutions/LRUCache/test.py	/^    def testLeastRecentlyUsed(self):$/;"	m	class:testCache
 testLen1NoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testLen1NoTarget(self):$/;"	m	class:testFLElement
 testLen1Target	Solutions/FirstLastPositionOfElement/test.py	/^    def testLen1Target(self):$/;"	m	class:testFLElement
+testLength1	Solutions/MergeIntervals/test.py	/^    def testLength1(self):$/;"	m	class:test
 testLength1	Solutions/MergeSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1	Solutions/QuickSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1Fail	Solutions/BinarySearch/test.py	/^    def testLength1Fail(self):$/;"	m	class:testBinarySearch
 testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$/;"	m	class:testBinarySearch
 testLongestPal	MockInterview/LC1/longestPalindrome/test.py	/^class testLongestPal(unittest.TestCase):$/;"	c
+testManyOfOne	Solutions/MergeIntervals/test.py	/^    def testManyOfOne(self):$/;"	m	class:test
 testMax32	Solutions/IntToBinary/test.py	/^    def testMax32(self):$/;"	m	class:testItoB
 testMaxDiff	Solutions/MaxDiffAncestor/test.py	/^class testMaxDiff(unittest.TestCase):$/;"	c
 testMaxPigs	Solutions/PoorPigs/test.py	/^    def testMaxPigs(self):$/;"	m	class:testPigs
@@ -502,6 +508,7 @@ testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigi
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
 testNoMatching	Solutions/RangeSumBST/test.py	/^    def testNoMatching(self):$/;"	m	class:testRangeSum
+testNoOverlaps	Solutions/MergeIntervals/test.py	/^    def testNoOverlaps(self):$/;"	m	class:test
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testNoTarget(self):$/;"	m	class:testFLElement
@@ -529,6 +536,7 @@ testOneNumInRange	Solutions/RangeSumBST/test.py	/^    def testOneNumInRange(self
 testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOddOneEven(self):$/;"	m	class:testCases
 testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
+testOneOverlapEvenLength	Solutions/MergeIntervals/test.py	/^    def testOneOverlapEvenLength(self):$/;"	m	class:test
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOnlyAscend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyAscend(self):$/;"	m	class:test
 testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDescend(self):$/;"	m	class:test
