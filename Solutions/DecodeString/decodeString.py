@@ -28,6 +28,7 @@ class Solution:
         # There can only be lowercase letters, digits or square brackets
         # I'm not going to care about open brackets since they will always
         # come directly after a digit       
+
         while i < len(s):
             # if it's a lowercase character, we append to new string
             if "a" <= s[i] <= "z":
