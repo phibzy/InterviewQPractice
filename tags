@@ -41,6 +41,7 @@ Solution	Solutions/BuySellStockI/buySell.py	/^class Solution:$/;"	c
 Solution	Solutions/ConsecutiveCharacters/conChar.py	/^class Solution:$/;"	c
 Solution	Solutions/CourseSchedule/courseSchedule.py	/^class Solution:$/;"	c
 Solution	Solutions/CycleInLlist/listCycle.py	/^class Solution:$/;"	c
+Solution	Solutions/DecodeString/decodeString.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
 Solution	Solutions/FlippingImage/flipImage.py	/^class Solution:$/;"	c
@@ -132,6 +133,7 @@ a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/BuySellStockI/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSchedule
+a	Solutions/DecodeString/test.py	/^    a = Solution()$/;"	v	class:testDecode
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
@@ -185,6 +187,7 @@ countTriplets	Solutions/CountTriplets/countTriplets.py	/^def countTriplets(arr, 
 d	Solutions/FraudulentActivityNotifications/fraudActivity.py	/^    d = int(nd[1])$/;"	v
 dLinkedList	Solutions/LRUCache/lrucache.py	/^class dLinkedList:$/;"	c
 dayOfTheWeek	MockInterview/LC2/DayOfWeek/dayOfWeek.py	/^    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:$/;"	m	class:Solution
+decodeString	Solutions/DecodeString/decodeString.py	/^    def decodeString(self, s):     $/;"	m	class:Solution
 deleteNode	MockInterview/LC3/DeleteNodeNoHead/deleteNode.py	/^    def deleteNode(self, node):$/;"	m	class:Solution
 dfs	Solutions/CourseSchedule/courseSchedule.py	/^    def dfs(self, x, numCourses, graph, visited, doneDFS):$/;"	m	class:Solution
 dfs	Solutions/NumNodesInSubtree/numNodesInSubtree.py	/^    def dfs(self, curr, graph, retArray, labels, n, visited):$/;"	m	class:Solution
@@ -310,6 +313,7 @@ rBal	Solutions/BalancedBTree/balancedBTree.py	/^    def rBal(self, root):$/;"	m	
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
 rConnect	Solutions/PopulateNextRightPointer/popRight.py	/^    def rConnect(self, root):$/;"	m	class:Solution
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
+rDecode	Solutions/DecodeString/decodeString.py	/^    def rDecode(self, s, i):$/;"	m	class:Solution
 rMaxDiff	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def rMaxDiff(self, root, maxVal, minVal):$/;"	m	class:Solution
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
@@ -354,6 +358,7 @@ test0	Solutions/NumberOf1Bits/test.py	/^    def test0(self):$/;"	m	class:test1Bi
 test0Elements	Solutions/LongestPalSubstring/test.py	/^    def test0Elements(self):$/;"	m	class:testSubstring
 test1	Solutions/BinaryLListToInt/test.py	/^   def test1(self):$/;"	m	class:test
 test1	Solutions/ConsecutiveCharacters/test.py	/^   def test1(self):$/;"	m	class:test
+test1	Solutions/DecodeString/test.py	/^    def test1(self):$/;"	m	class:testDecode
 test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
 test1	Solutions/MinHeightTrees/test.py	/^   def test1(self):$/;"	m	class:testMinHeightT
 test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
@@ -423,6 +428,7 @@ testCases	Solutions/MedianOfTwoSortedArrays/test.py	/^class testCases(unittest.T
 testCourseSchedule	Solutions/CourseSchedule/test.py	/^class testCourseSchedule(unittest.TestCase):$/;"	c
 testCustom	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testCustom(self):$/;"	m	class:testRemoveDuplicates
 testDOW	MockInterview/LC2/DayOfWeek/test.py	/^class testDOW(unittest.TestCase):$/;"	c
+testDecode	Solutions/DecodeString/test.py	/^class testDecode(unittest.TestCase):$/;"	c
 testDefaul1	Solutions/FlippingImage/test.py	/^   def testDefaul1(self):$/;"	m	class:testFlipImage
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/BuySellStockI/test.py	/^    def testDefault(self):$/;"	m	class:test
@@ -504,12 +510,15 @@ testMinHeightT	Solutions/MinHeightTrees/test.py	/^class testMinHeightT(unittest.
 testMix	Solutions/PermutationsII/test.py	/^    def testMix(self):$/;"	m	class:test
 testMonthAhead	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthAhead(self):$/;"	m	class:testDOW
 testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(self):$/;"	m	class:testDOW
+testMoreDigitRepeat	Solutions/DecodeString/test.py	/^    def testMoreDigitRepeat(self):$/;"	m	class:testDecode
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
+testNested	Solutions/DecodeString/test.py	/^    def testNested(self):$/;"	m	class:testDecode
 testNoMatching	Solutions/RangeSumBST/test.py	/^    def testNoMatching(self):$/;"	m	class:testRangeSum
 testNoOverlaps	Solutions/MergeIntervals/test.py	/^    def testNoOverlaps(self):$/;"	m	class:test
 testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	m	class:testCourseSchedule
+testNoRepeats	Solutions/DecodeString/test.py	/^    def testNoRepeats(self):$/;"	m	class:testDecode
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testNoTarget(self):$/;"	m	class:testFLElement
 testNoneRoot	Solutions/ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
@@ -555,6 +564,7 @@ testRemoveEqualFreq	Solutions/FrequencyQueries/test.py	/^    def testRemoveEqual
 testReplaceValue	Solutions/LRUCache/test.py	/^    def testReplaceValue(self):$/;"	m	class:testCache
 testSRegions	Solutions/SurroundedRegions/test.py	/^class testSRegions(unittest.TestCase):$/;"	c
 testSameChar	Solutions/ConsecutiveCharacters/test.py	/^   def testSameChar(self):$/;"	m	class:test
+testSeparateRepeats	Solutions/DecodeString/test.py	/^    def testSeparateRepeats(self):$/;"	m	class:testDecode
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
 testSimpleIncorrect	Solutions/ValidSquare/test.py	/^    def testSimpleIncorrect(self):$/;"	m	class:test
