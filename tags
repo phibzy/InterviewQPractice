@@ -69,6 +69,7 @@ Solution	Solutions/RemoveElement/removeElement.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseBits/reverseBits.py	/^class Solution:$/;"	c
 Solution	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^class Solution:$/;"	c
 Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
+Solution	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^class Solution:$/;"	c
 Solution	Solutions/SingleNumber/singleNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/SmallestDivisorThreshold/smallestDivisor.py	/^class Solution:$/;"	c
 Solution	Solutions/SortedArrayToBST/arrayToBST.py	/^class Solution:$/;"	c
@@ -152,6 +153,8 @@ a	Solutions/RangeSumBST/test.py	/^    a = Solution()$/;"	v	class:testRangeSum
 a	Solutions/RemoveDuplicatesSortedArray/test.py	/^    a = Solution()$/;"	v	class:testRemoveDuplicates
 a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
+a	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^a = Solution()$/;"	v
+a	Solutions/SearchRotatedSortedArrayII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a	Solutions/ValidParentheses/test.py	/^    a = Solution()$/;"	v	class:testIsValid
@@ -333,6 +336,7 @@ reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
 rpermuteUnique	Solutions/PermutationsII/permutationsII.py	/^    def rpermuteUnique(self, nums):$/;"	m	class:Solution
+search	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^    def search(self, nums, target):$/;"	m	class:Solution
 searchInsert	Solutions/searchInsert/searchInsert.py	/^    def searchInsert(self, nums, target):$/;"	m	class:Solution
 searchRange	Solutions/FirstLastPositionOfElement/flElement.py	/^    def searchRange(self, nums, target):$/;"	m	class:Solution
 sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagrams(s):$/;"	f
@@ -351,6 +355,7 @@ test	Solutions/MergeIntervals/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/MirrorReflection/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PermutationsII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/PopulateNextRightPointer/test.py	/^    def test(self):$/;"	m	class:testPopRight
+test	Solutions/SearchRotatedSortedArrayII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ValidSquare/test.py	/^class test(unittest.TestCase):$/;"	c
 test0	Solutions/BinaryLListToInt/test.py	/^   def test0(self):$/;"	m	class:test
 test0	Solutions/IntToBinary/test.py	/^    def test0(self):$/;"	m	class:testItoB
@@ -437,9 +442,11 @@ testDefault	Solutions/ValidSquare/test.py	/^    def testDefault(self):$/;"	m	cla
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
 testDefault1	Solutions/MaxDiffAncestor/test.py	/^   def testDefault1(self):$/;"	m	class:testMaxDiff
 testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
+testDefault1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDefault1(self):$/;"	m	class:test
 testDefault2	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault2(self):$/;"	m	class:testLongestPal
 testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	class:testFlipImage
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
+testDefault2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDefault2(self):$/;"	m	class:test
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
 testDefaultDiffOrder	Solutions/ValidSquare/test.py	/^    def testDefaultDiffOrder(self):$/;"	m	class:test
 testDescOnly	Solutions/BuySellStockI/test.py	/^    def testDescOnly(self):$/;"	m	class:test
@@ -448,6 +455,8 @@ testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self)
 testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
 testDifferentSlopeLengths	Solutions/LongestMountainInArray/test.py	/^    def testDifferentSlopeLengths(self):$/;"	m	class:test
 testDodgyMin	Solutions/BuySellStockI/test.py	/^    def testDodgyMin(self):$/;"	m	class:test
+testDuplicates1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDuplicates1(self):$/;"	m	class:test
+testDuplicates2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDuplicates2(self):$/;"	m	class:test
 testEdgeKids	Solutions/RangeSumBST/test.py	/^    def testEdgeKids(self):$/;"	m	class:testRangeSum
 testEmpty	Solutions/AToI/test.py	/^    def testEmpty(self):$/;"	m	class:testATOI
 testEmpty	Solutions/FirstLastPositionOfElement/test.py	/^    def testEmpty(self):$/;"	m	class:testFLElement
@@ -499,6 +508,8 @@ testLength1	Solutions/MergeSort/test.py	/^    def testLength1(self):$/;"	m	class
 testLength1	Solutions/QuickSort/test.py	/^    def testLength1(self):$/;"	m	class:testSort
 testLength1Fail	Solutions/BinarySearch/test.py	/^    def testLength1Fail(self):$/;"	m	class:testBinarySearch
 testLength1Pass	Solutions/BinarySearch/test.py	/^    def testLength1Pass(self):$/;"	m	class:testBinarySearch
+testLengthOne1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testLengthOne1(self):$/;"	m	class:test
+testLengthOne2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testLengthOne2(self):$/;"	m	class:test
 testLongestPal	MockInterview/LC1/longestPalindrome/test.py	/^class testLongestPal(unittest.TestCase):$/;"	c
 testManyOfOne	Solutions/MergeIntervals/test.py	/^    def testManyOfOne(self):$/;"	m	class:test
 testMax32	Solutions/IntToBinary/test.py	/^    def testMax32(self):$/;"	m	class:testItoB
@@ -514,6 +525,8 @@ testMoreDigitRepeat	Solutions/DecodeString/test.py	/^    def testMoreDigitRepeat
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
+testNegNumbers1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers1(self):$/;"	m	class:test
+testNegNumbers2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers2(self):$/;"	m	class:test
 testNested	Solutions/DecodeString/test.py	/^    def testNested(self):$/;"	m	class:testDecode
 testNoMatching	Solutions/RangeSumBST/test.py	/^    def testNoMatching(self):$/;"	m	class:testRangeSum
 testNoOverlaps	Solutions/MergeIntervals/test.py	/^    def testNoOverlaps(self):$/;"	m	class:test
@@ -521,6 +534,8 @@ testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	
 testNoRepeats	Solutions/DecodeString/test.py	/^    def testNoRepeats(self):$/;"	m	class:testDecode
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testNoTarget(self):$/;"	m	class:testFLElement
+testNonRotated1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNonRotated1(self):$/;"	m	class:test
+testNonRotated2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNonRotated2(self):$/;"	m	class:test
 testNoneRoot	Solutions/ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
 testNormalCase	Solutions/ValidParentheses/test.py	/^    def testNormalCase(self):$/;"	m	class:testIsValid
 testNormalLongPrereqCourse	Solutions/CourseSchedule/test.py	/^    def testNormalLongPrereqCourse(self):$/;"	m	class:testCourseSchedule
@@ -546,6 +561,8 @@ testOneOddOneEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testOneOdd
 testOneOut	Solutions/ValidParentheses/test.py	/^    def testOneOut(self):$/;"	m	class:testIsValid
 testOneOutAlternate	Solutions/ValidParentheses/test.py	/^    def testOneOutAlternate(self):$/;"	m	class:testIsValid
 testOneOverlapEvenLength	Solutions/MergeIntervals/test.py	/^    def testOneOverlapEvenLength(self):$/;"	m	class:test
+testOneRotated1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testOneRotated1(self):$/;"	m	class:test
+testOneRotated2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testOneRotated2(self):$/;"	m	class:test
 testOneZero	Solutions/AddTwoNumbers/test.py	/^    def testOneZero(self):$/;"	m	class:a2NTests
 testOnlyAscend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyAscend(self):$/;"	m	class:test
 testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDescend(self):$/;"	m	class:test
@@ -555,6 +572,8 @@ testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
 testRandom	Solutions/IntToBinary/test.py	/^    def testRandom(self):$/;"	m	class:testItoB
+testRandomRotated1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testRandomRotated1(self):$/;"	m	class:test
+testRandomRotated2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testRandomRotated2(self):$/;"	m	class:test
 testRangeSum	Solutions/RangeSumBST/test.py	/^class testRangeSum(unittest.TestCase):$/;"	c
 testReceptor0Hit	Solutions/MirrorReflection/test.py	/^    def testReceptor0Hit(self):$/;"	m	class:test
 testReceptor1Hit	Solutions/MirrorReflection/test.py	/^    def testReceptor1Hit(self):$/;"	m	class:test
