@@ -10,6 +10,9 @@
         - Length 1 and 2
         - Negative numbers
 
+Cases with lots of equal elements break this algo
+
+
 """
 
 import unittest
