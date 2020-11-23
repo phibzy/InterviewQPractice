@@ -75,6 +75,7 @@ Solution	Solutions/SmallestDivisorThreshold/smallestDivisor.py	/^class Solution:
 Solution	Solutions/SortedArrayToBST/arrayToBST.py	/^class Solution:$/;"	c
 Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
+Solution	Solutions/UniqueMorseCodeWords/uniqueWords.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidBST/validBST.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidParentheses/validParentheses.py	/^class Solution:$/;"	c
 Solution	Solutions/ValidSquare/validSquare.py	/^class Solution:$/;"	c
@@ -156,6 +157,7 @@ a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^a = Solution()$/;"	v
 a	Solutions/SearchRotatedSortedArrayII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
+a	Solutions/UniqueMorseCodeWords/test.py	/^    a = Solution()$/;"	v	class:testMorseCode
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
 a	Solutions/ValidParentheses/test.py	/^    a = Solution()$/;"	v	class:testIsValid
 a	Solutions/ValidSquare/test.py	/^    a = Solution()$/;"	v	class:test
@@ -438,6 +440,7 @@ testDefaul1	Solutions/FlippingImage/test.py	/^   def testDefaul1(self):$/;"	m	cl
 testDefault	Solutions/BTreeTilt/test.py	/^   def testDefault(self):$/;"	m	class:testTilt
 testDefault	Solutions/BuySellStockI/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$/;"	m	class:testBHistory
+testDefault	Solutions/UniqueMorseCodeWords/test.py	/^    def testDefault(self):$/;"	m	class:testMorseCode
 testDefault	Solutions/ValidSquare/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
 testDefault1	Solutions/MaxDiffAncestor/test.py	/^   def testDefault1(self):$/;"	m	class:testMaxDiff
@@ -524,6 +527,7 @@ testMonthBehind	MockInterview/LC2/DayOfWeek/test.py	/^   def testMonthBehind(sel
 testMoreDigitRepeat	Solutions/DecodeString/test.py	/^    def testMoreDigitRepeat(self):$/;"	m	class:testDecode
 testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigitsThanAnother(self):$/;"	m	class:a2NTests
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
+testMorseCode	Solutions/UniqueMorseCodeWords/test.py	/^class testMorseCode(unittest.TestCase):$/;"	c
 testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
 testNegNumbers1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers1(self):$/;"	m	class:test
 testNegNumbers2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers2(self):$/;"	m	class:test
@@ -551,6 +555,7 @@ testOddBucketOutCase	Solutions/PoorPigs/test.py	/^    def testOddBucketOutCase(s
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
 testOddNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testOddNumberDecentSize(self):$/;"	m	class:testZigZag
 testOne	Solutions/InsertionSortList/test.py	/^   def testOne(self):$/;"	m	class:testISort
+testOne	Solutions/UniqueMorseCodeWords/test.py	/^    def testOne(self):$/;"	m	class:testMorseCode
 testOne	Solutions/ValidParentheses/test.py	/^    def testOne(self):$/;"	m	class:testIsValid
 testOneCourseAtLeastOnePrereq	Solutions/CourseSchedule/test.py	/^    def testOneCourseAtLeastOnePrereq(self):$/;"	m	class:testCourseSchedule
 testOneCoursePrereqItself	Solutions/CourseSchedule/test.py	/^    def testOneCoursePrereqItself(self):$/;"	m	class:testCourseSchedule
@@ -568,6 +573,7 @@ testOnlyAscend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyAscend
 testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDescend(self):$/;"	m	class:test
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testP1Case	Solutions/MirrorReflection/test.py	/^    def testP1Case(self):$/;"	m	class:test
+testPSLeffen	Solutions/UniqueMorseCodeWords/test.py	/^    def testPSLeffen(self):$/;"	m	class:testMorseCode
 testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
@@ -616,6 +622,7 @@ testWholeStringPalindrome	Solutions/LongestPalSubstring/test.py	/^    def testWh
 testZigZag	Solutions/ZigZagConversion/test.py	/^class testZigZag(unittest.TestCase):$/;"	c
 thing	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^thing = a.reverseKGroup(ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))), 5)$/;"	v
 twoStrings	Solutions/TwoStrings/twoStrings.py	/^def twoStrings(s1, s2):$/;"	f
+uniqueMorseRepresentations	Solutions/UniqueMorseCodeWords/uniqueWords.py	/^    def uniqueMorseRepresentations(self, words):$/;"	m	class:Solution
 validSquare	Solutions/ValidSquare/validSquare.py	/^    def validSquare(self, p1, p2, p3, p4):$/;"	m	class:Solution
 value	Solutions/HashTableImplementation/hash.c	/^   int value;$/;"	m	struct:_node	file:
 visit	Solutions/DesignBrowserHistory/browserHistory.py	/^    def visit(self, url):$/;"	m	class:BrowserHistory
