@@ -45,6 +45,7 @@ Solution	Solutions/DecodeString/decodeString.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstLastPositionOfElement/flElement.py	/^class Solution:$/;"	c
 Solution	Solutions/FirstUniqueChar/firstUniqueChar.py	/^class Solution:$/;"	c
 Solution	Solutions/FlippingImage/flipImage.py	/^class Solution:$/;"	c
+Solution	Solutions/HouseRobberIII/houseRobberIII.py	/^class Solution:$/;"	c
 Solution	Solutions/InorderTraversal/inorderTraversal.py	/^class Solution:$/;"	c
 Solution	Solutions/InsertionSortList/insertionSort.py	/^class Solution:$/;"	c
 Solution	Solutions/LCAOfBST/LCA.py	/^class Solution:$/;"	c
@@ -88,6 +89,7 @@ TreeAncestor	Solutions/KthAncestor/kthAncestor.py	/^class TreeAncestor:$/;"	c
 TreeNode	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/BTreeTilt/BTreeTilt.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/BTreeTilt/BTreeTilt2.py	/^class TreeNode:$/;"	c
+TreeNode	Solutions/HouseRobberIII/houseRobberIII.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/RangeSumBST/rangeSum.py	/^class TreeNode:$/;"	c
 TreeNode	Solutions/SameTree/sameTree.py	/^class TreeNode:$/;"	c
@@ -107,6 +109,7 @@ __init__	Solutions/BTreeTilt/BTreeTilt2.py	/^    def __init__(self, val=0, left=
 __init__	Solutions/BinaryLListToInt/binToInt.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/DesignBrowserHistory/browserHistory.py	/^    def __init__(self, homepage):$/;"	m	class:BrowserHistory
 __init__	Solutions/FrequencyQueries/freqQueries.py	/^    def __init__(self):$/;"	m	class:freq
+__init__	Solutions/HouseRobberIII/houseRobberIII.py	/^    def __init__(self, val=0, left=None, right=None):$/;"	m	class:TreeNode
 __init__	Solutions/InsertionSortList/insertionSort.py	/^    def __init__(self, val=0, next=None):$/;"	m	class:ListNode
 __init__	Solutions/KthAncestor/kthAncestor.py	/^    def __init__(self, n, parent):$/;"	m	class:TreeAncestor
 __init__	Solutions/LRUCache/lrucache.py	/^    def __init__(self):$/;"	m	class:dLinkedList
@@ -138,6 +141,7 @@ a	Solutions/CourseSchedule/test.py	/^    a = Solution()$/;"	v	class:testCourseSc
 a	Solutions/DecodeString/test.py	/^    a = Solution()$/;"	v	class:testDecode
 a	Solutions/FirstLastPositionOfElement/test.py	/^    a = Solution()$/;"	v	class:testFLElement
 a	Solutions/FlippingImage/test.py	/^   a = Solution()$/;"	v	class:testFlipImage
+a	Solutions/HouseRobberIII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/InsertionSortList/test.py	/^   a = Solution()$/;"	v	class:testISort
 a	Solutions/LongestMountainInArray/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/MaxDiffAncestor/test.py	/^   a = Solution()$/;"	v	class:testMaxDiff
@@ -253,6 +257,7 @@ lengthOfLongestSubString	Solutions/LongestSubstringWithoutRepeatingChars/longest
 levelOrder	Solutions/btLevelOrder/btLevelOrder.py	/^    def levelOrder(self, root):$/;"	m	class:Solution
 line	Solutions/ArrayManipulation/arrayManip.py	/^line = f.readline().strip()$/;"	v
 list2Node	Solutions/RangeSumBST/test.py	/^def list2Node(l):$/;"	f
+list2Tree	Solutions/HouseRobberIII/test.py	/^def list2Tree(l):$/;"	f
 listToTree	Solutions/MaxDiffAncestor/test.py	/^def listToTree(l):$/;"	f
 listToTree	Utilities/listToTree.py	/^def listToTree(l):$/;"	f
 longestCommonPrefix	Solutions/LongestCommonPrefix/solution.py	/^def longestCommonPrefix(self, strs):$/;"	f
@@ -322,6 +327,7 @@ rDecode	Solutions/DecodeString/decodeString.py	/^    def rDecode(self, s, i):$/;
 rMaxDiff	Solutions/MaxDiffAncestor/maxDiffAncestor.py	/^    def rMaxDiff(self, root, maxVal, minVal):$/;"	m	class:Solution
 rMergeSort	Solutions/MergeSort/mergesort.py	/^def rMergeSort(array, temp, start, end):$/;"	f
 rQuickSort	Solutions/QuickSort/quickSort.py	/^def rQuickSort(items, l, r, pivot):$/;"	f
+rRob	Solutions/HouseRobberIII/houseRobberIII.py	/^    def rRob(self, root):$/;"	m	class:Solution
 rTilt	Solutions/BTreeTilt/BTreeTilt.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rTilt	Solutions/BTreeTilt/BTreeTilt2.py	/^    def rTilt(self, root):$/;"	m	class:Solution
 rValid	Solutions/ValidBST/validBST.py	/^    def rValid(self, root, minimum, maximum):$/;"	m	class:Solution
@@ -336,6 +342,7 @@ result	Solutions/MergeSortCountInversions/countInversions.py	/^        result = 
 resultHash	Solutions/LongestPalSubstring/longestPalSubstring.py	/^resultHash = dict()$/;"	v
 reverseBits	Solutions/ReverseBits/reverseBits.py	/^    def reverseBits(self, n):$/;"	m	class:Solution
 reverseKGroup	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^    def reverseKGroup(self, head, k):$/;"	m	class:Solution
+rob	Solutions/HouseRobberIII/houseRobberIII.py	/^    def rob(self, root):$/;"	m	class:Solution
 rotLeft	Solutions/ArrLeftRotation/leftRotation.py	/^def rotLeft(a, d):$/;"	f
 rpermuteUnique	Solutions/PermutationsII/permutationsII.py	/^    def rpermuteUnique(self, nums):$/;"	m	class:Solution
 search	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^    def search(self, nums, target):$/;"	m	class:Solution
@@ -352,6 +359,7 @@ table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/BuySellStockI/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
+test	Solutions/HouseRobberIII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/LongestMountainInArray/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/MergeIntervals/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/MirrorReflection/test.py	/^class test(unittest.TestCase):$/;"	c
@@ -443,11 +451,13 @@ testDefault	Solutions/DesignBrowserHistory/test.py	/^    def testDefault(self):$
 testDefault	Solutions/UniqueMorseCodeWords/test.py	/^    def testDefault(self):$/;"	m	class:testMorseCode
 testDefault	Solutions/ValidSquare/test.py	/^    def testDefault(self):$/;"	m	class:test
 testDefault1	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault1(self):$/;"	m	class:testLongestPal
+testDefault1	Solutions/HouseRobberIII/test.py	/^    def testDefault1(self):$/;"	m	class:test
 testDefault1	Solutions/MaxDiffAncestor/test.py	/^   def testDefault1(self):$/;"	m	class:testMaxDiff
 testDefault1	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault1(self):$/;"	m	class:testRemoveDuplicates
 testDefault1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDefault1(self):$/;"	m	class:test
 testDefault2	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault2(self):$/;"	m	class:testLongestPal
 testDefault2	Solutions/FlippingImage/test.py	/^   def testDefault2(self):$/;"	m	class:testFlipImage
+testDefault2	Solutions/HouseRobberIII/test.py	/^    def testDefault2(self):$/;"	m	class:test
 testDefault2	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testDefault2(self):$/;"	m	class:testRemoveDuplicates
 testDefault2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDefault2(self):$/;"	m	class:test
 testDefault3	MockInterview/LC1/longestPalindrome/test.py	/^   def testDefault3(self):$/;"	m	class:testLongestPal
@@ -538,6 +548,9 @@ testNoPrereq	Solutions/CourseSchedule/test.py	/^    def testNoPrereq(self):$/;"	
 testNoRepeats	Solutions/DecodeString/test.py	/^    def testNoRepeats(self):$/;"	m	class:testDecode
 testNoRepeats	Solutions/RemoveDuplicatesSortedArray/test.py	/^    def testNoRepeats(self):$/;"	m	class:testRemoveDuplicates
 testNoTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testNoTarget(self):$/;"	m	class:testFLElement
+testNonAlt1	Solutions/HouseRobberIII/test.py	/^    def testNonAlt1(self):$/;"	m	class:test
+testNonAlt2	Solutions/HouseRobberIII/test.py	/^    def testNonAlt2(self):$/;"	m	class:test
+testNonAlt3	Solutions/HouseRobberIII/test.py	/^    def testNonAlt3(self):$/;"	m	class:test
 testNonRotated1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNonRotated1(self):$/;"	m	class:test
 testNonRotated2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNonRotated2(self):$/;"	m	class:test
 testNoneRoot	Solutions/ValidBST/test.py	/^    def testNoneRoot(self):$/;"	m	class:testValidBST
@@ -574,6 +587,8 @@ testOnlyDescend	Solutions/LongestMountainInArray/test.py	/^    def testOnlyDesce
 testOutOfBoundsCourse	Solutions/CourseSchedule/test.py	/^    def testOutOfBoundsCourse(self):$/;"	m	class:testCourseSchedule
 testP1Case	Solutions/MirrorReflection/test.py	/^    def testP1Case(self):$/;"	m	class:test
 testPSLeffen	Solutions/UniqueMorseCodeWords/test.py	/^    def testPSLeffen(self):$/;"	m	class:testMorseCode
+testPickNChoose1	Solutions/HouseRobberIII/test.py	/^    def testPickNChoose1(self):$/;"	m	class:test
+testPickNChoose2	Solutions/HouseRobberIII/test.py	/^    def testPickNChoose2(self):$/;"	m	class:test
 testPigs	Solutions/PoorPigs/test.py	/^class testPigs(unittest.TestCase):$/;"	c
 testPopRight	Solutions/PopulateNextRightPointer/test.py	/^class testPopRight(unittest.TestCase):$/;"	c
 testPrereqOfItself	Solutions/CourseSchedule/test.py	/^    def testPrereqOfItself(self):$/;"	m	class:testCourseSchedule
@@ -597,6 +612,7 @@ testSimpleNeg	Solutions/ValidSquare/test.py	/^    def testSimpleNeg(self):$/;"	m
 testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
 testSingleTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testSingleTarget(self):$/;"	m	class:testFLElement
+testSize1	Solutions/HouseRobberIII/test.py	/^    def testSize1(self):$/;"	m	class:test
 testSort	Solutions/MergeSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSort	Solutions/QuickSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSubstring	Solutions/LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCase):$/;"	c

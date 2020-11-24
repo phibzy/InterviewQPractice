@@ -16,7 +16,6 @@ class Solution:
         # obv want to do this in better than O(N) time
         if not nums: return False
         if len(nums) == 1: return nums[0] == target
-        if len(nums) == 2: return nums[0] == target or nums[1] == target
 
         # Setup like we would for binary search        
         start, end = 0, len(nums) - 1
@@ -43,14 +42,15 @@ class Solution:
             
             if nums[middle] > target:
                 if nums[start] > target:
-                    end = middle - 1
                     start += 1
-
-
+                
                 end = middle - 1
 
             else:
                 start = middle + 1
+
+                if nums[start] > target:
+
 
         return False
 
