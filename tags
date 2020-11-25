@@ -74,6 +74,7 @@ Solution	Solutions/SameTree/sameTree.py	/^class Solution:$/;"	c
 Solution	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^class Solution:$/;"	c
 Solution	Solutions/SingleNumber/singleNumber.py	/^class Solution:$/;"	c
 Solution	Solutions/SmallestDivisorThreshold/smallestDivisor.py	/^class Solution:$/;"	c
+Solution	Solutions/SmallestIntDivByK/smallestInt.py	/^class Solution:$/;"	c
 Solution	Solutions/SortedArrayToBST/arrayToBST.py	/^class Solution:$/;"	c
 Solution	Solutions/SurroundedRegions/surroundedRegions.py	/^class Solution:$/;"	c
 Solution	Solutions/SymmetricTree/symmetricTree.py	/^class Solution:$/;"	c
@@ -162,6 +163,7 @@ a	Solutions/ReverseBits/reverseBits.py	/^a = Solution()$/;"	v
 a	Solutions/ReverseNodesKGroup/reverseKGroup.py	/^a = Solution()$/;"	v
 a	Solutions/SearchRotatedSortedArrayII/searchRotateII.py	/^a = Solution()$/;"	v
 a	Solutions/SearchRotatedSortedArrayII/test.py	/^    a = Solution()$/;"	v	class:test
+a	Solutions/SmallestIntDivByK/test.py	/^    a = Solution()$/;"	v	class:testSmallestIntDivK
 a	Solutions/SurroundedRegions/test.py	/^    a = Solution()$/;"	v	class:testSRegions
 a	Solutions/UniqueMorseCodeWords/test.py	/^    a = Solution()$/;"	v	class:testMorseCode
 a	Solutions/ValidBST/test.py	/^    a = Solution()$/;"	v	class:testValidBST
@@ -356,6 +358,7 @@ searchRange	Solutions/FirstLastPositionOfElement/flElement.py	/^    def searchRa
 sherlockAndAnagrams	Solutions/SherlockAnagram/sherlock.py	/^def sherlockAndAnagrams(s):$/;"	f
 singleNumber	Solutions/SingleNumber/singleNumber.py	/^    def singleNumber(self, nums):$/;"	m	class:Solution
 smallestDivisor	Solutions/SmallestDivisorThreshold/smallestDivisor.py	/^    def smallestDivisor(self, nums, threshold):$/;"	m	class:Solution
+smallestRepunitDivByK	Solutions/SmallestIntDivByK/smallestInt.py	/^    def smallestRepunitDivByK(self, K):$/;"	m	class:Solution
 solve	Solutions/SurroundedRegions/surroundedRegions.py	/^    def solve(self, board):$/;"	m	class:Solution
 sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayToBST(self, nums):$/;"	m	class:Solution
 strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	m	class:Solution
@@ -384,6 +387,8 @@ test1	Solutions/IntToBinary/test.py	/^    def test1(self):$/;"	m	class:testItoB
 test1	Solutions/MinHeightTrees/test.py	/^   def test1(self):$/;"	m	class:testMinHeightT
 test1	Solutions/NumberOf1Bits/test.py	/^    def test1(self):$/;"	m	class:test1Bits
 test1	Solutions/PermutationsII/test.py	/^    def test1(self):$/;"	m	class:test
+test1	Solutions/SmallestIntDivByK/test.py	/^    def test1(self):$/;"	m	class:testSmallestIntDivK
+test111	Solutions/SmallestIntDivByK/test.py	/^    def test111(self):$/;"	m	class:testSmallestIntDivK
 test16	Solutions/BinaryLListToInt/test.py	/^   def test16(self):$/;"	m	class:test
 test1Bits	Solutions/NumberOf1Bits/test.py	/^class test1Bits(unittest.TestCase):$/;"	c
 test1Bucket	Solutions/PoorPigs/test.py	/^    def test1Bucket(self):$/;"	m	class:testPigs
@@ -434,8 +439,12 @@ testAllUnique	Solutions/LongestSubstringWithoutRepeatingChars/test.py	/^    def 
 testAllWhiteSpace	Solutions/AToI/test.py	/^    def testAllWhiteSpace(self):$/;"	m	class:testATOI
 testAlmostFlatEarthCase	Solutions/LongestMountainInArray/test.py	/^    def testAlmostFlatEarthCase(self):$/;"	m	class:test
 testAscending	Solutions/InsertionSortList/test.py	/^   def testAscending(self):$/;"	m	class:testISort
+testAssorted1	Solutions/SmallestIntDivByK/test.py	/^    def testAssorted1(self):$/;"	m	class:testSmallestIntDivK
+testAssorted2	Solutions/SmallestIntDivByK/test.py	/^    def testAssorted2(self):$/;"	m	class:testSmallestIntDivK
+testAssorted3	Solutions/SmallestIntDivByK/test.py	/^    def testAssorted3(self):$/;"	m	class:testSmallestIntDivK
 testBHistory	Solutions/DesignBrowserHistory/test.py	/^class testBHistory(unittest.TestCase):$/;"	c
 testBalancedButWrongBrackets	Solutions/ValidParentheses/test.py	/^    def testBalancedButWrongBrackets(self):$/;"	m	class:testIsValid
+testBigN	Solutions/SmallestIntDivByK/test.py	/^    def testBigN(self):$/;"	m	class:testSmallestIntDivK
 testBinarySearch	Solutions/BinarySearch/test.py	/^class testBinarySearch(unittest.TestCase):$/;"	c
 testBothOdd	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testBothOdd(self):$/;"	m	class:testCases
 testCache	Solutions/LRUCache/test.py	/^class testCache(unittest.TestCase):$/;"	c
@@ -475,6 +484,7 @@ testDescendUntilMountainEnd	Solutions/LongestMountainInArray/test.py	/^    def t
 testDescending	Solutions/InsertionSortList/test.py	/^   def testDescending(self):$/;"	m	class:testISort
 testDiagSquare	Solutions/ValidSquare/test.py	/^    def testDiagSquare(self):$/;"	m	class:test
 testDifferentSlopeLengths	Solutions/LongestMountainInArray/test.py	/^    def testDifferentSlopeLengths(self):$/;"	m	class:test
+testDiv5	Solutions/SmallestIntDivByK/test.py	/^    def testDiv5(self):$/;"	m	class:testSmallestIntDivK
 testDodgyMin	Solutions/BuySellStockI/test.py	/^    def testDodgyMin(self):$/;"	m	class:test
 testDuplicates1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDuplicates1(self):$/;"	m	class:test
 testDuplicates2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testDuplicates2(self):$/;"	m	class:test
@@ -491,6 +501,7 @@ testEmptyList	Solutions/BinarySearch/test.py	/^    def testEmptyList(self):$/;"	
 testEmptyTree	Solutions/BTreeTilt/test.py	/^   def testEmptyTree(self):$/;"	m	class:testTilt
 testEqualPoints	Solutions/ValidSquare/test.py	/^    def testEqualPoints(self):$/;"	m	class:test
 testEqualSubstrings	Solutions/ConsecutiveCharacters/test.py	/^   def testEqualSubstrings(self):$/;"	m	class:test
+testEven	Solutions/SmallestIntDivByK/test.py	/^    def testEven(self):$/;"	m	class:testSmallestIntDivK
 testEvenLength2	Solutions/LongestPalSubstring/test.py	/^    def testEvenLength2(self):$/;"	m	class:testSubstring
 testEvenLengthList	Solutions/BinarySearch/test.py	/^    def testEvenLengthList(self):$/;"	m	class:testBinarySearch
 testEvenNumberDecentSize	Solutions/ZigZagConversion/test.py	/^    def testEvenNumberDecentSize(self):$/;"	m	class:testZigZag
@@ -535,8 +546,10 @@ testLongestPal	MockInterview/LC1/longestPalindrome/test.py	/^class testLongestPa
 testManyOfOne	Solutions/MergeIntervals/test.py	/^    def testManyOfOne(self):$/;"	m	class:test
 testMax32	Solutions/IntToBinary/test.py	/^    def testMax32(self):$/;"	m	class:testItoB
 testMaxDiff	Solutions/MaxDiffAncestor/test.py	/^class testMaxDiff(unittest.TestCase):$/;"	c
+testMaxInvalidK	Solutions/SmallestIntDivByK/test.py	/^    def testMaxInvalidK(self):$/;"	m	class:testSmallestIntDivK
 testMaxPigs	Solutions/PoorPigs/test.py	/^    def testMaxPigs(self):$/;"	m	class:testPigs
 testMaxVOnLastCall	Solutions/MaxDiffAncestor/test.py	/^   def testMaxVOnLastCall(self):$/;"	m	class:testMaxDiff
+testMaxValidK	Solutions/SmallestIntDivByK/test.py	/^    def testMaxValidK(self):$/;"	m	class:testSmallestIntDivK
 testMedianSizeOneArray	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testMedianSizeOneArray(self):$/;"	m	class:testCases
 testMinHeightT	Solutions/MinHeightTrees/test.py	/^class testMinHeightT(unittest.TestCase):$/;"	c
 testMix	Solutions/PermutationsII/test.py	/^    def testMix(self):$/;"	m	class:test
@@ -625,6 +638,7 @@ testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigi
 testSingleDigitsWithCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
 testSingleTarget	Solutions/FirstLastPositionOfElement/test.py	/^    def testSingleTarget(self):$/;"	m	class:testFLElement
 testSize1	Solutions/HouseRobberIII/test.py	/^    def testSize1(self):$/;"	m	class:test
+testSmallestIntDivK	Solutions/SmallestIntDivByK/test.py	/^class testSmallestIntDivK(unittest.TestCase):$/;"	c
 testSort	Solutions/MergeSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSort	Solutions/QuickSort/test.py	/^class testSort(unittest.TestCase):$/;"	c
 testSubstring	Solutions/LongestPalSubstring/test.py	/^class testSubstring (unittest.TestCase):$/;"	c
