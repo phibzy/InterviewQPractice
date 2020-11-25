@@ -36,6 +36,7 @@ Solution	Solutions/BTreeMaxPathSum/bTreeMaxPathSum.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt.py	/^class Solution:$/;"	c
 Solution	Solutions/BTreeTilt/BTreeTilt2.py	/^class Solution:$/;"	c
 Solution	Solutions/BalancedBTree/balancedBTree.py	/^class Solution:$/;"	c
+Solution	Solutions/BasicCalculatorII/basicCalcII.py	/^class Solution:$/;"	c
 Solution	Solutions/BinaryLListToInt/binToInt.py	/^class Solution:$/;"	c
 Solution	Solutions/BuySellStockI/buySell.py	/^class Solution:$/;"	c
 Solution	Solutions/ConsecutiveCharacters/conChar.py	/^class Solution:$/;"	c
@@ -134,6 +135,7 @@ a	MockInterview/LC2/DayOfWeek/test.py	/^   a = Solution()$/;"	v	class:testDOW
 a	Solutions/AToI/test.py	/^    a = Solution()$/;"	v	class:testATOI
 a	Solutions/AddBinary/addBinary.py	/^a = Solution()$/;"	v
 a	Solutions/BTreeTilt/test.py	/^   a = Solution()$/;"	v	class:testTilt
+a	Solutions/BasicCalculatorII/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/BinaryLListToInt/test.py	/^   a = Solution()$/;"	v	class:test
 a	Solutions/BuySellStockI/test.py	/^    a = Solution()$/;"	v	class:test
 a	Solutions/ConsecutiveCharacters/test.py	/^   a = Solution()$/;"	v	class:test
@@ -182,6 +184,7 @@ arrayManipulation	Solutions/ArrayManipulation/arrayManip.py	/^def arrayManipulat
 back	Solutions/DesignBrowserHistory/browserHistory.py	/^    def back(self, steps):$/;"	m	class:BrowserHistory
 bfs	Solutions/NumberOfIslands/numberOfIslands.py	/^def bfs(grid, visited, startX, startY):$/;"	f
 binarySearch	Solutions/BinarySearch/binarySearch.py	/^def binarySearch(items, target):$/;"	f
+calculate	Solutions/BasicCalculatorII/basicCalcII.py	/^    def calculate(self, s):$/;"	m	class:Solution
 canFinish	Solutions/CourseSchedule/courseSchedule.py	/^    def canFinish(self, numCourses, prerequisites):$/;"	m	class:Solution
 checkMagazine	Solutions/CheckMagazine/checkMagazine.py	/^def checkMagazine(magazine, note):$/;"	f
 checkPal	MockInterview/LC1/longestPalindrome/longestPal.py	/^    def checkPal(self, s):$/;"	m	class:Solution
@@ -224,6 +227,7 @@ get	Solutions/LRUCache/lrucache.py	/^    def get(self, key):$/;"	m	class:LRUCach
 getDecimalValue	Solutions/BinaryLListToInt/binToInt.py	/^    def getDecimalValue(self, head):$/;"	m	class:Solution
 getKthAncestor	Solutions/KthAncestor/kthAncestor.py	/^    def getKthAncestor(self, node, k):$/;"	m	class:TreeAncestor
 getNode	NotesForInterview/dfsbfscode/implementation.java	/^   private Node getNode(int id) {$/;"	m	class:Graph	file:
+getNum	Solutions/BasicCalculatorII/basicCalcII.py	/^    def getNum(self, s, i):$/;"	m	class:Solution
 hammingWeight	MockInterview/LC3/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n: int) -> int:$/;"	m	class:Solution
 hammingWeight	Solutions/NumberOf1Bits/numberOf1Bits.py	/^    def hammingWeight(self, n):$/;"	m	class:Solution
 hasCycle	Solutions/CycleInLlist/listCycle.py	/^    def hasCycle(self, head):$/;"	m	class:Solution
@@ -321,6 +325,7 @@ quickSort	Solutions/QuickSort/quickSort.py	/^def quickSort(items):$/;"	f
 rBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def rBST(self, nums, l, r):$/;"	m	class:Solution
 rBal	Solutions/BalancedBTree/balancedBTree.py	/^    def rBal(self, root):$/;"	m	class:Solution
 rBinarySearch	Solutions/BinarySearch/binarySearch.py	/^def rBinarySearch(items, target, l, r):$/;"	f
+rCalculate	Solutions/BasicCalculatorII/basicCalcII.py	/^    def rCalculate(self, s, i):$/;"	m	class:Solution
 rConnect	Solutions/PopulateNextRightPointer/popRight.py	/^    def rConnect(self, root):$/;"	m	class:Solution
 rDFS	Solutions/NumberOfIslands/numberOfIslands.py	/^def rDFS(grid, visited, x, y):$/;"	f
 rDecode	Solutions/DecodeString/decodeString.py	/^    def rDecode(self, s, i):$/;"	m	class:Solution
@@ -356,6 +361,7 @@ sortedArrayToBST	Solutions/SortedArrayToBST/arrayToBST.py	/^    def sortedArrayT
 strStr	Solutions/strStr/strStr.py	/^    def strStr(self, haystack, needle):$/;"	m	class:Solution
 t	Solutions/MergeSortCountInversions/countInversions.py	/^    t = int(input())$/;"	v
 table	Solutions/HashTableImplementation/hash.c	/^   Node table[20];$/;"	m	struct:_hash	file:
+test	Solutions/BasicCalculatorII/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/BinaryLListToInt/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/BuySellStockI/test.py	/^class test(unittest.TestCase):$/;"	c
 test	Solutions/ConsecutiveCharacters/test.py	/^class test(unittest.TestCase):$/;"	c
@@ -411,6 +417,8 @@ test7	Solutions/NumNodesInSubtree/test.py	/^   def test7(self):$/;"	m	class:test
 test8	Solutions/NumberOf1Bits/test.py	/^    def test8(self):$/;"	m	class:test1Bits
 test8Case	Solutions/PoorPigs/test.py	/^    def test8Case(self):$/;"	m	class:testPigs
 testATOI	Solutions/AToI/test.py	/^class testATOI(unittest.TestCase):$/;"	c
+testAddSubtract1	Solutions/BasicCalculatorII/test.py	/^    def testAddSubtract1(self):$/;"	m	class:test
+testAddSubtract2	Solutions/BasicCalculatorII/test.py	/^    def testAddSubtract2(self):$/;"	m	class:test
 testAllDifferent	Solutions/PermutationsII/test.py	/^    def testAllDifferent(self):$/;"	m	class:test
 testAllEqual	Solutions/MaxDiffAncestor/test.py	/^   def testAllEqual(self):$/;"	m	class:testMaxDiff
 testAllEqual	Solutions/PermutationsII/test.py	/^    def testAllEqual(self):$/;"	m	class:test
@@ -539,6 +547,8 @@ testMoreDigitsThanAnother	Solutions/AddTwoNumbers/test.py	/^    def testMoreDigi
 testMorePrereqThanCourse	Solutions/CourseSchedule/test.py	/^    def testMorePrereqThanCourse(self):$/;"	m	class:testCourseSchedule
 testMorseCode	Solutions/UniqueMorseCodeWords/test.py	/^class testMorseCode(unittest.TestCase):$/;"	c
 testMultiMountains	Solutions/LongestMountainInArray/test.py	/^    def testMultiMountains(self):$/;"	m	class:test
+testMultipyDivideOnly	Solutions/BasicCalculatorII/test.py	/^    def testMultipyDivideOnly(self):$/;"	m	class:test
+testMultipyDivideOnly2	Solutions/BasicCalculatorII/test.py	/^    def testMultipyDivideOnly2(self):$/;"	m	class:test
 testNegNumbers1	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers1(self):$/;"	m	class:test
 testNegNumbers2	Solutions/SearchRotatedSortedArrayII/test.py	/^    def testNegNumbers2(self):$/;"	m	class:test
 testNested	Solutions/DecodeString/test.py	/^    def testNested(self):$/;"	m	class:testDecode
@@ -563,6 +573,7 @@ testNormalNumberWithPositiveSign	Solutions/AToI/test.py	/^    def testNormalNumb
 testNormalNumberWithWhitespace	Solutions/AToI/test.py	/^    def testNormalNumberWithWhitespace(self):$/;"	m	class:testATOI
 testNumIslands	Solutions/NumberOfIslands/test.py	/^class testNumIslands(unittest.TestCase):$/;"	c
 testNumNodes	Solutions/NumNodesInSubtree/test.py	/^class testNumNodes(unittest.TestCase):$/;"	c
+testNumberOnly	Solutions/BasicCalculatorII/test.py	/^    def testNumberOnly(self):$/;"	m	class:test
 testOdd	Solutions/IntToBinary/test.py	/^    def testOdd(self):$/;"	m	class:testItoB
 testOddBucketOutCase	Solutions/PoorPigs/test.py	/^    def testOddBucketOutCase(self):$/;"	m	class:testPigs
 testOddLengthList	Solutions/BinarySearch/test.py	/^    def testOddLengthList(self):$/;"	m	class:testBinarySearch
@@ -608,6 +619,7 @@ testSeparateRepeats	Solutions/DecodeString/test.py	/^    def testSeparateRepeats
 testSignificantlyHigherMedian	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedian(self):$/;"	m	class:testCases
 testSignificantlyHigherMedianEven	Solutions/MedianOfTwoSortedArrays/test.py	/^    def testSignificantlyHigherMedianEven(self):$/;"	m	class:testCases
 testSimpleIncorrect	Solutions/ValidSquare/test.py	/^    def testSimpleIncorrect(self):$/;"	m	class:test
+testSimpleMix	Solutions/BasicCalculatorII/test.py	/^    def testSimpleMix(self):$/;"	m	class:test
 testSimpleNeg	Solutions/ValidSquare/test.py	/^    def testSimpleNeg(self):$/;"	m	class:test
 testSingleDigitsNoCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsNoCarry(self):$/;"	m	class:a2NTests
 testSingleDigitsWithCarry	Solutions/AddTwoNumbers/test.py	/^    def testSingleDigitsWithCarry(self):$/;"	m	class:a2NTests
