@@ -1,6 +1,6 @@
 Evaluating everything you do as you try to solve problem
-Don't give a shit about basic syntactical errors (e.g. using list.add instead of list.insert),
-more concerned with logic errors plus super obvious shit (e.g. getting '=' and '==' mixed up)
+Don't worry about basic syntactical errors (e.g. using list.add instead of list.insert),
+more concerned with logic errors plus super obvious things (e.g. getting '=' and '==' mixed up)
 
 Communicate thought process - interviewer will find this very valuable
 If you notice yourself being quiet in interview - step back and try and at least explain headline of thought process
