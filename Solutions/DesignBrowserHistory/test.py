@@ -27,5 +27,3 @@ class testBHistory(unittest.TestCase):
 
     
 
-
-
