@@ -7,7 +7,6 @@
         - One house
         - Default
         - Simple
-        - Sparse graph
 
 """
 
