@@ -126,9 +126,18 @@ class Solution:
             visited = dict()
 
             # Original state - we've only visited the starting node
-            visited[i] = set([i])
 
-            q.append((i, 0, set([i])))
+            # Improvement - for states use a bitmask
+            # Can mark off starting state as 1 shifted i times
+            visited[i] = (1 << i)
+
+            q.append((i, 0, visited[i]))
+
+
+            # print("".rjust(10, '-'))
+            # print(f"New starting node {i}, with state {bin(visited[i])}")
+
+            # print("".rjust(10, '-'))
 
             # Same as before
             while True:
@@ -140,10 +149,14 @@ class Solution:
                 if weight >= minWeight: break
 
                 # Add next node to state
-                state.add(node)
+                # OR it with 1 shifted left N bits
+                state |= (1 << node) 
 
                 # If we've visited all nodes, we're donezo
-                if len(state) == len(graph):
+                # A fully 1'd state can be found by bit shifting
+                # 1 by the number of nodes, then subtracting 1
+                completeState = ((1 << (len(graph))) - 1)
+                if state == completeState:
                     minWeight = weight
                     break
 
@@ -152,7 +165,9 @@ class Solution:
                     # If we have already visited a node
                     # with the same state, don't add to q 
                     if not (neighbour in visited and visited[neighbour] == state):
-                        q.append((neighbour, weight+1, state.copy()))
+                        q.append((neighbour, weight+1, state))
+
+                visited[node] = state
 
         return minWeight
 
