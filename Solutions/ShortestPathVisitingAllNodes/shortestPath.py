@@ -114,39 +114,48 @@ class Solution1:
 class Solution:
     def shortestPathLength(self, graph):
         # Still have the same condition checking for < 2 edges
+        if not graph: return 0
         if len(graph) <= 2: return len(graph) - 1
 
         minWeight = float('inf')
 
         # Still start from different nodes
-        for i in range(len(graph)):
 
-            # q for BFS
-            q = deque()
-            visited = dict()
+        # Update: Instead of repeating from different start points,
+        # just add each start point/state to q!
+        # Also means we don't have to keep track of weight
 
-            # Original state - we've only visited the starting node
+        # q for BFS
+        nextQ = deque([(i, 1 << i) for i in range(len(graph))])
 
-            # Improvement - for states use a bitmask
-            # Can mark off starting state as 1 shifted i times
-            visited[i] = (1 << i)
+        # For visited, we want to create N dictionaries
+        # keeping track of states that have visited particular nodes
+        # So we have one for each node, using state as key
+        visited = [ {i: 1 << i} for i in range(len(graph))  ] 
 
-            q.append((i, 0, visited[i]))
+        # print("".rjust(10, '-'))
+        # print(f"New starting node {i}, with state {bin(visited[i])}")
+        steps = 0
 
+        # print("".rjust(10, '-'))
+        while True:
+            # By using two queues, we can keep track of the depth
+            # level using a steps variable, and increment each time
+            # the q storing the next level is empty
+            q = nextQ
 
-            # print("".rjust(10, '-'))
-            # print(f"New starting node {i}, with state {bin(visited[i])}")
-
-            # print("".rjust(10, '-'))
+            # Reset q for next level
+            nextQ = deque()
 
             # Same as before
-            while True:
-                node, weight, state = q.popleft()
+            while q:
+                node, state = q.popleft()
 
+                # DON'T NEED THIS ANYMORE
                 # If the next lowest weight we check is greater or equal
                 # to our current minWeight, we won't find a better
                 # path from this starting node
-                if weight >= minWeight: break
+                # if weight >= minWeight: break
 
                 # Add next node to state
                 # OR it with 1 shifted left N bits
@@ -157,17 +166,18 @@ class Solution:
                 # 1 by the number of nodes, then subtracting 1
                 completeState = ((1 << (len(graph))) - 1)
                 if state == completeState:
-                    minWeight = weight
-                    break
+                    return steps
 
                 # Otherwise, keep checking for path
                 for neighbour in graph[node]:
                     # If we have already visited a node
                     # with the same state, don't add to q 
-                    if not (neighbour in visited and visited[neighbour] == state):
-                        q.append((neighbour, weight+1, state))
+                    if not (state in visited[neighbour]):
+                        nextQ.append((neighbour, state))
 
-                visited[node] = state
+                # This doesn't help, since we want to keep track of ALL STATES
+                # which have visited a node
+                visited[node][state] = 1
 
-        return minWeight
+            steps += 1
 
