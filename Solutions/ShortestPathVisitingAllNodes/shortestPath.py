@@ -9,7 +9,7 @@
 
 from collections import deque
 
-class Solution:
+class Solution1:
     def shortestPathLength(self, graph):
         # One approach (brute forcy):
         """
@@ -93,3 +93,66 @@ class Solution:
             k += 1
             
         q.insert(k, (n, w, d, seen))        
+
+
+    """
+
+    Better approach:
+
+    We can use a BFS (since no weights), which guarantees our q is always in order.
+    We can also use a visited hash.
+    Since we're only concerned about visiting all nodes, we will use a set
+    to keep track of our "state" for each path. We stop searching once we have a state
+    which has seen all nodes.
+
+    With our visited hash, instead of checking whether we visited somewhere, we check 
+    whether we visited somewhere with THE SAME STATE. For example, could have taken a different path there 
+    and visited different nodes on the way.
+
+    """
+
+class Solution:
+    def shortestPathLength(self, graph):
+        # Still have the same condition checking for < 2 edges
+        if len(graph) <= 2: return len(graph) - 1
+
+        minWeight = float('inf')
+
+        # Still start from different nodes
+        for i in range(len(graph)):
+
+            # q for BFS
+            q = deque()
+            visited = dict()
+
+            # Original state - we've only visited the starting node
+            visited[i] = set([i])
+
+            q.append((i, 0, set([i])))
+
+            # Same as before
+            while True:
+                node, weight, state = q.popleft()
+
+                # If the next lowest weight we check is greater or equal
+                # to our current minWeight, we won't find a better
+                # path from this starting node
+                if weight >= minWeight: break
+
+                # Add next node to state
+                state.add(node)
+
+                # If we've visited all nodes, we're donezo
+                if len(state) == len(graph):
+                    minWeight = weight
+                    break
+
+                # Otherwise, keep checking for path
+                for neighbour in graph[node]:
+                    # If we have already visited a node
+                    # with the same state, don't add to q 
+                    if not (neighbour in visited and visited[neighbour] == state):
+                        q.append((neighbour, weight+1, state.copy()))
+
+        return minWeight
+
