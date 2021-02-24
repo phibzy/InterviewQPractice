@@ -22,4 +22,4 @@ class test(unittest.TestCase):
         self.assertEqual(self.a.brokenCalc(6, 20), 3)
         self.assertEqual(self.a.brokenCalc(3, 10), 3)
         self.assertEqual(self.a.brokenCalc(3, 10), 3)
-        self.assertEqual(self.a.brokenCalc(30, 20563), 26)
+        self.assertEqual(self.a.brokenCalc(6, 41), 6)
