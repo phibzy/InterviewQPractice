@@ -28,13 +28,15 @@ Brute Force:
 """
 
 """
-Better Solution - (logN * logM)?
-    Find range of rows where target could be
-    Find range of cols where target could be
-    Use binary search for both
+Better Solution - Focus on top left and bottom right vals
 
-    Binary search result?
+    Do binary search based on top left/bottom right vals, i.e. min/max vals
+    Keep reducing matrix until of size 2*2 or less
+    Then just check if it's in elements of remaining matrix
 
+
+TC: O(log (N+M)) - we reduce the search space of each dimension by half
+SC: O(1) - No extra space needed
 
 """
 
@@ -45,75 +47,27 @@ class Solution:
         endRow = len(matrix) - 1
         endCol = len(matrix[0]) - 1
 
-        while 0 <= startRow <= endRow and 0 <= startCol <= endCol:
-            # If target in top left, we win!
-            if matrix[startRow][startCol] > target: return True
+        # Condition for empty matrix
+        if not matrix or not matrix[0]: return False
 
-            # If top left corner is greater than target, it's not in matrix
-            if matrix[startRow][startCol] > target: return False
+        # If < lowest element or > largest element, we can stop too
+        if target < matrix[0][0] or target > matrix[-1][-1]: return False
 
-            # Likewise, if target is greater than bottom right we can stop
-            if matrix[endRow][endCol] > target: return False
-
-            # Eliminate row possibilities
-            startRow, endRow = binSearchRow(startRow, endRow, startCol, target)
-
-            # Do same for cols
-            startCol, endCol = binSearchCol(startCol, endCol, startRow, target)
-                
-        return False
-    
-    # Want to search for highest number row target could be in
-    def binSearchRow(self, startRow, endRow, startCol, target):
-        ogStart = startRow
-        ogEnd   = endRow
-        
-        # Want to make sure that target is greater than start of rows
-        while startRow < endRow:
+        # Reduce to 2x2 case
+        while endRow - startRow + 1 > 2 and endCol - startCol + 1 > 2 :
             middleRow = startRow + (endRow - startRow) // 2
-
-            # If target found, just return 1 row search space
-            if matrix[middleRow][startCol] == target: return (middleRow, middleRow)
-
-            # If target is less than middle, can't be in middle row
-            if matrix[middleRow][startCol] > target: 
-                endRow = middleRow - 1 
-
-            # Otherwise, it can be in middle row
-            else:
-                startRow = middleRow
-
-        # Resulting endRow will be last row target could be in
-        return (ogStart, endRow)
-
-    # Want to search for highest number col target could be in
-    def binSearchCol(self, startCol, endCol, startRow, target):
-        ogStart = startCol
-        ogEnd   = endCol
-        
-        # Want to make sure that target is greater than start of rows
-        while startCol < endCol:
             middleCol = startCol + (endCol - startCol) // 2
 
-            # If target found, just return 1 row search space
-            if matrix[startRow][middleCol] == target: return (middleCol, middleCol)
+            # If target in middle, we win!
+            if matrix[middleRow][startCol] == target: return True
 
-            # If end is less than, that's our end
+            # If in top left partition, reduce to that partition
+            if matrix[startRow][startCol] <= target <= matrix[middleRow][middleCol]:
+                endRow, endCol = middleRow, middleCol
 
-            # If target is less than middle, can't be in middle row
-            if matrix[startRow][middleCol] > target: 
-                endCol = middleCol - 1 
-
-            # Otherwise, it can be in middle row
+            # Otherwise, reduce to bottom right partition
             else:
-                startCol = middleCol
+                startRow, startCol = middleRow, middleCol
 
-        # Resulting endRow will be last row target could be in
-        return (ogStart, endCol)
-
-
-
-
-
-
-
+        # Then check if in 2x2 or less matrix 
+        return target in [x for y in matrix for x in y]
