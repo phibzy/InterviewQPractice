@@ -18,9 +18,54 @@
 """
 
 class Solution:
-    # O(NlogN) cheese strategy
+    # O(N) strat
+    # Basically we want to keep track of the maximum element as we go along
+    # At each index, we check if the next element is greater than the current maximum
+    # if it isn't keep track of that index - that's the furthest index right that needs to be swapped
 
+    # Do the same starting at the other end, but for minimums
+    # Keep updating to find leftmost index that needs to be swapped
     def findUnsortedSubarray(self, nums):
+        # If one or less elements, it's sorted
+        if len(nums) <= 1: return 0
+
+        # Maximum starts out as first element
+        # Minimum starts out as last element
+        currMax = nums[0]
+        currMin = nums[-1]
+
+        start = -1
+        end = -1
+
+        # Loop for finding rightmost element
+        for i in range(1, len(nums)):
+            
+            # If not greater/equal to, then it's out of order
+            if nums[i] < currMax:
+                end = i
+
+            # Otherwise update the max
+            else:
+                currMax = nums[i]
+
+        # Loop for leftmost element
+        for i in range(len(nums) - 2, -1, -1):
+
+            if nums[i] > currMin:
+                start = i
+
+            # Otherwise update the max
+            else:
+                currMin = nums[i]
+
+
+        # If we never set start, then it's already sorted
+        if start == -1: return 0
+
+        return end - start + 1
+
+    # O(NlogN) cheese strategy
+    def findUnsortedSubarray1(self, nums):
         # If one or less elements, it's sorted
         if len(nums) <= 1: return 0
 
