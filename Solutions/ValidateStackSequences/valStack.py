@@ -20,6 +20,46 @@ Questions:
 """
 
 class Solution:
+
+    # trying for O(1) space
+    """
+    Algo:
+        No dicts, no stacks
+        Use an offset variable on pushed list
+        Use indices as in other solution
+
+        Start at offset 0, increment pushedI until matches with element
+        in poppedI.
+
+        Then increment offset by 1 for each 'pop', if curr - offset doesn't
+        equal next popped, add to stack as before by incrementing curr
+
+
+    """
+    # def validateStackSequences(self, pushed, popped):
+        # pushI, popI = 0, 0
+        # offset = 0
+
+        # # We will get to end of pushed before end of popped, guaranteed
+        # while pushI < len(pushed):
+
+            # while pushI < len(popped) and popped[popI] != pushed[pushI]:
+                # pushI += 1
+                # if offset > 0: offset += 1
+
+            # # If we didn't find it, it must be in the stack somewhere else
+            # # therefore invalid
+            # if pushI == len(popped): return False
+
+            # while pushI - offset >= 0 and pushed[pushI - offset] == popped[popI]:
+                # offset += 1
+                # popI += 1
+
+            # # Make sure offset doesn't go negative
+            # if pushI - offset < 0: offset = 0
+        
+        # return True
+
     """
     Algo: TC = SC = O(N)
 
@@ -33,7 +73,6 @@ class Solution:
     then we know it's an invalid permutation
 
     """
-
     def validateStackSequences(self, pushed, popped):
         # If lists are empty, then it's a valid combo
         # I.e. a stack that does nothing lol
