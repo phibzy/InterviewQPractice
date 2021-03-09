@@ -57,7 +57,7 @@ Algo 1:
 from collections import deque
 
 class Solution:
-    def averageOfLevels(self, root):
+    def averageOfLevels1(self, root):
         # Make qs
         q1 = deque()
         q1.append(root)
@@ -83,4 +83,43 @@ class Solution:
             output.append(valSum / numNodes)
 
         return output
+
+    vals = list()
+    num = list()
+
+    def averageOfLevels(self, root):
+        self.vals = list()
+        self.num = list()
+        self.rAverage(root, 0)
+        return self.vals
+
+    def rAverage(self, root, level):
+        if not root: return
+
+        if level >= len(self.vals):
+            self.vals.append(root.val)
+            self.num.append(1)
+
+        else:
+            self.vals[level] = self.vals[level] * self.num[level]
+            self.num[level] += 1
+
+            self.vals[level] = (self.vals[level] + root.val) / self.num[level]
+
+        self.rAverage(root.left, level + 1)
+        self.rAverage(root.right, level + 1)
+        
+        # print(self.vals)
+        # print(self.num)
+
+
+
+
+
+
+
+
+
+
+
 
