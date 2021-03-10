@@ -29,6 +29,8 @@ Algo:
                    - Worst case you have 7 words of length 2000 and you compare
                      each char
 
+    SC: O(1) - Only used a variable keeping track of totalLength, sorted words in place
+
 """
 
 class Solution:
