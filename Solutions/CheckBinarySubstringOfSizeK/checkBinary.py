@@ -28,7 +28,7 @@ Algo:
     we return true if length of dict == 2**k
 
     TC: O(N) - Visit each character in dict once
-    SC: O(N) - Have at most N entries in dict
+    SC: O(2**k) - Have at most 2**k entries in dict
 
 
 """
